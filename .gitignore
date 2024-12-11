@@ -1,0 +1,18 @@
+# FILEPATH: /Users/jbalkovec/Desktop/Knapsack/.gitignore
+
+# Python
+*.pyc
+__pycache__/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# C++
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
