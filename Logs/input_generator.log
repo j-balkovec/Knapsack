@@ -1,0 +1,112 @@
+2024-12-12 18:10:14,953 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_xsmall_12_12_2024.csv
+2024-12-12 18:10:14,953 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_medium_12_12_2024.csv
+2024-12-12 18:10:14,953 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_small_12_12_2024.csv
+2024-12-12 18:10:14,954 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_large_12_12_2024.csv
+2024-12-12 18:10:14,954 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_xlarge_12_12_2024.csv
+2024-12-12 18:10:14,954 - __main__ - INFO - [SUCCESS]: Deleted Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:10:14,954 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_xsmall_12_12_2024.csv
+2024-12-12 18:10:14,954 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_small_12_12_2024.csv
+2024-12-12 18:10:14,955 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_medium_12_12_2024.csv
+2024-12-12 18:10:14,955 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_large_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_xlarge_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO - [SUCCESS]: Created Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO - 
+
+							*** [Successfully created data files] ***
+2024-12-12 18:10:14,957 - __main__ - INFO -         - Data/Items/Items_xsmall_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO -         - Data/Items/Items_small_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO -         - Data/Items/Items_medium_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO -         - Data/Items/Items_large_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO -         - Data/Items/Items_xlarge_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO -         - Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:10:14,957 - __main__ - INFO - 
+
+							*** [Unsuccessful file creations] ***
+2024-12-12 18:10:14,957 - __main__ - INFO -         - None
+2024-12-12 18:11:21,549 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_xsmall_12_12_2024.csv
+2024-12-12 18:11:21,550 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_medium_12_12_2024.csv
+2024-12-12 18:11:21,550 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_small_12_12_2024.csv
+2024-12-12 18:11:21,550 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_large_12_12_2024.csv
+2024-12-12 18:11:21,550 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_xlarge_12_12_2024.csv
+2024-12-12 18:11:21,550 - __main__ - INFO - [SUCCESS]: Deleted Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:11:21,551 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_XS_12_12_2024.csv
+2024-12-12 18:11:21,558 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_S_12_12_2024.csv
+2024-12-12 18:11:21,569 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_M_12_12_2024.csv
+2024-12-12 18:11:21,618 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_L_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_XL_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO - [SUCCESS]: Created Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO - 
+
+							*** [Successfully created data files] ***
+2024-12-12 18:11:21,740 - __main__ - INFO -         - Data/Items/Items_XS_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO -         - Data/Items/Items_S_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO -         - Data/Items/Items_M_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO -         - Data/Items/Items_L_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO -         - Data/Items/Items_XL_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO -         - Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:11:21,740 - __main__ - INFO - 
+
+							*** [Unsuccessful file creations] ***
+2024-12-12 18:11:21,740 - __main__ - INFO -         - None
+2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_M_12_12_2024.csv
+2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_XL_12_12_2024.csv
+2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_L_12_12_2024.csv
+2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_S_12_12_2024.csv
+2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_XS_12_12_2024.csv
+2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:12:26,578 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_XS_12_12_2024.csv
+2024-12-12 18:12:26,584 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_S_12_12_2024.csv
+2024-12-12 18:12:26,594 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_M_12_12_2024.csv
+2024-12-12 18:12:26,643 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_L_12_12_2024.csv
+2024-12-12 18:12:26,741 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_XL_12_12_2024.csv
+2024-12-12 18:12:26,741 - __main__ - INFO - [SUCCESS]: Created Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:12:26,741 - __main__ - INFO - 
+
+							*** [Successfully created data files] ***
+2024-12-12 18:12:26,741 - __main__ - INFO -         - Data/Items/Items_XS_12_12_2024.csv
+2024-12-12 18:12:26,741 - __main__ - INFO -         - Data/Items/Items_S_12_12_2024.csv
+2024-12-12 18:12:26,741 - __main__ - INFO -         - Data/Items/Items_M_12_12_2024.csv
+2024-12-12 18:12:26,741 - __main__ - INFO -         - Data/Items/Items_L_12_12_2024.csv
+2024-12-12 18:12:26,742 - __main__ - INFO -         - Data/Items/Items_XL_12_12_2024.csv
+2024-12-12 18:12:26,742 - __main__ - INFO -         - Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:12:26,742 - __main__ - INFO - 
+
+							*** [Unsuccessful file creations] ***
+2024-12-12 18:12:26,742 - __main__ - INFO -         - None
+2024-12-12 18:18:16,513 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_M_12_12_2024.csv
+2024-12-12 18:18:16,514 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_XL_12_12_2024.csv
+2024-12-12 18:18:16,514 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_L_12_12_2024.csv
+2024-12-12 18:18:16,514 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_S_12_12_2024.csv
+2024-12-12 18:18:16,514 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/README.md
+2024-12-12 18:18:16,514 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_XS_12_12_2024.csv
+2024-12-12 18:18:16,514 - __main__ - INFO - [SUCCESS]: Deleted Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:18:16,514 - __main__ - INFO - [SUCCESS]: Deleted Data/Capacity/README.md
+2024-12-12 18:18:16,516 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_1_12_12_2024.csv
+2024-12-12 18:18:16,521 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_2_12_12_2024.csv
+2024-12-12 18:18:16,531 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_3_12_12_2024.csv
+2024-12-12 18:18:16,580 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_4_12_12_2024.csv
+2024-12-12 18:18:16,684 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_5_12_12_2024.csv
+2024-12-12 18:18:17,191 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_6_12_12_2024.csv
+2024-12-12 18:18:18,226 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_7_12_12_2024.csv
+2024-12-12 18:18:23,463 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_8_12_12_2024.csv
+2024-12-12 18:18:33,947 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_9_12_12_2024.csv
+2024-12-12 18:19:27,910 - __main__ - INFO - [SUCCESS]: Created Data/Items/Items_10_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO - [SUCCESS]: Created Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO - 
+
+							*** [Successfully created data files] ***
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_1_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_2_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_3_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_4_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_5_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_6_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_7_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_8_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_9_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Items/Items_10_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO -         - Data/Capacity/Capacity_12_12_2024.csv
+2024-12-12 18:19:27,915 - __main__ - INFO - 
+
+							*** [Unsuccessful file creations] ***
+2024-12-12 18:19:27,915 - __main__ - INFO -         - None
