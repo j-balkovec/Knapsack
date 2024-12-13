@@ -16,3 +16,6 @@ build/
 *.dll
 *.so
 *.dylib
+
+# CSV
+*.csv

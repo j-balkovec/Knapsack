@@ -34,7 +34,7 @@ This project is supposed to demonstrate the differences in computational efficie
 
 Create 11 separate scripts:
 
-1. **Recursive Solution** (`rec_knapsack.cpp`)
+1. **Algorithm** (`#.cpp`)
     - Implements a brute-force recursive approach.
     - Input: Number of items, weights, values, and capacity.
     - Output: Optimal value of the knapsack.
