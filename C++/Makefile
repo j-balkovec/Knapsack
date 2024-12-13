@@ -26,7 +26,7 @@ UTILITY_OBJ = $(OBJ_DIR)/Utility.o
 # Executable
 MAIN_EXEC = $(BIN_DIR)/main
 
-# Color Definitions (for coolness!)
+# Color Definitions
 RESET_COLOR = \033[0m
 GREEN_COLOR = \033[32m
 CYAN_COLOR = \033[36m
@@ -35,11 +35,6 @@ MAGENTA_COLOR = \033[35m
 RED_COLOR = \033[31m
 BOLD = \033[1m
 UNDERLINE = \033[4m
-
-# Fancy progress bar variables
-SPACES := $(shell echo -n "                ")
-MAX_PROGRESS = 50
-CURRENT_PROGRESS = 0
 
 # Default target
 all: $(BIN_DIR) $(OBJ_DIR) $(MAIN_EXEC)
