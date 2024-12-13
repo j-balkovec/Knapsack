@@ -1,0 +1,64 @@
+# Compiler
+CXX = g++
+
+# Compiler flags
+CXXFLAGS = -std=c++11 -Wall -Wextra -O2 -I. -ITools
+
+# Directories
+ALGO_DIR = Algorithms
+HEUR_DIR = Heuristics
+BIN_DIR = bin
+OBJ_DIR = obj
+TOOLS_DIR = Tools
+
+# Source files
+ALGO_SRCS = $(wildcard $(ALGO_DIR)/*.cpp)
+HEUR_SRCS = $(wildcard $(HEUR_DIR)/*.cpp)
+MAIN_SRC = main.cpp
+UTILITY_SRC = $(TOOLS_DIR)/Utility.cpp
+
+# Object files
+ALGO_OBJS = $(patsubst $(ALGO_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(ALGO_SRCS))
+HEUR_OBJS = $(patsubst $(HEUR_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(HEUR_SRCS))
+MAIN_OBJ = $(OBJ_DIR)/main.o
+UTILITY_OBJ = $(OBJ_DIR)/Utility.o
+
+# Executable
+MAIN_EXEC = $(BIN_DIR)/main
+
+# Default target
+all: $(BIN_DIR) $(OBJ_DIR) $(MAIN_EXEC)
+
+# Create directories
+$(BIN_DIR):
+	mkdir -p $(BIN_DIR)
+
+$(OBJ_DIR):
+	mkdir -p $(OBJ_DIR)
+
+# Compile main object file
+$(MAIN_OBJ): $(MAIN_SRC)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Compile utility object file
+$(UTILITY_OBJ): $(UTILITY_SRC)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Compile algorithm source files to object files
+$(OBJ_DIR)/%.o: $(ALGO_DIR)/%.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Compile heuristics source files to object files
+$(OBJ_DIR)/%.o: $(HEUR_DIR)/%.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Link main executable with all object files
+$(MAIN_EXEC): $(MAIN_OBJ) $(ALGO_OBJS) $(HEUR_OBJS) $(UTILITY_OBJ)
+	$(CXX) $(CXXFLAGS) $^ -o $@
+
+# Clean up build files
+clean:
+	rm -rf $(BIN_DIR) $(OBJ_DIR)
+
+# Phony targets
+.PHONY: all clean
