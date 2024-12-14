@@ -16,6 +16,7 @@
 #include <spdlog/spdlog.h>
 #include <vector>
 #include <typeinfo>
+#include <string>
 
 #include <fmt/format.h> // For formatting strings
 #include <spdlog/spdlog.h>
@@ -37,14 +38,36 @@ extern int parseCSVCapacity(const std::string& filepath);
 // ------- <C++ templates :\> ------- //
 // Since they need to be visible to the compiler at compile time, they are defined in the header file
 
+// Idea, have a function that logs the parameters passed in, and have a separate function to log the execution time
+
+// -- <bug> --
 template <typename T>
-auto getSize(const T& arg) -> decltype(arg.size(), std::string("[size]: ") + std::to_string(arg.size())) {
-    return "[size]: " + std::to_string(arg.size());
+std::string getSize(const T& arg) {
+    // Attempt to call .size() for containers
+    if constexpr (requires { arg.size(); }) {
+        return "[size]: " + std::to_string(arg.size());
+    } else {
+        return "[size]: Unknown";
+    }
 }
 
 template <typename T>
-std::string getSize(const T&) {
-    return "[size]: Unknown";
+std::string getValue(const T& arg) {
+    if constexpr (std::is_arithmetic_v<T>) {
+        return "[value]: " + std::to_string(arg);
+    } else if constexpr (requires { arg.begin(); arg.end(); }) {
+        std::string values = "[values]: ";
+        for (const auto& elem : arg) {
+            values += getValue(elem) + " ";
+            if (values.size() > 50) {
+                values += "...";
+                break;
+            }
+        }
+        return values;
+    } else {
+        return "[value]: Unsupported type";
+    }
 }
 
 template <typename Func, typename... Args>
@@ -56,8 +79,15 @@ decltype(auto) measureExecutionTime(Func&& func, Args&&... args) {
     }
 
     logger->info("[executing_function]: {}", typeid(func).name());
-    ((logger->info("[argument_type]: {}, [size]: {}", typeid(Args).name(), sizeof(args))), ...);
 
+    // Log arguments: type, size, and value
+    int arg_index = 1;
+    ([&] {
+        logger->info("[argument_{}]: [type]: {}, {}", arg_index++, typeid(Args).name(), getSize(args));
+        logger->info("[argument_{}]: {}", arg_index - 1, getValue(args));
+    }(), ...);
+
+    // Measure execution time
     auto start = std::chrono::high_resolution_clock::now();
     auto result = std::forward<Func>(func)(std::forward<Args>(args)...);
     auto end = std::chrono::high_resolution_clock::now();
@@ -67,6 +97,7 @@ decltype(auto) measureExecutionTime(Func&& func, Args&&... args) {
 
     return result;
 }
+
 // ------- <C++ templates :\> ------- //
 
 #endif // UTILITY_H
