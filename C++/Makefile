@@ -1,8 +1,25 @@
 # Compiler
-CXX = g++
+CXX = clang++
 
 # Compiler flags
-CXXFLAGS = -std=c++11 -Wall -Wextra -O2 -I. -ITools
+CXXFLAGS = -std=c++23 \
+           -Wall \
+           -Wextra \
+           -O3 \
+           -I. \
+           -ITools \
+					 -I/opt/homebrew/Cellar/fmt/11.0.2/include \
+           -I/opt/homebrew/Cellar/spdlog/1.15.0/include \
+					 -arch arm64
+           
+#<bug>: -static is new
+LDFLAGS = -L/opt/homebrew/Cellar/fmt/11.0.2/lib \
+					-L/opt/homebrew/Cellar/spdlog/1.15.0/lib \
+					-arch arm64
+
+LIBS = -lfmt -lspdlog 
+
+#LIBS = /opt/homebrew/Cellar/fmt/11.0.2/lib/libfmt.a /opt/homebrew/Cellar/spdlog/1.15.0/lib/libspdlog.a
 
 # Directories
 ALGO_DIR = Algorithms
@@ -86,5 +103,40 @@ clean:
 	@rm -rf $(BIN_DIR) $(OBJ_DIR)
 	@echo "$(GREEN_COLOR)[SUCCESS]: Clean up complete!$(RESET_COLOR)"
 
+run:
+	@echo "$(YELLOW_COLOR)[RUN]: Running $(MAIN_EXEC)...$(RESET_COLOR)"
+	@./$(MAIN_EXEC)
+
+build: $(MAIN_EXEC)
+
+debug: CXXFLAGS += -g
+debug: $(MAIN_EXEC)
+
+rebuild: clean build
+
+# test: TODO
+
+stats:
+	@echo "$(CYAN_COLOR)[STATS]: File sizes...$(RESET_COLOR)"
+	@du -sh $(OBJ_DIR)/*
+	@du -sh $(MAIN_EXEC)
+
+check:
+	@echo "$(CYAN_COLOR)[CHECK]: Running static analysis...$(RESET_COLOR)"
+	clang-tidy $(ALGO_SRCS) $(HEUR_SRCS) $(MAIN_SRC)
+
+version:
+	@echo "$(CYAN_COLOR)[VERSION]: Project Version 1.0.0$(RESET_COLOR)"
+	@echo "$(CYAN_COLOR)[VERSION]: Compiler Version $(shell clang++ --version | head -n 1)$(RESET_COLOR)"
+
+zip:
+	@echo "$(CYAN_COLOR)[ZIP]: Creating project archive...$(RESET_COLOR)"
+	@zip -r project.zip ./*
+	@echo "$(GREEN_COLOR)[SUCCESS]: Project archived as project.zip$(RESET_COLOR)"
+
+dependencies:
+	@echo "$(CYAN_COLOR)[DEPENDENCIES]: Listing installed dependencies...$(RESET_COLOR)"
+	brew list fmt spdlog
+
 # Phony targets
-.PHONY: all clean
+.PHONY: all clean build run debug rebuild stats check version zip dependencies
