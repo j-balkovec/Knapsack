@@ -23,3 +23,26 @@
 [2024-12-14 01:06:07.230] [file_logger] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
 [2024-12-14 01:06:07.230] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
 [2024-12-14 01:06:07.231] [file_logger] [info] Selected random capacity: 127
+[2024-12-14 11:16:22.800] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-14 11:16:22.802] [file_logger] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-14 11:16:22.802] [file_logger] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-14 11:16:22.802] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-14 11:16:22.802] [file_logger] [info] Selected random capacity: 58
+[2024-12-14 11:19:34.089] [file_logger] [error] Error: Unable to open file ../Items/Items_1_12_12_2024.csv
+[2024-12-14 11:19:43.371] [file_logger] [error] Error: Unable to open file ../Items/Items_1_12_12_2024.csv
+[2024-12-14 11:20:00.616] [file_logger] [error] Error: Unable to open file ../Items/Items_1_12_12_2024.csv
+[2024-12-14 11:20:50.957] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-14 11:20:50.959] [file_logger] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-14 11:20:50.960] [file_logger] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-14 11:20:50.960] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-14 11:20:50.960] [file_logger] [info] Selected random capacity: 144
+[2024-12-14 11:29:21.325] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-14 11:29:21.326] [file_logger] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-14 11:29:21.327] [file_logger] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-14 11:29:21.327] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-14 11:29:21.327] [file_logger] [info] Selected random capacity: 141
+[2024-12-14 11:29:31.468] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-14 11:29:31.468] [file_logger] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-14 11:29:31.469] [file_logger] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-14 11:29:31.469] [file_logger] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-14 11:29:31.469] [file_logger] [info] Selected random capacity: 67
