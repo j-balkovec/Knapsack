@@ -16,14 +16,26 @@
 // #include "Heuristics/TransitioningGreedy.cpp"
 // #include "Heuristics/WeightStingy.cpp"
 
-#include "Item.h"
-#include "Utility.h"
+#include "Tools/Item.h"
+#include "Tools/Utility.h"
 
 #include "main.h"
 
 #include <iostream>
+#include <vector>
+#include <string>
 
-[[maybe_unused]]int main(int argc, char* argv[]) {
-    std::cout << "Solution: " << knapsackRecursive(50, std::vector<Item>{{60, 10}, {100, 20}, {120, 30}}, 3);
-    return 0;
+//organize
+const std::string DATA1 = "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv";
+const std::string CAPACITY = "/Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv";
+
+int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[]) {
+
+    std::vector<Item> items = parseCSVItems(DATA1); //works
+    int capacity = parseCSVCapacity(CAPACITY);
+
+    std::cout << knapsackDP(capacity, items);
+    int time = measureExecutionTime(knapsackDP, capacity, items);
+
+    std::cout << "IT TOOK: " << time << "ms" << std::endl;
 }
