@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <unordered_map>
+#include <iostream>
 
 #include "Tools/Item.h"
 #include "Tools/Utility.h"
@@ -10,34 +11,34 @@
 // --------- <HEURISTICS> --------- //
 
 // --- <Stingy Greedy> --- //
- int dealStingyKnapsack(int capacity, const std::vector<Item>& items);
+int dealStingyKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <Defensive Greedy> --- //
- int defensiveGreedyKnapsack(int capacity, const std::vector<Item>& items);
+int defensiveGreedyKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <Heavy Greedy> --- //
- int heavyGreedyKnapsack(int capacity, const std::vector<Item>& items);
+int heavyGreedyKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <Limited Greedy> --- //
- int limitedGreedyKnapsack(int capacity, const std::vector<Item>& items);
+int limitedGreedyKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <MaxOfTwo Greedy> --- //
- int maxOfTwoKnapsack(int capacity, const std::vector<Item>& items);
+int maxOfTwoKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <Random Greedy> --- //
- int scoredGreedyKnapsack(int capacity, const std::vector<Item>& items);
+int scoredGreedyKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <Sliding Threshold Greedy> --- //
- int slidingThresholdKnapsack(int capacity, const std::vector<Item>& items);
+int slidingThresholdKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <Standard Greedy> --- //
- int standardGreedyKnapsack(int capacity, const std::vector<Item>& items);
+int standardGreedyKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <Transitioning Greedy> --- //
- int transitioningGreedyKnapsack(int capacity, const std::vector<Item>& items);
+int transitioningGreedyKnapsack(int capacity, const std::vector<Item>& items);
 
 // --- <Weight Stingy Greedy> --- //
- int weightStingyKnapsack(int capacity, const std::vector<Item>& items);
+int weightStingyKnapsack(int capacity, const std::vector<Item>& items);
 
 // --------- </HEURISTICS> --------- //
 
@@ -58,7 +59,17 @@ public:
      * @param beta The importance of heuristic information in the decision-making process.
      * @param evaporationRate The rate at which pheromone trails evaporate.
      */
-    AntColony(int numAnts, int numIterations, double alpha, double beta, double evaporationRate);
+    AntColony(int numAnts, int numIterations, double alpha, double beta, double evaporationRate)
+        : numAnts(numAnts), numIterations(numIterations), alpha(alpha), beta(beta), evaporationRate(evaporationRate) {}
+
+    // -- <debug> -- Display values
+    void display() const {
+        std::cout << "Number of Ants: " << numAnts << "\n"
+                  << "Number of Iterations: " << numIterations << "\n"
+                  << "Alpha: " << alpha << "\n"
+                  << "Beta: " << beta << "\n"
+                  << "Evaporation Rate: " << evaporationRate << "\n";
+    }
 
     /**
      * @brief Solves the Knapsack problem using the Ant Colony Optimization algorithm.
@@ -108,23 +119,23 @@ public:
     int weight;     /**< Weight so far >*/
     int bound;      /**< Upper bound of maximum profit in subtree >*/
 };
- int bound(Node& u, int n, int capacity, const std::vector<Item>& items);
- int knapsackBranchAndBound(int capacity, const std::vector<Item>& items);
+int bound(Node& u, int n, int capacity, const std::vector<Item>& items);
+int knapsackBranchAndBound(int capacity, const std::vector<Item>& items);
 
 // --- <Dynamic Programming> --- //
- int knapsackDP(int capacity, const std::vector<Item>& items);
+int knapsackDP(int capacity, const std::vector<Item>& items);
 
 // --- <Memoization Algorithm> --- //
- int knapackMemoization(int capacity, const std::vector<Item>& items);
- int knapsackMemoHelper(int capacity, const std::vector<Item>& items, int n, std::unordered_map<std::string, int>& memo);
+int knapsackMemoization(int capacity, const std::vector<Item>& items);
+int knapsackMemoHelper(int capacity, const std::vector<Item>& items, int n, std::unordered_map<std::string, int>& memo);
 
 // --- <Recursive Algorithm> --- //
- int knapsackRecursive(int capacity, const std::vector<Item>& items, int n);
+int knapsackRecursive(int capacity, const std::vector<Item>& items, int n);
 
 // --- <Simulated Annealing> --- //
- int calculateFitness_SimA(const std::vector<int>& solution, const std::vector<Item>& items, int capacity);
- std::vector<int> getNeighborSolution(const std::vector<int>& solution);
- int knapsackSimulatedAnnealing(int capacity, const std::vector<Item>& items, double initialTemperature, double coolingRate);
+int calculateFitness_SimA(const std::vector<int>& solution, const std::vector<Item>& items, int capacity);
+std::vector<int> getNeighborSolution(const std::vector<int>& solution);
+int knapsackSimulatedAnnealing(int capacity, const std::vector<Item>& items, double initialTemperature, double coolingRate);
 
 // --------- </ALGORITHMS> --------- //
 #endif // !MAIN_H

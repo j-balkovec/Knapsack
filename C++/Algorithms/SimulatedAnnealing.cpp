@@ -48,7 +48,7 @@ int calculateFitness_SimA(const std::vector<int>& solution, const std::vector<It
  * @param solution The original solution.
  * @return The neighbor solution.
  */
-inline std::vector<int> getNeighborSolution(const std::vector<int>& solution) {
+std::vector<int> getNeighborSolution(const std::vector<int>& solution) {
     std::vector<int> newSolution = solution;
     int randomIndex = rand() % solution.size();
     newSolution[randomIndex] = 1 - newSolution[randomIndex]; // Flip the value
@@ -64,7 +64,7 @@ inline std::vector<int> getNeighborSolution(const std::vector<int>& solution) {
  * @param coolingRate The cooling rate for the Simulated Annealing algorithm.
  * @return The maximum fitness value achieved by the algorithm.
  */
-inline int knapsackSimulatedAnnealing(int capacity, const std::vector<Item>& items, double initialTemperature, double coolingRate) {
+int knapsackSimulatedAnnealing(int capacity, const std::vector<Item>& items, double initialTemperature, double coolingRate) {
     srand(time(NULL));
 
     size_t numItems = items.size();

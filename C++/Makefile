@@ -2,9 +2,14 @@
 CXX = clang++
 
 # Compiler flags
-CXXFLAGS = -std=c++23 \
+CXXFLAGS = -std=c++20 \
+					 -pedantic \
+					 -g \
            -Wall \
            -Wextra \
+					 -Wno-unused-const-variable \
+					 -Wno-unused-variable \
+					 -Wno-unused-parameter \
            -O3 \
            -I. \
            -ITools \
@@ -60,50 +65,59 @@ all: $(BIN_DIR) $(OBJ_DIR) $(MAIN_EXEC)
 $(BIN_DIR):
 	@echo "$(CYAN_COLOR)[INFO]: Creating $(BIN_DIR) directory...$(RESET_COLOR)"
 	@mkdir -p $(BIN_DIR)
+	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: Directory $(BIN_DIR) created!$(RESET_COLOR)"
 
 $(OBJ_DIR):
 	@echo "$(CYAN_COLOR)[INFO]: Creating $(OBJ_DIR) directory...$(RESET_COLOR)"
 	@mkdir -p $(OBJ_DIR)
+	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: Directory $(OBJ_DIR) created!$(RESET_COLOR)"
 
 # Compile main object file
 $(MAIN_OBJ): $(MAIN_SRC)
 	@echo "$(MAGENTA_COLOR)[BUILD]: Compiling main.cpp...$(RESET_COLOR)"
 	$(CXX) $(CXXFLAGS) -c $< -o $@
+	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: main.cpp compiled!$(RESET_COLOR)"
 
 # Compile utility object file
 $(UTILITY_OBJ): $(UTILITY_SRC)
 	@echo "$(MAGENTA_COLOR)[BUILD]: Compiling Utility.cpp...$(RESET_COLOR)"
 	$(CXX) $(CXXFLAGS) -c $< -o $@
+	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: Utility.cpp compiled!$(RESET_COLOR)"
 
 # Compile algorithm source files to object files
 $(OBJ_DIR)/%.o: $(ALGO_DIR)/%.cpp
 	@echo "$(CYAN_COLOR)[BUILD]: Compiling algorithm file: $<...$(RESET_COLOR)"
 	$(CXX) $(CXXFLAGS) -c $< -o $@
+	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: $(notdir $<) compiled!$(RESET_COLOR)"
 
 # Compile heuristics source files to object files
 $(OBJ_DIR)/%.o: $(HEUR_DIR)/%.cpp
 	@echo "$(CYAN_COLOR)[BUILD]: Compiling heuristic file: $<...$(RESET_COLOR)"
 	$(CXX) $(CXXFLAGS) -c $< -o $@
+	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: $(notdir $<) compiled!$(RESET_COLOR)"
 
 # Link main executable with all object files
 $(MAIN_EXEC): $(MAIN_OBJ) $(ALGO_OBJS) $(HEUR_OBJS) $(UTILITY_OBJ)
 	@echo "$(YELLOW_COLOR)[BUILD]: Linking object files to create the executable...$(RESET_COLOR)"
 	$(CXX) $(CXXFLAGS) $^ -o $@
+	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: Executable $(MAIN_EXEC) created successfully!$(RESET_COLOR)"
 
 # Clean up build files
 clean:
 	@echo "$(RED_COLOR)[CLEAN]: Cleaning up build files...$(RESET_COLOR)"
 	@rm -rf $(BIN_DIR) $(OBJ_DIR)
+	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: Clean up complete!$(RESET_COLOR)"
 
 run:
+	@echo
 	@echo "$(YELLOW_COLOR)[RUN]: Running $(MAIN_EXEC)...$(RESET_COLOR)"
 	@./$(MAIN_EXEC)
 

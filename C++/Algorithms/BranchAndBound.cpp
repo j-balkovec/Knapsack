@@ -50,7 +50,7 @@ int bound(Node& u, int n, int capacity, const std::vector<Item>& items) {
  * @param items A vector of Item objects representing the available items with their weights and values.
  * @return The maximum profit that can be obtained.
  */
-inline int knapsackBranchAndBound(int capacity, const std::vector<Item>& items) {
+int knapsackBranchAndBound(int capacity, const std::vector<Item>& items) {
     int n = items.size();
 
     std::vector<Item> sortedItems = items;

@@ -27,8 +27,11 @@
 
 #include "Item.h"
 
-const std::string LOG_FILE = "../Logs/utility.log";
-const std::string EXEC_TIME_LOG_FILE = "../Logs/exec_time.log";
+const std::string_view RESET_COLOR = "\033[0m";
+const std::string_view SUCCESS_COLOR = "\033[32m";
+const std::string_view DEBUG_COLOR = "\033[33m";
+const std::string_view WARNING_COLOR = "\033[35m";
+const std::string_view ERROR_COLOR = "\033[31m";
 
 /**
  * @brief Compare two items by their score in ascending order.
@@ -140,12 +143,7 @@ bool compareByScore(const Item& a, const Item& b) {
  * 
  * @bug Log says the first line is malformed. The issue is benign and not worth fixing
  */
-std::vector<Item> parseCSVItems(const std::string& filepath) {
-    auto logger = spdlog::get("file_logger");
-    if (!logger) {
-        logger = spdlog::basic_logger_mt("file_logger", LOG_FILE);
-        logger->set_level(spdlog::level::info);
-    }
+std::vector<Item> parseCSVItems(const std::string& filepath, const std::shared_ptr<spdlog::logger>& logger) {
 
     std::vector<Item> items;
     std::ifstream file(filepath);
@@ -228,13 +226,7 @@ std::vector<Item> parseCSVItems(const std::string& filepath) {
  * - `<error_code: -1>` Unable to open file or incorrect header.
  * - `<error_code: -2>` Unable to fetch capacity due to missing valid entries.
  */
-int parseCSVCapacity(const std::string& filepath) {
-    // Set up the logger
-    auto logger = spdlog::get("file_logger");
-    if (!logger) {
-        logger = spdlog::basic_logger_mt("file_logger", LOG_FILE);
-        logger->set_level(spdlog::level::info); 
-    }
+int parseCSVCapacity(const std::string& filepath, const std::shared_ptr<spdlog::logger>& logger) {
 
     std::vector<int> capacities;
     std::ifstream file(filepath);
@@ -288,6 +280,50 @@ int parseCSVCapacity(const std::string& filepath) {
     int randomCapacity = capacities[randomIndex];
     logger->info("Selected random capacity: {}", randomCapacity);
     return randomCapacity;
+}
+
+/**
+ * @brief Displays a message with a specified type.
+ * 
+ * This function displays a message with a specified type. The type can be one of the following:
+ * - 'W': Warning
+ * - 'I': Info
+ * - 'S': Success
+ * - 'E': Error
+ * - 'D': Debug
+ * 
+ * The message is printed to the console with the corresponding type prefix and color.
+ * 
+ * @param message The message to be displayed.
+ * @param type The type of the message.
+ */
+void displayMessage(const const std::string& message, const char& type) {
+
+    switch (type) {
+        case 'W':
+            std::cout << WARNING_COLOR << "<WARNING>: " << RESET_COLOR << message << std::endl;
+            break;
+
+        case 'I':
+            std::cout << "<INFO>: " << message << std::endl;
+            break;
+
+        case 'S':
+            std::cout << SUCCESS_COLOR << "<SUCCESS>: " << RESET_COLOR << message << std::endl;
+            break;
+
+        case 'E':
+            std::cerr << ERROR_COLOR << "<ERROR>: " << RESET_COLOR << message << std::endl; // print to cerr
+            break;
+
+        case 'D':
+            std::cout << DEBUG_COLOR << "<DEBUG>: " << RESET_COLOR << message << std::endl;
+            break;
+
+        default:
+            std::cout << message << std::endl;
+            break;
+    }
 }
 
 #endif // UTILITY_H
