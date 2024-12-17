@@ -6,9 +6,8 @@
  * @brief This file holds the utility functions used for sorting (think of them as lambdas).
  * 
 */
-#ifndef UTILITY_H
-#define UTILITY_H
-#define FMT_HEADER_ONLY // took 4 hours of debugging later
+
+#define FMT_HEADER_ONLY // took 4 hours of debugging
 
 #include <cmath>
 #include <vector>
@@ -26,6 +25,7 @@
 #include <spdlog/sinks/basic_file_sink.h> // For file logging
 
 #include "Item.h"
+#include "Utility.h"
 
 const std::string_view RESET_COLOR = "\033[0m";
 const std::string_view SUCCESS_COLOR = "\033[32m";
@@ -297,7 +297,7 @@ int parseCSVCapacity(const std::string& filepath, const std::shared_ptr<spdlog::
  * @param message The message to be displayed.
  * @param type The type of the message.
  */
-void displayMessage(const const std::string& message, const char& type) {
+void displayMessage(const std::string& message, const char& type) {
 
     switch (type) {
         case 'W':
@@ -326,4 +326,37 @@ void displayMessage(const const std::string& message, const char& type) {
     }
 }
 
-#endif // UTILITY_H
+/** -- <MOVE TO UTILITY> --
+ * @brief Retrieves the file path corresponding to a given DataKey.
+ *
+ * This function retrieves the file path associated with the specified DataKey
+ * from the DATA_MAP. It uses the spdlog library to log messages and errors.
+ * If the logger is not initialized, it creates a logger named "main_log" with
+ * a basic logger configuration. Logs errors in case of invalid key access.
+ *
+ * @param key The DataKey enumeration value for which the file path is requested.
+ * @return The file path corresponding to the given key.
+ * @throws std::out_of_range if the key does not exist in the map.
+ * @note Empty string means wrong file path. The return statements are unreachable but are there,
+ *       so that the compiler is not complaining
+ *
+ * Example usage:
+ * @code
+ * std::string path = getFilePath(ITEM_3);
+ * std::cout << "File path: " << path << std::endl;
+ * @endcode
+ */
+std::string getFilePath(DataKey key, const std::shared_ptr<spdlog::logger>& logger) {
+
+    try {
+        auto it = DATA_MAP.find(key);
+        if (it != DATA_MAP.end()) {
+            return it->second;
+        }
+        throw std::out_of_range("Invalid key");
+    } catch (const std::out_of_range &e) {
+        logger->error("Error: {}", e.what());   
+        return "\0"; // to fix warning
+    }
+    return "\0"; // to fix the warning
+}

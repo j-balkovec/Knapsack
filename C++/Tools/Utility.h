@@ -17,12 +17,66 @@
 #include <vector>
 #include <typeinfo>
 #include <string>
+#include <utility>
+#include <map>
 
 #include <fmt/format.h> // For formatting strings
 #include <spdlog/spdlog.h>
 #include <spdlog/sinks/basic_file_sink.h> // For file logging
 
 #include "Item.h"
+
+// log files
+const std::string_view MAIN_LOG = "../Logs/main_log.log";
+const std::string_view EXEC_TIME_LOG_FILE = "../Logs/exec_time.log";
+const unsigned int RUN_TIMES = 1;
+
+// types of messages
+const char INFO = 'I';
+const char WARNING = 'W';
+const char ERROR = 'E';
+const char SUCCESS = 'S';
+const char DEBUG = 'D';
+
+// enum for the keys
+enum DataKey {
+    ITEM_1,
+    ITEM_2,
+    ITEM_3,
+    ITEM_4,
+    ITEM_5,
+    ITEM_6,
+    ITEM_7,
+    ITEM_8,
+    ITEM_9,
+    ITEM_10
+};
+
+/**
+* a map linking enum keys to file paths
+*
+* --- <note> ---
+* These need to be updated every time <input_generator.py> is run
+*/
+const std::map<DataKey, std::string> DATA_MAP = {
+    {ITEM_1, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv"},
+    {ITEM_2, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_2_12_12_2024.csv"},
+    {ITEM_3, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_3_12_12_2024.csv"},
+    {ITEM_4, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_4_12_12_2024.csv"},
+    {ITEM_5, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_5_12_12_2024.csv"},
+    {ITEM_6, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_6_12_12_2024.csv"},
+    {ITEM_7, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_7_12_12_2024.csv"},
+    {ITEM_8, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_8_12_12_2024.csv"},
+    {ITEM_9, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_9_12_12_2024.csv"},
+    {ITEM_10, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_10_12_12_2024.csv"}
+};
+
+/**
+* path for capacity
+* --- <note> ---
+* This needs to be updated every time <input_generator.py> is run
+*/
+const std::string_view CAPACITY = "/Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv";
 
 extern bool compareByWeight(const Item& a, const Item& b);
 extern bool compareByValue(const Item& a, const Item& b);
@@ -34,6 +88,7 @@ extern std::vector<Item> parseCSVItems(const std::string& filepath, const std::s
 extern int parseCSVCapacity(const std::string& filepath, const std::shared_ptr<spdlog::logger>& logger);
 
 extern void displayMessage(const std::string& message, const char& type);
+extern std::string getFilePath(DataKey key, const std::shared_ptr<spdlog::logger>& logger);
 
 // ------- <C++ templates :\> ------- //
 // Since they need to be visible to the compiler at compile time, they are defined in the header file
