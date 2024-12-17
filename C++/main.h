@@ -1,12 +1,21 @@
+/**
+ * @file main.h
+ * 
+ * @author Jakob Balkovec
+ * @date 2024-12-12
+ * @brief File contains all the function definitions used for benchmarking
+ * 
+*/
+
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <vector>
-#include <unordered_map>
-#include <iostream>
-
 #include "Tools/Item.h"
 #include "Tools/Utility.h"
+
+#include <vector>
+#include <iostream>
+#include <unordered_map>
 
 // --------- <HEURISTICS> --------- //
 
@@ -137,6 +146,4 @@ int calculateFitness_SimA(const std::vector<int>& solution, const std::vector<It
 std::vector<int> getNeighborSolution(const std::vector<int>& solution);
 int knapsackSimulatedAnnealing(int capacity, const std::vector<Item>& items, double initialTemperature, double coolingRate);
 
-// --------- </ALGORITHMS> --------- //
-#endif // !MAIN_H
-
+#endif // MAIN_H
