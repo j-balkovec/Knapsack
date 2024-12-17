@@ -1,6 +1,1002 @@
-[2024-12-14 11:29:31.470] [time_logger] [info] [executing_function]: FiiRKNSt3__16vectorI4ItemNS_9allocatorIS1_EEEEE
-[2024-12-14 11:29:31.470] [time_logger] [info] [argument_1]: [type]: i, [size]: Unknown
-[2024-12-14 11:29:31.470] [time_logger] [info] [argument_1]: [value]: 67
-[2024-12-14 11:29:31.470] [time_logger] [info] [argument_2]: [type]: NSt3__16vectorI4ItemNS_9allocatorIS1_EEEE, [size]: 1000
-[2024-12-14 11:29:31.470] [time_logger] [info] [argument_2]: [values]: [value]: Unsupported type [value]: Unsupported type ...
-[2024-12-14 11:29:31.470] [time_logger] [info] [exec_time]: 0 ms
+[2024-12-14 20:14:30.915] [exec_time] [info] ***************************** <runing> *****************************
+
+
+[2024-12-14 20:14:32.769] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-14 20:14:32.769] [exec_time] [info] [execution_time]: 1851248
+[2024-12-14 20:14:32.769] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.769] [exec_time] [info] [solution]: 334
+[2024-12-14 20:14:32.769] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.769] [exec_time] [info] 
+
+[2024-12-14 20:14:32.770] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-14 20:14:32.770] [exec_time] [info] [execution_time]: 306
+[2024-12-14 20:14:32.770] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.770] [exec_time] [info] [solution]: 586
+[2024-12-14 20:14:32.770] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.770] [exec_time] [info] 
+
+[2024-12-14 20:14:32.812] [exec_time] [info] [name]: <a> Memoization
+[2024-12-14 20:14:32.812] [exec_time] [info] [execution_time]: 42911
+[2024-12-14 20:14:32.813] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.813] [exec_time] [info] [solution]: 586
+[2024-12-14 20:14:32.813] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.813] [exec_time] [info] 
+
+[2024-12-14 20:14:32.813] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-14 20:14:32.813] [exec_time] [info] [execution_time]: 5
+[2024-12-14 20:14:32.813] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.813] [exec_time] [info] [solution]: 98
+[2024-12-14 20:14:32.813] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.813] [exec_time] [info] 
+
+[2024-12-14 20:14:32.813] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-14 20:14:32.813] [exec_time] [info] [execution_time]: 628
+[2024-12-14 20:14:32.813] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.813] [exec_time] [info] [solution]: 586
+[2024-12-14 20:14:32.813] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.813] [exec_time] [info] 
+
+[2024-12-14 20:14:32.814] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:14:32.814] [exec_time] [info] [execution_time]: 1153
+[2024-12-14 20:14:32.814] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.814] [exec_time] [info] [solution]: 561
+[2024-12-14 20:14:32.814] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.814] [exec_time] [info] 
+
+[2024-12-14 20:14:32.815] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:14:32.815] [exec_time] [info] [execution_time]: 1127
+[2024-12-14 20:14:32.815] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.815] [exec_time] [info] [solution]: 561
+[2024-12-14 20:14:32.815] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.815] [exec_time] [info] 
+
+[2024-12-14 20:14:32.815] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-14 20:14:32.815] [exec_time] [info] [execution_time]: 42
+[2024-12-14 20:14:32.815] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.815] [exec_time] [info] [solution]: 247
+[2024-12-14 20:14:32.815] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.815] [exec_time] [info] 
+
+[2024-12-14 20:14:32.816] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-14 20:14:32.816] [exec_time] [info] [execution_time]: 35
+[2024-12-14 20:14:32.816] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.816] [exec_time] [info] [solution]: 247
+[2024-12-14 20:14:32.816] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.816] [exec_time] [info] 
+
+[2024-12-14 20:14:32.816] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-14 20:14:32.816] [exec_time] [info] [execution_time]: 134
+[2024-12-14 20:14:32.816] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.816] [exec_time] [info] [solution]: 584
+[2024-12-14 20:14:32.816] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.816] [exec_time] [info] 
+
+[2024-12-14 20:14:32.817] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-14 20:14:32.817] [exec_time] [info] [execution_time]: 881
+[2024-12-14 20:14:32.817] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.817] [exec_time] [info] [solution]: 561
+[2024-12-14 20:14:32.817] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.817] [exec_time] [info] 
+
+[2024-12-14 20:14:32.817] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-14 20:14:32.817] [exec_time] [info] [execution_time]: 98
+[2024-12-14 20:14:32.817] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.817] [exec_time] [info] [solution]: 205
+[2024-12-14 20:14:32.817] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.817] [exec_time] [info] 
+
+[2024-12-14 20:14:32.817] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-14 20:14:32.817] [exec_time] [info] [execution_time]: 85
+[2024-12-14 20:14:32.817] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.817] [exec_time] [info] [solution]: 584
+[2024-12-14 20:14:32.817] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.817] [exec_time] [info] 
+
+[2024-12-14 20:14:32.818] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-14 20:14:32.818] [exec_time] [info] [execution_time]: 887
+[2024-12-14 20:14:32.818] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.818] [exec_time] [info] [solution]: 428
+[2024-12-14 20:14:32.818] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.818] [exec_time] [info] 
+
+[2024-12-14 20:14:32.818] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-14 20:14:32.818] [exec_time] [info] [execution_time]: 86
+[2024-12-14 20:14:32.818] [exec_time] [info] [capacity]: 138
+[2024-12-14 20:14:32.818] [exec_time] [info] [solution]: 205
+[2024-12-14 20:14:32.818] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:14:32.818] [exec_time] [info] 
+
+[2024-12-14 20:15:12.463] [exec_time] [info] ***************************** <runing> *****************************
+
+
+[2024-12-14 20:15:14.090] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-14 20:15:14.090] [exec_time] [info] [execution_time]: 1623160
+[2024-12-14 20:15:14.090] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.090] [exec_time] [info] [solution]: 139
+[2024-12-14 20:15:14.090] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.090] [exec_time] [info] 
+
+[2024-12-14 20:15:14.090] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-14 20:15:14.090] [exec_time] [info] [execution_time]: 156
+[2024-12-14 20:15:14.090] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.090] [exec_time] [info] [solution]: 233
+[2024-12-14 20:15:14.090] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.090] [exec_time] [info] 
+
+[2024-12-14 20:15:14.102] [exec_time] [info] [name]: <a> Memoization
+[2024-12-14 20:15:14.102] [exec_time] [info] [execution_time]: 11593
+[2024-12-14 20:15:14.102] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.102] [exec_time] [info] [solution]: 233
+[2024-12-14 20:15:14.102] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.102] [exec_time] [info] 
+
+[2024-12-14 20:15:14.102] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-14 20:15:14.102] [exec_time] [info] [execution_time]: 6
+[2024-12-14 20:15:14.102] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.102] [exec_time] [info] [solution]: 48
+[2024-12-14 20:15:14.102] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.102] [exec_time] [info] 
+
+[2024-12-14 20:15:14.102] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-14 20:15:14.102] [exec_time] [info] [execution_time]: 292
+[2024-12-14 20:15:14.102] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.102] [exec_time] [info] [solution]: 233
+[2024-12-14 20:15:14.102] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.102] [exec_time] [info] 
+
+[2024-12-14 20:15:14.103] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:15:14.103] [exec_time] [info] [execution_time]: 1153
+[2024-12-14 20:15:14.103] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.103] [exec_time] [info] [solution]: 193
+[2024-12-14 20:15:14.103] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.103] [exec_time] [info] 
+
+[2024-12-14 20:15:14.105] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:15:14.105] [exec_time] [info] [execution_time]: 1128
+[2024-12-14 20:15:14.105] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.105] [exec_time] [info] [solution]: 193
+[2024-12-14 20:15:14.105] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.105] [exec_time] [info] 
+
+[2024-12-14 20:15:14.105] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-14 20:15:14.105] [exec_time] [info] [execution_time]: 41
+[2024-12-14 20:15:14.105] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.105] [exec_time] [info] [solution]: 50
+[2024-12-14 20:15:14.105] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.105] [exec_time] [info] 
+
+[2024-12-14 20:15:14.105] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-14 20:15:14.105] [exec_time] [info] [execution_time]: 36
+[2024-12-14 20:15:14.105] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.105] [exec_time] [info] [solution]: 150
+[2024-12-14 20:15:14.105] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.105] [exec_time] [info] 
+
+[2024-12-14 20:15:14.105] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-14 20:15:14.105] [exec_time] [info] [execution_time]: 134
+[2024-12-14 20:15:14.105] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.105] [exec_time] [info] [solution]: 233
+[2024-12-14 20:15:14.105] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.105] [exec_time] [info] 
+
+[2024-12-14 20:15:14.106] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-14 20:15:14.106] [exec_time] [info] [execution_time]: 880
+[2024-12-14 20:15:14.106] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.106] [exec_time] [info] [solution]: 193
+[2024-12-14 20:15:14.107] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.107] [exec_time] [info] 
+
+[2024-12-14 20:15:14.107] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-14 20:15:14.107] [exec_time] [info] [execution_time]: 102
+[2024-12-14 20:15:14.107] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.107] [exec_time] [info] [solution]: 69
+[2024-12-14 20:15:14.107] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.107] [exec_time] [info] 
+
+[2024-12-14 20:15:14.107] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-14 20:15:14.107] [exec_time] [info] [execution_time]: 94
+[2024-12-14 20:15:14.107] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.107] [exec_time] [info] [solution]: 233
+[2024-12-14 20:15:14.107] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.107] [exec_time] [info] 
+
+[2024-12-14 20:15:14.108] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-14 20:15:14.108] [exec_time] [info] [execution_time]: 880
+[2024-12-14 20:15:14.108] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.108] [exec_time] [info] [solution]: 193
+[2024-12-14 20:15:14.108] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.108] [exec_time] [info] 
+
+[2024-12-14 20:15:14.108] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-14 20:15:14.108] [exec_time] [info] [execution_time]: 95
+[2024-12-14 20:15:14.108] [exec_time] [info] [capacity]: 51
+[2024-12-14 20:15:14.108] [exec_time] [info] [solution]: 69
+[2024-12-14 20:15:14.108] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:15:14.108] [exec_time] [info] 
+
+[2024-12-14 20:16:35.286] [exec_time] [info] ***************************** <runing> *****************************
+
+
+[2024-12-14 20:16:37.135] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-14 20:16:37.136] [exec_time] [info] [execution_time]: 1848115
+[2024-12-14 20:16:37.136] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.136] [exec_time] [info] [solution]: 293
+[2024-12-14 20:16:37.136] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.136] [exec_time] [info] 
+
+[2024-12-14 20:16:37.136] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-14 20:16:37.136] [exec_time] [info] [execution_time]: 415
+[2024-12-14 20:16:37.136] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.136] [exec_time] [info] [solution]: 561
+[2024-12-14 20:16:37.136] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.136] [exec_time] [info] 
+
+[2024-12-14 20:16:37.178] [exec_time] [info] [name]: <a> Memoization
+[2024-12-14 20:16:37.178] [exec_time] [info] [execution_time]: 41472
+[2024-12-14 20:16:37.178] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.178] [exec_time] [info] [solution]: 561
+[2024-12-14 20:16:37.178] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.178] [exec_time] [info] 
+
+[2024-12-14 20:16:37.178] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-14 20:16:37.178] [exec_time] [info] [execution_time]: 7
+[2024-12-14 20:16:37.178] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.178] [exec_time] [info] [solution]: 115
+[2024-12-14 20:16:37.178] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.178] [exec_time] [info] 
+
+[2024-12-14 20:16:37.178] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-14 20:16:37.178] [exec_time] [info] [execution_time]: 478
+[2024-12-14 20:16:37.178] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.178] [exec_time] [info] [solution]: 561
+[2024-12-14 20:16:37.178] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.178] [exec_time] [info] 
+
+[2024-12-14 20:16:37.179] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:16:37.179] [exec_time] [info] [execution_time]: 1152
+[2024-12-14 20:16:37.179] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.179] [exec_time] [info] [solution]: 561
+[2024-12-14 20:16:37.179] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.179] [exec_time] [info] 
+
+[2024-12-14 20:16:37.181] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:16:37.181] [exec_time] [info] [execution_time]: 1136
+[2024-12-14 20:16:37.181] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.181] [exec_time] [info] [solution]: 561
+[2024-12-14 20:16:37.181] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.181] [exec_time] [info] 
+
+[2024-12-14 20:16:37.181] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-14 20:16:37.181] [exec_time] [info] [execution_time]: 42
+[2024-12-14 20:16:37.181] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.181] [exec_time] [info] [solution]: 200
+[2024-12-14 20:16:37.181] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.181] [exec_time] [info] 
+
+[2024-12-14 20:16:37.181] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-14 20:16:37.181] [exec_time] [info] [execution_time]: 35
+[2024-12-14 20:16:37.181] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.181] [exec_time] [info] [solution]: 200
+[2024-12-14 20:16:37.181] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.181] [exec_time] [info] 
+
+[2024-12-14 20:16:37.181] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-14 20:16:37.181] [exec_time] [info] [execution_time]: 136
+[2024-12-14 20:16:37.181] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.181] [exec_time] [info] [solution]: 542
+[2024-12-14 20:16:37.181] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.181] [exec_time] [info] 
+
+[2024-12-14 20:16:37.182] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-14 20:16:37.182] [exec_time] [info] [execution_time]: 882
+[2024-12-14 20:16:37.182] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.182] [exec_time] [info] [solution]: 561
+[2024-12-14 20:16:37.183] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.183] [exec_time] [info] 
+
+[2024-12-14 20:16:37.183] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-14 20:16:37.183] [exec_time] [info] [execution_time]: 101
+[2024-12-14 20:16:37.183] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.183] [exec_time] [info] [solution]: 191
+[2024-12-14 20:16:37.183] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.183] [exec_time] [info] 
+
+[2024-12-14 20:16:37.183] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-14 20:16:37.183] [exec_time] [info] [execution_time]: 93
+[2024-12-14 20:16:37.183] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.183] [exec_time] [info] [solution]: 542
+[2024-12-14 20:16:37.183] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.183] [exec_time] [info] 
+
+[2024-12-14 20:16:37.184] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-14 20:16:37.184] [exec_time] [info] [execution_time]: 874
+[2024-12-14 20:16:37.184] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.184] [exec_time] [info] [solution]: 428
+[2024-12-14 20:16:37.184] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.184] [exec_time] [info] 
+
+[2024-12-14 20:16:37.184] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-14 20:16:37.184] [exec_time] [info] [execution_time]: 96
+[2024-12-14 20:16:37.184] [exec_time] [info] [capacity]: 132
+[2024-12-14 20:16:37.184] [exec_time] [info] [solution]: 191
+[2024-12-14 20:16:37.184] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:37.184] [exec_time] [info] 
+
+[2024-12-14 20:16:50.053] [exec_time] [info] ***************************** <runing> *****************************
+
+
+[2024-12-14 20:16:51.811] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-14 20:16:51.811] [exec_time] [info] [execution_time]: 1753752
+[2024-12-14 20:16:51.811] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.811] [exec_time] [info] [solution]: 204
+[2024-12-14 20:16:51.811] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.811] [exec_time] [info] 
+
+[2024-12-14 20:16:51.811] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-14 20:16:51.811] [exec_time] [info] [execution_time]: 238
+[2024-12-14 20:16:51.811] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.811] [exec_time] [info] [solution]: 401
+[2024-12-14 20:16:51.811] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.811] [exec_time] [info] 
+
+[2024-12-14 20:16:51.838] [exec_time] [info] [name]: <a> Memoization
+[2024-12-14 20:16:51.838] [exec_time] [info] [execution_time]: 26086
+[2024-12-14 20:16:51.838] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.838] [exec_time] [info] [solution]: 401
+[2024-12-14 20:16:51.838] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.838] [exec_time] [info] 
+
+[2024-12-14 20:16:51.838] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-14 20:16:51.838] [exec_time] [info] [execution_time]: 5
+[2024-12-14 20:16:51.838] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.838] [exec_time] [info] [solution]: 70
+[2024-12-14 20:16:51.838] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.838] [exec_time] [info] 
+
+[2024-12-14 20:16:51.838] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-14 20:16:51.838] [exec_time] [info] [execution_time]: 538
+[2024-12-14 20:16:51.838] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.838] [exec_time] [info] [solution]: 401
+[2024-12-14 20:16:51.838] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.838] [exec_time] [info] 
+
+[2024-12-14 20:16:51.839] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:16:51.839] [exec_time] [info] [execution_time]: 1152
+[2024-12-14 20:16:51.839] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.839] [exec_time] [info] [solution]: 378
+[2024-12-14 20:16:51.839] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.839] [exec_time] [info] 
+
+[2024-12-14 20:16:51.840] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:16:51.840] [exec_time] [info] [execution_time]: 1130
+[2024-12-14 20:16:51.840] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.840] [exec_time] [info] [solution]: 378
+[2024-12-14 20:16:51.840] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.840] [exec_time] [info] 
+
+[2024-12-14 20:16:51.840] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-14 20:16:51.840] [exec_time] [info] [execution_time]: 42
+[2024-12-14 20:16:51.840] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.840] [exec_time] [info] [solution]: 199
+[2024-12-14 20:16:51.840] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.840] [exec_time] [info] 
+
+[2024-12-14 20:16:51.840] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-14 20:16:51.840] [exec_time] [info] [execution_time]: 35
+[2024-12-14 20:16:51.840] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.840] [exec_time] [info] [solution]: 199
+[2024-12-14 20:16:51.840] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.840] [exec_time] [info] 
+
+[2024-12-14 20:16:51.841] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-14 20:16:51.841] [exec_time] [info] [execution_time]: 129
+[2024-12-14 20:16:51.841] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.841] [exec_time] [info] [solution]: 368
+[2024-12-14 20:16:51.841] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.841] [exec_time] [info] 
+
+[2024-12-14 20:16:51.841] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-14 20:16:51.841] [exec_time] [info] [execution_time]: 879
+[2024-12-14 20:16:51.841] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.841] [exec_time] [info] [solution]: 378
+[2024-12-14 20:16:51.842] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.842] [exec_time] [info] 
+
+[2024-12-14 20:16:51.843] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-14 20:16:51.843] [exec_time] [info] [execution_time]: 116
+[2024-12-14 20:16:51.843] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.843] [exec_time] [info] [solution]: 130
+[2024-12-14 20:16:51.843] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.843] [exec_time] [info] 
+
+[2024-12-14 20:16:51.843] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-14 20:16:51.843] [exec_time] [info] [execution_time]: 94
+[2024-12-14 20:16:51.843] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.843] [exec_time] [info] [solution]: 368
+[2024-12-14 20:16:51.843] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.843] [exec_time] [info] 
+
+[2024-12-14 20:16:51.844] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-14 20:16:51.844] [exec_time] [info] [execution_time]: 905
+[2024-12-14 20:16:51.844] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.844] [exec_time] [info] [solution]: 336
+[2024-12-14 20:16:51.844] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.844] [exec_time] [info] 
+
+[2024-12-14 20:16:51.844] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-14 20:16:51.844] [exec_time] [info] [execution_time]: 99
+[2024-12-14 20:16:51.844] [exec_time] [info] [capacity]: 92
+[2024-12-14 20:16:51.844] [exec_time] [info] [solution]: 130
+[2024-12-14 20:16:51.844] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:16:51.844] [exec_time] [info] 
+
+[2024-12-14 20:18:37.034] [exec_time] [info] ***************************** <runing> *****************************
+
+
+[2024-12-14 20:18:38.640] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-14 20:18:38.640] [exec_time] [info] [execution_time]: 1603863
+[2024-12-14 20:18:38.640] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.640] [exec_time] [info] [solution]: 137
+[2024-12-14 20:18:38.640] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.640] [exec_time] [info] 
+
+[2024-12-14 20:18:38.640] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-14 20:18:38.640] [exec_time] [info] [execution_time]: 170
+[2024-12-14 20:18:38.640] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.640] [exec_time] [info] [solution]: 239
+[2024-12-14 20:18:38.640] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.640] [exec_time] [info] 
+
+[2024-12-14 20:18:38.652] [exec_time] [info] [name]: <a> Memoization
+[2024-12-14 20:18:38.652] [exec_time] [info] [execution_time]: 12103
+[2024-12-14 20:18:38.652] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.652] [exec_time] [info] [solution]: 239
+[2024-12-14 20:18:38.652] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.652] [exec_time] [info] 
+
+[2024-12-14 20:18:38.652] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-14 20:18:38.652] [exec_time] [info] [execution_time]: 6
+[2024-12-14 20:18:38.652] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.652] [exec_time] [info] [solution]: 28
+[2024-12-14 20:18:38.652] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.652] [exec_time] [info] 
+
+[2024-12-14 20:18:38.652] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-14 20:18:38.652] [exec_time] [info] [execution_time]: 269
+[2024-12-14 20:18:38.652] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.652] [exec_time] [info] [solution]: 239
+[2024-12-14 20:18:38.652] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.652] [exec_time] [info] 
+
+[2024-12-14 20:18:38.654] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:18:38.654] [exec_time] [info] [execution_time]: 1153
+[2024-12-14 20:18:38.654] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.654] [exec_time] [info] [solution]: 193
+[2024-12-14 20:18:38.654] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.654] [exec_time] [info] 
+
+[2024-12-14 20:18:38.655] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-14 20:18:38.655] [exec_time] [info] [execution_time]: 1131
+[2024-12-14 20:18:38.655] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.655] [exec_time] [info] [solution]: 193
+[2024-12-14 20:18:38.655] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.655] [exec_time] [info] 
+
+[2024-12-14 20:18:38.655] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-14 20:18:38.655] [exec_time] [info] [execution_time]: 41
+[2024-12-14 20:18:38.655] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.655] [exec_time] [info] [solution]: 50
+[2024-12-14 20:18:38.655] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.655] [exec_time] [info] 
+
+[2024-12-14 20:18:38.655] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-14 20:18:38.655] [exec_time] [info] [execution_time]: 33
+[2024-12-14 20:18:38.655] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.655] [exec_time] [info] [solution]: 150
+[2024-12-14 20:18:38.655] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.655] [exec_time] [info] 
+
+[2024-12-14 20:18:38.655] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-14 20:18:38.655] [exec_time] [info] [execution_time]: 129
+[2024-12-14 20:18:38.655] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.655] [exec_time] [info] [solution]: 233
+[2024-12-14 20:18:38.655] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.655] [exec_time] [info] 
+
+[2024-12-14 20:18:38.656] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-14 20:18:38.656] [exec_time] [info] [execution_time]: 879
+[2024-12-14 20:18:38.656] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.656] [exec_time] [info] [solution]: 237
+[2024-12-14 20:18:38.657] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.657] [exec_time] [info] 
+
+[2024-12-14 20:18:38.657] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-14 20:18:38.657] [exec_time] [info] [execution_time]: 102
+[2024-12-14 20:18:38.657] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.657] [exec_time] [info] [solution]: 69
+[2024-12-14 20:18:38.657] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.657] [exec_time] [info] 
+
+[2024-12-14 20:18:38.657] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-14 20:18:38.657] [exec_time] [info] [execution_time]: 82
+[2024-12-14 20:18:38.657] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.657] [exec_time] [info] [solution]: 233
+[2024-12-14 20:18:38.657] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.657] [exec_time] [info] 
+
+[2024-12-14 20:18:38.658] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-14 20:18:38.658] [exec_time] [info] [execution_time]: 894
+[2024-12-14 20:18:38.658] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.658] [exec_time] [info] [solution]: 237
+[2024-12-14 20:18:38.658] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.658] [exec_time] [info] 
+
+[2024-12-14 20:18:38.658] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-14 20:18:38.658] [exec_time] [info] [execution_time]: 78
+[2024-12-14 20:18:38.658] [exec_time] [info] [capacity]: 53
+[2024-12-14 20:18:38.658] [exec_time] [info] [solution]: 69
+[2024-12-14 20:18:38.658] [exec_time] [info] [items_size]: [1000]
+[2024-12-14 20:18:38.658] [exec_time] [info] 
+
+[2024-12-16 08:36:49.401] [exec_time] [info] ***************************** <runing> *****************************
+
+
+[2024-12-16 08:36:51.188] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-16 08:36:51.189] [exec_time] [info] [execution_time]: 1784705
+[2024-12-16 08:36:51.189] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.189] [exec_time] [info] [solution]: 209
+[2024-12-16 08:36:51.189] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.189] [exec_time] [info] 
+
+[2024-12-16 08:36:51.189] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-16 08:36:51.189] [exec_time] [info] [execution_time]: 213
+[2024-12-16 08:36:51.189] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.189] [exec_time] [info] [solution]: 424
+[2024-12-16 08:36:51.189] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.189] [exec_time] [info] 
+
+[2024-12-16 08:36:51.216] [exec_time] [info] [name]: <a> Memoization
+[2024-12-16 08:36:51.216] [exec_time] [info] [execution_time]: 27745
+[2024-12-16 08:36:51.216] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.216] [exec_time] [info] [solution]: 424
+[2024-12-16 08:36:51.216] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.216] [exec_time] [info] 
+
+[2024-12-16 08:36:51.217] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-16 08:36:51.217] [exec_time] [info] [execution_time]: 7
+[2024-12-16 08:36:51.217] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.217] [exec_time] [info] [solution]: 88
+[2024-12-16 08:36:51.217] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.217] [exec_time] [info] 
+
+[2024-12-16 08:36:51.217] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-16 08:36:51.217] [exec_time] [info] [execution_time]: 410
+[2024-12-16 08:36:51.217] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.217] [exec_time] [info] [solution]: 424
+[2024-12-16 08:36:51.217] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.217] [exec_time] [info] 
+
+[2024-12-16 08:36:51.218] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 08:36:51.218] [exec_time] [info] [execution_time]: 1154
+[2024-12-16 08:36:51.218] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.218] [exec_time] [info] [solution]: 421
+[2024-12-16 08:36:51.218] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.218] [exec_time] [info] 
+
+[2024-12-16 08:36:51.219] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 08:36:51.219] [exec_time] [info] [execution_time]: 1128
+[2024-12-16 08:36:51.219] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.219] [exec_time] [info] [solution]: 421
+[2024-12-16 08:36:51.219] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.219] [exec_time] [info] 
+
+[2024-12-16 08:36:51.219] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-16 08:36:51.219] [exec_time] [info] [execution_time]: 42
+[2024-12-16 08:36:51.219] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.219] [exec_time] [info] [solution]: 200
+[2024-12-16 08:36:51.219] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.219] [exec_time] [info] 
+
+[2024-12-16 08:36:51.219] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-16 08:36:51.219] [exec_time] [info] [execution_time]: 34
+[2024-12-16 08:36:51.219] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.219] [exec_time] [info] [solution]: 200
+[2024-12-16 08:36:51.219] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.219] [exec_time] [info] 
+
+[2024-12-16 08:36:51.219] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-16 08:36:51.219] [exec_time] [info] [execution_time]: 128
+[2024-12-16 08:36:51.219] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.219] [exec_time] [info] [solution]: 414
+[2024-12-16 08:36:51.219] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.219] [exec_time] [info] 
+
+[2024-12-16 08:36:51.220] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-16 08:36:51.220] [exec_time] [info] [execution_time]: 884
+[2024-12-16 08:36:51.220] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.220] [exec_time] [info] [solution]: 421
+[2024-12-16 08:36:51.222] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.222] [exec_time] [info] 
+
+[2024-12-16 08:36:51.222] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-16 08:36:51.222] [exec_time] [info] [execution_time]: 112
+[2024-12-16 08:36:51.222] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.222] [exec_time] [info] [solution]: 145
+[2024-12-16 08:36:51.222] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.222] [exec_time] [info] 
+
+[2024-12-16 08:36:51.222] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-16 08:36:51.222] [exec_time] [info] [execution_time]: 99
+[2024-12-16 08:36:51.222] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.222] [exec_time] [info] [solution]: 414
+[2024-12-16 08:36:51.222] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.222] [exec_time] [info] 
+
+[2024-12-16 08:36:51.223] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-16 08:36:51.223] [exec_time] [info] [execution_time]: 903
+[2024-12-16 08:36:51.223] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.223] [exec_time] [info] [solution]: 379
+[2024-12-16 08:36:51.223] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.223] [exec_time] [info] 
+
+[2024-12-16 08:36:51.223] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-16 08:36:51.223] [exec_time] [info] [execution_time]: 91
+[2024-12-16 08:36:51.223] [exec_time] [info] [capacity]: 98
+[2024-12-16 08:36:51.223] [exec_time] [info] [solution]: 145
+[2024-12-16 08:36:51.223] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:36:51.223] [exec_time] [info] 
+
+[2024-12-16 08:36:59.679] [exec_time] [info] ***************************** <runing> *****************************
+
+
+[2024-12-16 08:37:01.510] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-16 08:37:01.510] [exec_time] [info] [execution_time]: 1829115
+[2024-12-16 08:37:01.510] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.510] [exec_time] [info] [solution]: 268
+[2024-12-16 08:37:01.510] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.510] [exec_time] [info] 
+
+[2024-12-16 08:37:01.510] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-16 08:37:01.510] [exec_time] [info] [execution_time]: 284
+[2024-12-16 08:37:01.510] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.510] [exec_time] [info] [solution]: 520
+[2024-12-16 08:37:01.510] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.510] [exec_time] [info] 
+
+[2024-12-16 08:37:01.548] [exec_time] [info] [name]: <a> Memoization
+[2024-12-16 08:37:01.548] [exec_time] [info] [execution_time]: 38311
+[2024-12-16 08:37:01.548] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.548] [exec_time] [info] [solution]: 520
+[2024-12-16 08:37:01.548] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.548] [exec_time] [info] 
+
+[2024-12-16 08:37:01.548] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-16 08:37:01.548] [exec_time] [info] [execution_time]: 8
+[2024-12-16 08:37:01.548] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.548] [exec_time] [info] [solution]: 123
+[2024-12-16 08:37:01.548] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.548] [exec_time] [info] 
+
+[2024-12-16 08:37:01.549] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-16 08:37:01.549] [exec_time] [info] [execution_time]: 556
+[2024-12-16 08:37:01.549] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.549] [exec_time] [info] [solution]: 520
+[2024-12-16 08:37:01.549] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.549] [exec_time] [info] 
+
+[2024-12-16 08:37:01.550] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 08:37:01.550] [exec_time] [info] [execution_time]: 1154
+[2024-12-16 08:37:01.550] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.550] [exec_time] [info] [solution]: 519
+[2024-12-16 08:37:01.550] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.550] [exec_time] [info] 
+
+[2024-12-16 08:37:01.551] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 08:37:01.551] [exec_time] [info] [execution_time]: 1129
+[2024-12-16 08:37:01.551] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.551] [exec_time] [info] [solution]: 519
+[2024-12-16 08:37:01.551] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.551] [exec_time] [info] 
+
+[2024-12-16 08:37:01.551] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-16 08:37:01.551] [exec_time] [info] [execution_time]: 41
+[2024-12-16 08:37:01.551] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.551] [exec_time] [info] [solution]: 150
+[2024-12-16 08:37:01.551] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.551] [exec_time] [info] 
+
+[2024-12-16 08:37:01.551] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-16 08:37:01.551] [exec_time] [info] [execution_time]: 33
+[2024-12-16 08:37:01.551] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.551] [exec_time] [info] [solution]: 200
+[2024-12-16 08:37:01.551] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.551] [exec_time] [info] 
+
+[2024-12-16 08:37:01.551] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-16 08:37:01.551] [exec_time] [info] [execution_time]: 130
+[2024-12-16 08:37:01.551] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.551] [exec_time] [info] [solution]: 503
+[2024-12-16 08:37:01.551] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.551] [exec_time] [info] 
+
+[2024-12-16 08:37:01.552] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-16 08:37:01.552] [exec_time] [info] [execution_time]: 879
+[2024-12-16 08:37:01.552] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.552] [exec_time] [info] [solution]: 519
+[2024-12-16 08:37:01.552] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.552] [exec_time] [info] 
+
+[2024-12-16 08:37:01.552] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-16 08:37:01.552] [exec_time] [info] [execution_time]: 100
+[2024-12-16 08:37:01.552] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.552] [exec_time] [info] [solution]: 176
+[2024-12-16 08:37:01.552] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.552] [exec_time] [info] 
+
+[2024-12-16 08:37:01.553] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-16 08:37:01.553] [exec_time] [info] [execution_time]: 87
+[2024-12-16 08:37:01.553] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.553] [exec_time] [info] [solution]: 503
+[2024-12-16 08:37:01.553] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.553] [exec_time] [info] 
+
+[2024-12-16 08:37:01.553] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-16 08:37:01.553] [exec_time] [info] [execution_time]: 874
+[2024-12-16 08:37:01.553] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.553] [exec_time] [info] [solution]: 382
+[2024-12-16 08:37:01.553] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.553] [exec_time] [info] 
+
+[2024-12-16 08:37:01.554] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-16 08:37:01.554] [exec_time] [info] [execution_time]: 91
+[2024-12-16 08:37:01.554] [exec_time] [info] [capacity]: 123
+[2024-12-16 08:37:01.554] [exec_time] [info] [solution]: 176
+[2024-12-16 08:37:01.554] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:37:01.554] [exec_time] [info] 
+
+[2024-12-16 08:56:24.362] [exec_time] [info] 
+
+
+
+[2024-12-16 08:56:24.362] [exec_time] [info] **************** -- <running> - <algo> -- ****************
+[2024-12-16 08:56:24.362] [exec_time] [info] 
+
+
+
+[2024-12-16 08:56:26.130] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-16 08:56:26.130] [exec_time] [info] [execution_time]: 1768062
+[2024-12-16 08:56:26.130] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.130] [exec_time] [info] [solution]: 209
+[2024-12-16 08:56:26.130] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.130] [exec_time] [info] 
+
+[2024-12-16 08:56:26.130] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-16 08:56:26.130] [exec_time] [info] [execution_time]: 239
+[2024-12-16 08:56:26.130] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.130] [exec_time] [info] [solution]: 421
+[2024-12-16 08:56:26.130] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.130] [exec_time] [info] 
+
+[2024-12-16 08:56:26.158] [exec_time] [info] [name]: <a> Memoization
+[2024-12-16 08:56:26.158] [exec_time] [info] [execution_time]: 27752
+[2024-12-16 08:56:26.158] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.158] [exec_time] [info] [solution]: 421
+[2024-12-16 08:56:26.158] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.158] [exec_time] [info] 
+
+[2024-12-16 08:56:26.158] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-16 08:56:26.158] [exec_time] [info] [execution_time]: 6
+[2024-12-16 08:56:26.158] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.158] [exec_time] [info] [solution]: 86
+[2024-12-16 08:56:26.158] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.158] [exec_time] [info] 
+
+[2024-12-16 08:56:26.158] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-16 08:56:26.158] [exec_time] [info] [execution_time]: 424
+[2024-12-16 08:56:26.158] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.158] [exec_time] [info] [solution]: 421
+[2024-12-16 08:56:26.158] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.158] [exec_time] [info] 
+
+[2024-12-16 08:56:26.158] [exec_time] [info] 
+
+
+
+[2024-12-16 08:56:26.158] [exec_time] [info] **************** -- <running> - <heuristic> -- ****************
+[2024-12-16 08:56:26.158] [exec_time] [info] 
+
+
+
+[2024-12-16 08:56:26.159] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 08:56:26.159] [exec_time] [info] [execution_time]: 1152
+[2024-12-16 08:56:26.159] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.159] [exec_time] [info] [solution]: 421
+[2024-12-16 08:56:26.159] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.159] [exec_time] [info] 
+
+[2024-12-16 08:56:26.160] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 08:56:26.160] [exec_time] [info] [execution_time]: 1129
+[2024-12-16 08:56:26.160] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.160] [exec_time] [info] [solution]: 421
+[2024-12-16 08:56:26.160] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.160] [exec_time] [info] 
+
+[2024-12-16 08:56:26.161] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-16 08:56:26.161] [exec_time] [info] [execution_time]: 41
+[2024-12-16 08:56:26.161] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.161] [exec_time] [info] [solution]: 200
+[2024-12-16 08:56:26.161] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.161] [exec_time] [info] 
+
+[2024-12-16 08:56:26.161] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-16 08:56:26.161] [exec_time] [info] [execution_time]: 33
+[2024-12-16 08:56:26.161] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.161] [exec_time] [info] [solution]: 200
+[2024-12-16 08:56:26.161] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.161] [exec_time] [info] 
+
+[2024-12-16 08:56:26.161] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-16 08:56:26.161] [exec_time] [info] [execution_time]: 126
+[2024-12-16 08:56:26.161] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.161] [exec_time] [info] [solution]: 414
+[2024-12-16 08:56:26.161] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.162] [exec_time] [info] 
+
+[2024-12-16 08:56:26.163] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-16 08:56:26.163] [exec_time] [info] [execution_time]: 886
+[2024-12-16 08:56:26.163] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.163] [exec_time] [info] [solution]: 421
+[2024-12-16 08:56:26.163] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.163] [exec_time] [info] 
+
+[2024-12-16 08:56:26.163] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-16 08:56:26.163] [exec_time] [info] [execution_time]: 107
+[2024-12-16 08:56:26.163] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.163] [exec_time] [info] [solution]: 145
+[2024-12-16 08:56:26.163] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.163] [exec_time] [info] 
+
+[2024-12-16 08:56:26.163] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-16 08:56:26.163] [exec_time] [info] [execution_time]: 90
+[2024-12-16 08:56:26.163] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.163] [exec_time] [info] [solution]: 414
+[2024-12-16 08:56:26.163] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.163] [exec_time] [info] 
+
+[2024-12-16 08:56:26.164] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-16 08:56:26.164] [exec_time] [info] [execution_time]: 899
+[2024-12-16 08:56:26.164] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.164] [exec_time] [info] [solution]: 336
+[2024-12-16 08:56:26.164] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.164] [exec_time] [info] 
+
+[2024-12-16 08:56:26.164] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-16 08:56:26.164] [exec_time] [info] [execution_time]: 83
+[2024-12-16 08:56:26.164] [exec_time] [info] [capacity]: 97
+[2024-12-16 08:56:26.164] [exec_time] [info] [solution]: 145
+[2024-12-16 08:56:26.164] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 08:56:26.164] [exec_time] [info] 
+
+[2024-12-16 09:00:20.426] [exec_time] [info] 
+
+
+
+[2024-12-16 09:00:20.426] [exec_time] [info] **************** -- <running> - <algo> -- ****************
+[2024-12-16 09:00:20.426] [exec_time] [info] 
+
+
+
+[2024-12-16 09:00:22.123] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-16 09:00:22.123] [exec_time] [info] [execution_time]: 1696595
+[2024-12-16 09:00:22.123] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.123] [exec_time] [info] [solution]: 158
+[2024-12-16 09:00:22.123] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.123] [exec_time] [info] 
+
+[2024-12-16 09:00:22.123] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-16 09:00:22.123] [exec_time] [info] [execution_time]: 189
+[2024-12-16 09:00:22.123] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.123] [exec_time] [info] [solution]: 337
+[2024-12-16 09:00:22.123] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.123] [exec_time] [info] 
+
+[2024-12-16 09:00:22.144] [exec_time] [info] [name]: <a> Memoization
+[2024-12-16 09:00:22.144] [exec_time] [info] [execution_time]: 20879
+[2024-12-16 09:00:22.144] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.144] [exec_time] [info] [solution]: 337
+[2024-12-16 09:00:22.144] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.144] [exec_time] [info] 
+
+[2024-12-16 09:00:22.144] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-16 09:00:22.144] [exec_time] [info] [execution_time]: 5
+[2024-12-16 09:00:22.144] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.144] [exec_time] [info] [solution]: 47
+[2024-12-16 09:00:22.144] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.144] [exec_time] [info] 
+
+[2024-12-16 09:00:22.144] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-16 09:00:22.144] [exec_time] [info] [execution_time]: 439
+[2024-12-16 09:00:22.144] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.144] [exec_time] [info] [solution]: 337
+[2024-12-16 09:00:22.144] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.144] [exec_time] [info] 
+
+[2024-12-16 09:00:22.144] [exec_time] [info] 
+
+
+
+[2024-12-16 09:00:22.144] [exec_time] [info] **************** -- <running> - <heuristic> -- ****************
+[2024-12-16 09:00:22.144] [exec_time] [info] 
+
+
+
+[2024-12-16 09:00:22.145] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 09:00:22.145] [exec_time] [info] [execution_time]: 1156
+[2024-12-16 09:00:22.145] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.145] [exec_time] [info] [solution]: 332
+[2024-12-16 09:00:22.145] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.145] [exec_time] [info] 
+
+[2024-12-16 09:00:22.147] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 09:00:22.147] [exec_time] [info] [execution_time]: 1135
+[2024-12-16 09:00:22.147] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.147] [exec_time] [info] [solution]: 332
+[2024-12-16 09:00:22.147] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.147] [exec_time] [info] 
+
+[2024-12-16 09:00:22.147] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-16 09:00:22.147] [exec_time] [info] [execution_time]: 42
+[2024-12-16 09:00:22.147] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.147] [exec_time] [info] [solution]: 100
+[2024-12-16 09:00:22.147] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.147] [exec_time] [info] 
+
+[2024-12-16 09:00:22.147] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-16 09:00:22.147] [exec_time] [info] [execution_time]: 36
+[2024-12-16 09:00:22.147] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.147] [exec_time] [info] [solution]: 100
+[2024-12-16 09:00:22.147] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.147] [exec_time] [info] 
+
+[2024-12-16 09:00:22.147] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-16 09:00:22.147] [exec_time] [info] [execution_time]: 134
+[2024-12-16 09:00:22.147] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.147] [exec_time] [info] [solution]: 322
+[2024-12-16 09:00:22.147] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.149] [exec_time] [info] 
+
+[2024-12-16 09:00:22.149] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-16 09:00:22.149] [exec_time] [info] [execution_time]: 883
+[2024-12-16 09:00:22.149] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.149] [exec_time] [info] [solution]: 332
+[2024-12-16 09:00:22.149] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.149] [exec_time] [info] 
+
+[2024-12-16 09:00:22.150] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-16 09:00:22.150] [exec_time] [info] [execution_time]: 110
+[2024-12-16 09:00:22.150] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.150] [exec_time] [info] [solution]: 108
+[2024-12-16 09:00:22.150] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.150] [exec_time] [info] 
+
+[2024-12-16 09:00:22.150] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-16 09:00:22.150] [exec_time] [info] [execution_time]: 99
+[2024-12-16 09:00:22.150] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.150] [exec_time] [info] [solution]: 322
+[2024-12-16 09:00:22.150] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.150] [exec_time] [info] 
+
+[2024-12-16 09:00:22.151] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-16 09:00:22.151] [exec_time] [info] [execution_time]: 898
+[2024-12-16 09:00:22.151] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.151] [exec_time] [info] [solution]: 292
+[2024-12-16 09:00:22.151] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.151] [exec_time] [info] 
+
+[2024-12-16 09:00:22.151] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-16 09:00:22.151] [exec_time] [info] [execution_time]: 92
+[2024-12-16 09:00:22.151] [exec_time] [info] [capacity]: 78
+[2024-12-16 09:00:22.151] [exec_time] [info] [solution]: 108
+[2024-12-16 09:00:22.151] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:00:22.151] [exec_time] [info] 
+

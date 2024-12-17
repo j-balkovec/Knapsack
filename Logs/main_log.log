@@ -1,0 +1,408 @@
+[2024-12-16 08:36:49.403] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 08:36:49.403] [main_log] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-16 08:36:49.404] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 08:36:49.404] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-16 08:36:49.404] [main_log] [info] Selected random capacity: 98
+[2024-12-16 08:36:59.680] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 08:36:59.680] [main_log] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-16 08:36:59.680] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 08:36:59.680] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-16 08:36:59.681] [main_log] [info] Selected random capacity: 123
+[2024-12-16 08:56:24.358] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 08:56:24.361] [main_log] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-16 08:56:24.361] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 08:56:24.361] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-16 08:56:24.362] [main_log] [info] Selected random capacity: 97
+[2024-12-16 09:00:20.423] [main_log] [info] Main logger created
+[2024-12-16 09:00:20.425] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 09:00:20.425] [main_log] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-16 09:00:20.426] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 09:00:20.426] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-16 09:00:20.426] [main_log] [info] Selected random capacity: 78
+[2024-12-16 09:22:06.699] [exec_time] [info] 
+
+
+
+[2024-12-16 09:22:06.699] [exec_time] [info] **************** -- <running> - <algo> -- ****************
+[2024-12-16 09:22:06.699] [exec_time] [info] 
+
+
+
+[2024-12-16 09:22:08.543] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-16 09:22:08.543] [exec_time] [info] [execution_time]: 1844252
+[2024-12-16 09:22:08.543] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.543] [exec_time] [info] [solution]: 309
+[2024-12-16 09:22:08.543] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.543] [exec_time] [info] 
+
+[2024-12-16 09:22:08.543] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-16 09:22:08.543] [exec_time] [info] [execution_time]: 316
+[2024-12-16 09:22:08.543] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.543] [exec_time] [info] [solution]: 591
+[2024-12-16 09:22:08.543] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.543] [exec_time] [info] 
+
+[2024-12-16 09:22:08.587] [exec_time] [info] [name]: <a> Memoization
+[2024-12-16 09:22:08.587] [exec_time] [info] [execution_time]: 43480
+[2024-12-16 09:22:08.587] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.587] [exec_time] [info] [solution]: 591
+[2024-12-16 09:22:08.587] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.587] [exec_time] [info] 
+
+[2024-12-16 09:22:08.587] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-16 09:22:08.587] [exec_time] [info] [execution_time]: 6
+[2024-12-16 09:22:08.587] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.587] [exec_time] [info] [solution]: 60
+[2024-12-16 09:22:08.587] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.587] [exec_time] [info] 
+
+[2024-12-16 09:22:08.587] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-16 09:22:08.587] [exec_time] [info] [execution_time]: 547
+[2024-12-16 09:22:08.587] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.587] [exec_time] [info] [solution]: 591
+[2024-12-16 09:22:08.587] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.587] [exec_time] [info] 
+
+[2024-12-16 09:22:08.587] [exec_time] [info] 
+
+
+
+[2024-12-16 09:22:08.587] [exec_time] [info] **************** -- <running> - <heuristic> -- ****************
+[2024-12-16 09:22:08.587] [exec_time] [info] 
+
+
+
+[2024-12-16 09:22:08.588] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 09:22:08.588] [exec_time] [info] [execution_time]: 1153
+[2024-12-16 09:22:08.588] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.588] [exec_time] [info] [solution]: 561
+[2024-12-16 09:22:08.588] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.588] [exec_time] [info] 
+
+[2024-12-16 09:22:08.590] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-16 09:22:08.590] [exec_time] [info] [execution_time]: 1138
+[2024-12-16 09:22:08.590] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.590] [exec_time] [info] [solution]: 561
+[2024-12-16 09:22:08.590] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.590] [exec_time] [info] 
+
+[2024-12-16 09:22:08.590] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-16 09:22:08.590] [exec_time] [info] [execution_time]: 42
+[2024-12-16 09:22:08.590] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.590] [exec_time] [info] [solution]: 249
+[2024-12-16 09:22:08.590] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.590] [exec_time] [info] 
+
+[2024-12-16 09:22:08.590] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-16 09:22:08.590] [exec_time] [info] [execution_time]: 36
+[2024-12-16 09:22:08.590] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.590] [exec_time] [info] [solution]: 249
+[2024-12-16 09:22:08.590] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.590] [exec_time] [info] 
+
+[2024-12-16 09:22:08.590] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-16 09:22:08.590] [exec_time] [info] [execution_time]: 135
+[2024-12-16 09:22:08.590] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.590] [exec_time] [info] [solution]: 584
+[2024-12-16 09:22:08.590] [exec_time] [info] [[2024-12-16 09:22:06.696] [main_log] [info] Main logger created
+[2024-12-16 09:22:06.697] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 09:22:06.698] [main_log] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-16 09:22:06.698] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-16 09:22:06.698] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-16 09:22:06.699] [main_log] [info] Selected random capacity: 139
+items_size]: [1000]
+[2024-12-16 09:22:08.590] [exec_time] [info] 
+
+[2024-12-16 09:22:08.591] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-16 09:22:08.591] [exec_time] [info] [execution_time]: 878
+[2024-12-16 09:22:08.591] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.591] [exec_time] [info] [solution]: 561
+[2024-12-16 09:22:08.591] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.591] [exec_time] [info] 
+
+[2024-12-16 09:22:08.591] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-16 09:22:08.591] [exec_time] [info] [execution_time]: 102
+[2024-12-16 09:22:08.591] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.591] [exec_time] [info] [solution]: 205
+[2024-12-16 09:22:08.591] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.591] [exec_time] [info] 
+
+[2024-12-16 09:22:08.591] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-16 09:22:08.591] [exec_time] [info] [execution_time]: 85
+[2024-12-16 09:22:08.591] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.591] [exec_time] [info] [solution]: 584
+[2024-12-16 09:22:08.591] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.591] [exec_time] [info] 
+
+[2024-12-16 09:22:08.592] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-16 09:22:08.592] [exec_time] [info] [execution_time]: 898
+[2024-12-16 09:22:08.592] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.592] [exec_time] [info] [solution]: 428
+[2024-12-16 09:22:08.592] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.592] [exec_time] [info] 
+
+[2024-12-16 09:22:08.592] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-16 09:22:08.592] [exec_time] [info] [execution_time]: 79
+[2024-12-16 09:22:08.592] [exec_time] [info] [capacity]: 139
+[2024-12-16 09:22:08.592] [exec_time] [info] [solution]: 205
+[2024-12-16 09:22:08.592] [exec_time] [info] [items_size]: [1000]
+[2024-12-16 09:22:08.592] [exec_time] [info] 
+
+[2024-12-17 16:37:08.517] [exec_time] [info] 
+
+
+
+[2024-12-17 16:37:08.517] [exec_time] [info] **************** -- <running> - <algo> -- ****************
+[2024-12-17 16:37:08.517] [exec_time] [info] 
+
+
+
+[2024-12-17 16:37:10.212] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-17 16:37:10.212] [exec_time] [info] [execution_time]: 1695317
+[2024-12-17 16:37:10.212] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.212] [exec_time] [info] [solution]: 178
+[2024-12-17 16:37:10.212] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.212] [exec_time] [info] 
+
+[2024-12-17 16:37:10.213] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-17 16:37:10.213] [exec_time] [info] [execution_time]: 344
+[2024-12-17 16:37:10.213] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.213] [exec_time] [info] [solution]: 342
+[2024-12-17 16:37:10.213] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.213] [exec_time] [info] 
+
+[2024-12-17 16:37:10.235] [exec_time] [info] [name]: <a> Memoization
+[2024-12-17 16:37:10.235] [exec_time] [info] [execution_time]: 21885
+[2024-12-17 16:37:10.235] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.235] [exec_time] [info] [solution]: 342
+[2024-12-17 16:37:10.235] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.235] [exec_time] [info] 
+
+[2024-12-17 16:37:10.235] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-17 16:37:10.235] [exec_time] [info] [execution_time]: 5
+[2024-12-17 16:37:10.235] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.235] [exec_time] [info] [solution]: 77
+[2024-12-17 16:37:10.235] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.235] [exec_time] [info] 
+
+[2024-12-17 16:37:10.236] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-17 16:37:10.236] [exec_time] [info] [execution_time]: 1174
+[2024-12-17 16:37:10.236] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.236] [exec_time] [info] [solution]: 342
+[2024-12-17 16:37:10.236] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.236] [exec_time] [info] 
+
+[2024-12-17 16:37:10.236] [exec_time] [info] 
+
+
+
+[2024-12-17 16:37:10.236] [exec_time] [info] **************** -- <running> - <heuristic> -- ****************
+[2024-12-17 16:37:10.236] [exec_time] [info] 
+
+
+
+[2024-12-17 16:37:10.237] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-17 16:37:10.237] [exec_time] [info] [execution_time]: 1154
+[2024-12-17 16:37:10.237] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.237] [exec_time] [info] [solution]: 332
+[2024-12-17 16:37:10.237] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.237] [exec_time] [info] 
+
+[2024-12-17 16:37:10.238] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-17 16:37:10.238] [exec_time] [info] [execution_time]: 1133
+[2024-12-17 16:37:10.238] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.238] [exec_time] [info] [solution]: 332
+[2024-12-17 16:37:10.238] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.238] [exec_time] [info] 
+
+[2024-12-17 16:37:10.238] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-17 16:37:10.238] [exec_time] [info] [execution_time]: 41
+[2024-12-17 16:37:10.238] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.238] [exec_time] [info] [solution]: 150
+[2024-12-17 16:37:10.238] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.238] [exec_time] [info] 
+
+[2024-12-17 16:37:10.238] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-17 16:37:10.238] [exec_time] [info] [execution_time]: 34
+[2024-12-17 16:37:10.238] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.238] [exec_time] [info] [solution]: 150
+[2024-12-17 16:37:10.238] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.238] [exec_time] [info] 
+
+[2024-12-17 16:37:10.238] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-17 16:37:10.238] [exec_time] [info] [execution_time]: 132
+[2024-12-17 16:37:10.238] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.238] [exec_time] [info] [solution]: 322
+[2024-12-17 16:37:10.238] [exec_time] [info] [items_siz[2024-12-17 16:37:08.513] [main_log] [info] Main logger created
+[2024-12-17 16:37:08.516] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-17 16:37:08.516] [main_log] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-17 16:37:08.516] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-17 16:37:08.517] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-17 16:37:08.517] [main_log] [info] Selected random capacity: 80
+e]: [1000]
+[2024-12-17 16:37:10.240] [exec_time] [info] 
+
+[2024-12-17 16:37:10.240] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-17 16:37:10.240] [exec_time] [info] [execution_time]: 883
+[2024-12-17 16:37:10.240] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.240] [exec_time] [info] [solution]: 332
+[2024-12-17 16:37:10.240] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.240] [exec_time] [info] 
+
+[2024-12-17 16:37:10.241] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-17 16:37:10.241] [exec_time] [info] [execution_time]: 109
+[2024-12-17 16:37:10.241] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.241] [exec_time] [info] [solution]: 108
+[2024-12-17 16:37:10.241] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.241] [exec_time] [info] 
+
+[2024-12-17 16:37:10.241] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-17 16:37:10.241] [exec_time] [info] [execution_time]: 98
+[2024-12-17 16:37:10.241] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.241] [exec_time] [info] [solution]: 322
+[2024-12-17 16:37:10.241] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.241] [exec_time] [info] 
+
+[2024-12-17 16:37:10.242] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-17 16:37:10.242] [exec_time] [info] [execution_time]: 893
+[2024-12-17 16:37:10.242] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.242] [exec_time] [info] [solution]: 292
+[2024-12-17 16:37:10.242] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.242] [exec_time] [info] 
+
+[2024-12-17 16:37:10.242] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-17 16:37:10.242] [exec_time] [info] [execution_time]: 91
+[2024-12-17 16:37:10.242] [exec_time] [info] [capacity]: 80
+[2024-12-17 16:37:10.242] [exec_time] [info] [solution]: 108
+[2024-12-17 16:37:10.242] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 16:37:10.242] [exec_time] [info] 
+
+[2024-12-17 17:32:20.184] [exec_time] [info] 
+
+
+
+[2024-12-17 17:32:20.184] [exec_time] [info] **************** -- <running> - <algo> -- ****************
+[2024-12-17 17:32:20.184] [exec_time] [info] 
+
+
+
+[2024-12-17 17:32:22.031] [exec_time] [info] [name]: <a> Ant Colony Optimization
+[2024-12-17 17:32:22.031] [exec_time] [info] [execution_time]: 1846991
+[2024-12-17 17:32:22.031] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.031] [exec_time] [info] [solution]: 257
+[2024-12-17 17:32:22.031] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.031] [exec_time] [info] 
+
+[2024-12-17 17:32:22.031] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-17 17:32:22.031] [exec_time] [info] [execution_time]: 289
+[2024-12-17 17:32:22.031] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.031] [exec_time] [info] [solution]: 520
+[2024-12-17 17:32:22.031] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.031] [exec_time] [info] 
+
+[2024-12-17 17:32:22.070] [exec_time] [info] [name]: <a> Memoization
+[2024-12-17 17:32:22.070] [exec_time] [info] [execution_time]: 38444
+[2024-12-17 17:32:22.070] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.070] [exec_time] [info] [solution]: 520
+[2024-12-17 17:32:22.070] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.070] [exec_time] [info] 
+
+[2024-12-17 17:32:22.070] [exec_time] [info] [name]: <a> Simulated Annealing
+[2024-12-17 17:32:22.070] [exec_time] [info] [execution_time]: 7
+[2024-12-17 17:32:22.070] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.070] [exec_time] [info] [solution]: 115
+[2024-12-17 17:32:22.070] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.070] [exec_time] [info] 
+
+[2024-12-17 17:32:22.070] [exec_time] [info] [name]: <a> Branch and Bound
+[2024-12-17 17:32:22.070] [exec_time] [info] [execution_time]: 557
+[2024-12-17 17:32:22.070] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.070] [exec_time] [info] [solution]: 520
+[2024-12-17 17:32:22.070] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.070] [exec_time] [info] 
+
+[2024-12-17 17:32:22.070] [exec_time] [info] 
+
+
+
+[2024-12-17 17:32:22.070] [exec_time] [info] **************** -- <running> - <heuristic> -- ****************
+[2024-12-17 17:32:22.070] [exec_time] [info] 
+
+
+
+[2024-12-17 17:32:22.072] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-17 17:32:22.072] [exec_time] [info] [execution_time]: 1152
+[2024-12-17 17:32:22.072] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.072] [exec_time] [info] [solution]: 519
+[2024-12-17 17:32:22.072] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.072] [exec_time] [info] 
+
+[2024-12-17 17:32:22.073] [exec_time] [info] [name]: <h> Deal Stingy
+[2024-12-17 17:32:22.073] [exec_time] [info] [execution_time]: 1128
+[2024-12-17 17:32:22.073] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.073] [exec_time] [info] [solution]: 519
+[2024-12-17 17:32:22.073] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.073] [exec_time] [info] 
+
+[2024-12-17 17:32:22.073] [exec_time] [info] [name]: <h> Heavy Greedy
+[2024-12-17 17:32:22.073] [exec_time] [info] [execution_time]: 41
+[2024-12-17 17:32:22.073] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.073] [exec_time] [info] [solution]: 150
+[2024-12-17 17:32:22.073] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.073] [exec_time] [info] 
+
+[2024-12-17 17:32:22.073] [exec_time] [info] [name]: <h> Limited Greedy
+[2024-12-17 17:32:22.073] [exec_time] [info] [execution_time]: 35
+[2024-12-17 17:32:22.073] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.073] [exec_time] [info] [solution]: 200
+[2024-12-17 17:32:22.073] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.073] [exec_time] [info] 
+
+[2024-12-17 17:32:22.073] [exec_time] [info] [name]: <h> MaxOfTwo Greedy
+[2024-12-17 17:32:22.073] [exec_time] [info] [execution_time]: 130
+[2024-12-17 17:32:22.073] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.073] [exec_time] [info] [solution]: 503
+[2024-12-17 17:32:22.073] [exec_time] [info] [2024-12-17 17:32:20.180] [main_log] [info] Main logger created
+[2024-12-17 17:32:20.183] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-17 17:32:20.183] [main_log] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-17 17:32:20.184] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-17 17:32:20.184] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-17 17:32:20.184] [main_log] [info] Selected random capacity: 123
+[items_size]: [1000]
+[2024-12-17 17:32:22.074] [exec_time] [info] 
+
+[2024-12-17 17:32:22.075] [exec_time] [info] [name]: <h> Scored Greedy
+[2024-12-17 17:32:22.075] [exec_time] [info] [execution_time]: 888
+[2024-12-17 17:32:22.075] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.075] [exec_time] [info] [solution]: 519
+[2024-12-17 17:32:22.075] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.075] [exec_time] [info] 
+
+[2024-12-17 17:32:22.075] [exec_time] [info] [name]: <h> Sliding Threshold Greedy
+[2024-12-17 17:32:22.075] [exec_time] [info] [execution_time]: 100
+[2024-12-17 17:32:22.075] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.075] [exec_time] [info] [solution]: 176
+[2024-12-17 17:32:22.075] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.075] [exec_time] [info] 
+
+[2024-12-17 17:32:22.075] [exec_time] [info] [name]: <h> Standard Greedy
+[2024-12-17 17:32:22.075] [exec_time] [info] [execution_time]: 83
+[2024-12-17 17:32:22.075] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.075] [exec_time] [info] [solution]: 503
+[2024-12-17 17:32:22.075] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.075] [exec_time] [info] 
+
+[2024-12-17 17:32:22.076] [exec_time] [info] [name]: <h> Transitioning Greedy
+[2024-12-17 17:32:22.076] [exec_time] [info] [execution_time]: 890
+[2024-12-17 17:32:22.076] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.076] [exec_time] [info] [solution]: 382
+[2024-12-17 17:32:22.076] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.076] [exec_time] [info] 
+
+[2024-12-17 17:32:22.076] [exec_time] [info] [name]: <h> Weight Stingy
+[2024-12-17 17:32:22.076] [exec_time] [info] [execution_time]: 77
+[2024-12-17 17:32:22.076] [exec_time] [info] [capacity]: 123
+[2024-12-17 17:32:22.076] [exec_time] [info] [solution]: 176
+[2024-12-17 17:32:22.076] [exec_time] [info] [items_size]: [1000]
+[2024-12-17 17:32:22.076] [exec_time] [info] 
+
