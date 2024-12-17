@@ -27,7 +27,7 @@ std::shared_ptr<spdlog::logger> getMainLogger() {
 
     if (!main_logger) {
         try {
-            main_logger = spdlog::basic_logger_mt(main_log_name.data(), MAIN_LOG.data());
+            main_logger = spdlog::basic_logger_mt(main_log_name.data(), MAIN_LOG_FILE.data());
             main_logger->set_level(spdlog::level::info);
         } catch (const std::exception& e) {
             displayMessage("Error: Failed to create logger <main_log>. Exception: " + std::string(e.what()), ERROR);
@@ -53,7 +53,7 @@ std::shared_ptr<spdlog::logger> getExecTimeLogger() {
 
     if (!exec_time_log) {
         try {
-            exec_time_log = spdlog::basic_logger_mt(exec_time_log_name.data(), MAIN_LOG.data());
+            exec_time_log = spdlog::basic_logger_mt(exec_time_log_name.data(), EXEC_TIME_LOG_FILE.data());
             exec_time_log->set_level(spdlog::level::info);
         } catch (const std::exception& e) {
             displayMessage("Error: Failed to create logger <exec_time>. Exception: " + std::string(e.what()), ERROR);

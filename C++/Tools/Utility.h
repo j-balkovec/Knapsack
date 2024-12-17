@@ -27,7 +27,7 @@
 #include "Item.h"
 
 // log files
-const std::string_view MAIN_LOG = "../Logs/main_log.log";
+const std::string_view MAIN_LOG_FILE = "../Logs/main_log.log";
 const std::string_view EXEC_TIME_LOG_FILE = "../Logs/exec_time.log";
 const unsigned int RUN_TIMES = 1;
 
