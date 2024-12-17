@@ -7,14 +7,6 @@ Project TODO list! Below, tasks are organized into sections based on their prior
 ## 🛠️ Tasks
 
 ### High Priority
-- **Refactor Wrapper Functions**
-  **FILE**: `main.cpp`
-  **STATUS**: `IN-PROGRESS`
-  **DESC**:
-  - Improve modularity and code reuse.
-  - Ensure wrapper functions handle edge cases gracefully.
-  - Write unit tests to validate the refactored functionality.
-
 - **Command Line Arguments**
   **FILE**: `main.cpp`
   **STATUS**: `NOT STARTED`
@@ -26,14 +18,6 @@ Project TODO list! Below, tasks are organized into sections based on their prior
   **STATUS**: `NOT STARTED`
   **DESC**:
   - Log the minimum execution times to a separate CSV file.
-
-- **Refactor the Main Function**
-  **FILE**: `main.cpp`
-  **STATUS**: `NOT STARTED`
-  **DESC**:
-  - Refactor the main function.
-  - Ensure the main function is clean and easy to read.
-  - Break it up if necessary
 
 - **Find Bottlenecks**
   **FILE**: `#all_heuristics.cpp`
@@ -64,6 +48,14 @@ Project TODO list! Below, tasks are organized into sections based on their prior
   **STATUS**: `NOT STARTED`
   **DESC**:
   - Find optimal parameters for the simulated annealing algorithm (in `python`).
+  
+- **Refactor the Main Function**
+  **FILE**: `main.cpp`
+  **STATUS**: `IN-PROGRESS`
+  **DESC**:
+  - Refactor the main function.
+  - Ensure the main function is clean and easy to read.
+  - Break it up if necessary
 
 - **Refactor Logger** 
   **FILE**: `main.cpp`, `Utility.cpp`, `Utility.h`
@@ -78,6 +70,14 @@ Project TODO list! Below, tasks are organized into sections based on their prior
   **STATUS**: `DONE`
   **DESC**: 
     - Print warnings, errors, and other messages in a consistent format.
+
+- **Refactor Wrapper Functions**
+  **FILE**: `main.cpp`
+  **STATUS**: `DONE`
+  **DESC**:
+  - Improve modularity and code reuse.
+  - Ensure wrapper functions handle edge cases gracefully.
+  - Write unit tests to validate the refactored functionality.
 
 - **New Task**
   **FILE**: `file`
