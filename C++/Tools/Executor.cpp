@@ -154,55 +154,6 @@ std::pair<bool, bool> executeAlgorithmsAndHeuristics(const std::vector<Item>& it
     return std::make_pair(logged_algorithms, logged_heuristics);   
 }
 
-// std::pair<bool, bool> executeAlgorithmsAndHeuristics(const std::vector<Item>& items, 
-//                                                      int capacity, 
-//                                                      std::map<std::string, double>& minExecutionTimes, 
-//                                                      std::shared_ptr<spdlog::logger>& execTimeLogger) {
-
-//     logSeparator(execTimeLogger, 'A'); // TO BE REMOVED
-    
-//     // List of algorithm wrappers
-//     std::vector<std::function<bool()>> algorithms = {
-//         [&]() { return knapsackACOWrapper(setupColony(), capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackDPWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackMemoizationWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackSimulatedAnnealingWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackBranchAndBoundWrapper(capacity, items, minExecutionTimes, execTimeLogger); }
-//     };
-
-//     // Execute all algorithms and check if they were logged successfully
-//     bool logged_algorithms = true;
-//     for (const auto& algorithm : algorithms) {
-//         logged_algorithms &= algorithm();
-//     }
-
-//     logSeparator(execTimeLogger, 'H'); // TO BE REMOVED
-
-//     // List of heuristic wrappers
-//     std::vector<std::function<bool()>> heuristics = {
-//         [&]() { return knapsackDealStingyWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackDefensiveGreedyWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackHeavyGreedyWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackLimitedGreedyWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackMaxOfTwoWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackScoredGreedyWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackSlidingThresholdWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackStandardGreedyWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackTransitioningGreedyWrapper(capacity, items, minExecutionTimes, execTimeLogger); },
-//         [&]() { return knapsackWeightStingyWrapper(capacity, items, minExecutionTimes, execTimeLogger); }
-//     };
-
-//     // Execute all heuristics and check if they were logged successfully
-//     bool logged_heuristics = true;
-//     for (const auto& heuristic : heuristics) {
-//         logged_heuristics &= heuristic();
-//     }
-
-//     return std::make_pair(logged_algorithms, logged_heuristics);
-// }
-
-
-
 /**
  * @brief Benchmark the functions for solving the knapsack problem.
  * 
