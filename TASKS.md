@@ -13,14 +13,8 @@ Project TODO list! Below, tasks are organized into sections based on their prior
   **DESC**:
   - Add command line arguments to the main script.
 
-- **Log Minimum Execution Times**
-  **FILE**: `main.cpp`
-  **STATUS**: `NOT STARTED`
-  **DESC**:
-  - Log the minimum execution times to a separate CSV file.
-
 - **Find Bottlenecks**
-  **FILE**: `#all_heuristics.cpp`
+  **FILE**: `#some_heuristics.cpp`
   **STATUS**: `NOT STARTED`
   **DESC**:
   - Find bottle necks for slow performing heuristics and fix them.
@@ -36,22 +30,26 @@ Project TODO list! Below, tasks are organized into sections based on their prior
   **STATUS**: `NOT STARTED`
   **DESC**:
   - Find the bottle neck and fix it.
+  - Find optimal parameters for the simulated annealing algorithm (in `python`).
 
-- **Find Optimal Parameters**
+- **Find Bottlenecks**
   **FILE**: `ACO.cpp`
   **STATUS**: `NOT STARTED`
   **DESC**:
-  - Find optimal parameters for the ant colony optimization algorithm (in `python`).
-
-- **Find Optimal Parameters**
-  **FILE**: `SimulatedAnnealing.cpp`
-  **STATUS**: `NOT STARTED`
-  **DESC**:
+  - Find the bottle neck and fix it.
   - Find optimal parameters for the simulated annealing algorithm (in `python`).
-  
+
+- **Log Minimum Execution Times**
+  **FILE**: `main.cpp`
+  **STATUS**: `DONE (PARTIALLY)`
+  **DESC**:
+  - Log the minimum execution times to a separate CSV file.
+  **UPDATE**:
+  - Need python script to parse the log file and extract the minimum times
+
 - **Refactor the Main Function**
   **FILE**: `main.cpp`
-  **STATUS**: `IN-PROGRESS`
+  **STATUS**: `DONE (PARTIALLY)`
   **DESC**:
   - Refactor the main function.
   - Ensure the main function is clean and easy to read.
