@@ -123,7 +123,7 @@ def run_data_factory(logger):
         for file in unsuccessful_files:
             logger.info(f"        - {file}")
     else:
-        logger.info("        - None")
+        logger.info("        - None\n")
 
 def clear_log_file():
     """Clears the log file."""
