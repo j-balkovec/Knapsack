@@ -17,7 +17,6 @@ CXXFLAGS = -std=c++20 \
            -I/opt/homebrew/Cellar/spdlog/1.15.0/include \
 					 -arch arm64
            
-#<bug>: -static is new
 LDFLAGS = -L/opt/homebrew/Cellar/fmt/11.0.2/lib \
 					-L/opt/homebrew/Cellar/spdlog/1.15.0/lib \
 					-arch arm64
