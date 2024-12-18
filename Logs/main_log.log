@@ -1,24 +1,9 @@
-[2024-12-17 17:49:00.929] [main_log] [info] Main logger created. Using '4' threads
-[2024-12-17 17:49:00.930] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
-[2024-12-17 17:49:00.930] [main_log] [warning] Malformed line in file: 1, Weight,Value
-[2024-12-17 17:49:00.930] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
-[2024-12-17 17:49:00.931] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
-[2024-12-17 17:49:00.931] [main_log] [info] Selected random capacity: 83
-[2024-12-17 17:49:04.511] [main_log] [info] Main logger created
-[2024-12-17 17:49:04.511] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
-[2024-12-17 17:49:04.512] [main_log] [warning] Malformed line in file: 1, Weight,Value
-[2024-12-17 17:49:04.512] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
-[2024-12-17 17:49:04.512] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
-[2024-12-17 17:49:04.512] [main_log] [info] Selected random capacity: 142
-[2024-12-17 17:52:37.488] [main_log] [info] Main logger created. Using '7' threads
-[2024-12-17 17:52:37.490] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
-[2024-12-17 17:52:37.490] [main_log] [warning] Malformed line in file: 1, Weight,Value
-[2024-12-17 17:52:37.491] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
-[2024-12-17 17:52:37.491] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
-[2024-12-17 17:52:37.491] [main_log] [info] Selected random capacity: 123
-[2024-12-17 18:10:17.544] [main_log] [info] Main logger created. Using '8' threads
-[2024-12-17 18:10:17.547] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
-[2024-12-17 18:10:17.547] [main_log] [warning] Malformed line in file: 1, Weight,Value
-[2024-12-17 18:10:17.548] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
-[2024-12-17 18:10:17.548] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
-[2024-12-17 18:10:17.548] [main_log] [info] Selected random capacity: 62
+[2024-12-18 09:13:52.945] [main_log] [info] [START]: Stopwatch started.
+[2024-12-18 09:13:52.945] [main_log] [info] Main logger created. Using 1 thread
+[2024-12-18 09:13:52.945] [main_log] [info] ===================================================
+[2024-12-18 09:13:52.945] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-18 09:13:52.946] [main_log] [warning] Malformed line in file: 1, Weight,Value
+[2024-12-18 09:13:52.946] [main_log] [info] Successfully parsed 1000 items from file /Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv
+[2024-12-18 09:13:52.946] [main_log] [info] Opened file: /Users/jbalkovec/Desktop/Knapsack/Data/Capacity/Capacity_12_12_2024.csv
+[2024-12-18 09:13:52.946] [main_log] [info] Selected random capacity: 85
+[2024-12-18 09:13:53.976] [main_log] [info] [END]: Program completed, time: 1019ms.

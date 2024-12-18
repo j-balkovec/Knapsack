@@ -23,6 +23,7 @@
 
 							*** [Unsuccessful file creations] ***
 2024-12-12 18:10:14,957 - __main__ - INFO -         - None
+
 2024-12-12 18:11:21,549 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_xsmall_12_12_2024.csv
 2024-12-12 18:11:21,550 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_medium_12_12_2024.csv
 2024-12-12 18:11:21,550 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_small_12_12_2024.csv
@@ -48,6 +49,7 @@
 
 							*** [Unsuccessful file creations] ***
 2024-12-12 18:11:21,740 - __main__ - INFO -         - None
+
 2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_M_12_12_2024.csv
 2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_XL_12_12_2024.csv
 2024-12-12 18:12:26,576 - __main__ - INFO - [SUCCESS]: Deleted Data/Items/Items_L_12_12_2024.csv
