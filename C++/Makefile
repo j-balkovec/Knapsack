@@ -40,6 +40,7 @@ MAIN_SRC = main.cpp
 UTILITY_SRC = $(TOOLS_DIR)/Utility.cpp
 LOGGER_SRC = $(TOOLS_DIR)/Logger.cpp
 BENCHMARK_SRC = $(TOOLS_DIR)/Benchmark.cpp
+EXECUTOR_SRC = $(TOOLS_DIR)/Executor.cpp
 
 # Object files
 ALGO_OBJS = $(patsubst $(ALGO_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(ALGO_SRCS))
@@ -48,6 +49,7 @@ MAIN_OBJ = $(OBJ_DIR)/main.o
 UTILITY_OBJ = $(OBJ_DIR)/Utility.o
 LOGGER_OBJ = $(OBJ_DIR)/Logger.o
 BENCHMARK_OBJ = $(OBJ_DIR)/Benchmark.o
+EXECUTOR_OBJ = $(OBJ_DIR)/Executor.o
 
 # Executable
 MAIN_EXEC = $(BIN_DIR)/main
@@ -106,6 +108,13 @@ $(BENCHMARK_OBJ): $(BENCHMARK_SRC)
 	@echo
 	@echo "$(GREEN_COLOR)[SUCCESS]: Benchmark.cpp compiled!$(RESET_COLOR)"
 
+# Compile executor object file
+$(EXECUTOR_OBJ): $(EXECUTOR_SRC)
+	@echo "$(MAGENTA_COLOR)[BUILD]: Compiling Executor.cpp...$(RESET_COLOR)"
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+	@echo
+	@echo "$(GREEN_COLOR)[SUCCESS]: Executor.cpp compiled!$(RESET_COLOR)"
+
 # Compile algorithm source files to object files
 $(OBJ_DIR)/%.o: $(ALGO_DIR)/%.cpp
 	@echo "$(CYAN_COLOR)[BUILD]: Compiling algorithm file: $<...$(RESET_COLOR)"
@@ -121,7 +130,7 @@ $(OBJ_DIR)/%.o: $(HEUR_DIR)/%.cpp
 	@echo "$(GREEN_COLOR)[SUCCESS]: $(notdir $<) compiled!$(RESET_COLOR)"
 
 # Link main executable with all object files
-$(MAIN_EXEC): $(MAIN_OBJ) $(ALGO_OBJS) $(HEUR_OBJS) $(UTILITY_OBJ) $(LOGGER_OBJ) $(BENCHMARK_OBJ)
+$(MAIN_EXEC): $(MAIN_OBJ) $(EXECUTOR_OBJ) $(ALGO_OBJS) $(HEUR_OBJS) $(UTILITY_OBJ) $(LOGGER_OBJ) $(BENCHMARK_OBJ)
 	@echo "$(YELLOW_COLOR)[BUILD]: Linking object files to create the executable...$(RESET_COLOR)"
 	$(CXX) $(CXXFLAGS) $^ -o $@
 	@echo
