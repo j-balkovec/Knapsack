@@ -11,6 +11,9 @@
 
 #include <memory>
 #include <string>
+#include <iostream>
+
+const std::string_view SEPARATOR = "==================================================\n";
 
 /**
  * @brief Retrieves the main logger instance.
@@ -65,6 +68,33 @@ std::shared_ptr<spdlog::logger> getExecTimeLogger() {
 }
 
 /**
+ * @brief Retrieves the logger for minimum execution time.
+ *
+ * This function returns a shared pointer to the logger object that is used to log minimum execution time.
+ * If the logger does not exist, it creates a new logger with the name "min_exec_time" and sets the log level to info.
+ * The logger is created using the spdlog library.
+ *
+ * @return A shared pointer to the logger object for minimum execution time.
+ * @throws std::runtime_error if the logger creation fails.
+ */
+std::shared_ptr<spdlog::logger> getMinExecTimeLogger() {
+    constexpr std::string_view min_exec_time_log_name = "min_exec_time";
+    auto min_exec_time_log = spdlog::get(min_exec_time_log_name.data());
+
+    if (!min_exec_time_log) {
+        try {
+            min_exec_time_log = spdlog::basic_logger_mt(min_exec_time_log_name.data(), MIN_EXEC_TIME_LOG_FILE.data());
+            min_exec_time_log->set_level(spdlog::level::info);
+        } catch (const std::exception& e) {
+            displayMessage("Error: Failed to create logger <min_exec_time>. Exception: " + std::string(e.what()), ERROR);
+            throw std::runtime_error("Logger creation failed <min_exec_time>");
+        }
+    }
+
+    return min_exec_time_log;
+}
+
+/**
  * @brief Logs a separator message based on the given type.
  * 
  * This function logs a separator message to the provided logger based on the given type.
@@ -79,9 +109,123 @@ void logSeparator(const std::shared_ptr<spdlog::logger>& logger, char type) {
         logger->info("\n\n\n");
         logger->info("**************** -- <running> - <heuristic> -- ****************");
         logger->info("\n\n\n");
+
     } else if(type == 'a' || type == 'A') {
         logger->info("\n\n\n");
         logger->info("**************** -- <running> - <algo> -- ****************");
         logger->info("\n\n\n");
+    }
+}
+
+/**
+ * @brief Initializes the loggers for execution time, main, and minimum execution time.
+ * 
+ * This function assigns the loggers to the provided shared pointers and logs the creation of each logger.
+ * The loggers are flushed every 1 second.
+ * 
+ * @param execTimeLogger A shared pointer to the execution time logger.
+ * @param mainLogger A shared pointer to the main logger.
+ * @param minExecTimeLogger A shared pointer to the minimum execution time logger.
+ */
+void initializeLoggers(std::shared_ptr<spdlog::logger>& execTimeLogger, std::shared_ptr<spdlog::logger>& mainLogger, std::shared_ptr<spdlog::logger>& minExecTimeLogger) {
+    execTimeLogger = getExecTimeLogger();
+    mainLogger = getMainLogger();
+    minExecTimeLogger = getMinExecTimeLogger();
+
+    mainLogger->info("Main logger created. Using 1 thread");
+    mainLogger->info(SEPARATOR.data());
+
+    execTimeLogger->info("Execution Time logger created. Using 1 thread");
+    execTimeLogger->info(SEPARATOR.data());
+
+    minExecTimeLogger->info("Minumum Execution Time logger created. Using 1 thread");
+    minExecTimeLogger->info(SEPARATOR.data());
+
+    spdlog::flush_every(std::chrono::seconds(1));
+}
+
+/**
+ * @brief Logs the minimum execution times for different tasks.
+ * 
+ * This function logs the minimum execution times for different tasks
+ * using the provided logger. It iterates over the given map of task names
+ * and their corresponding minimum execution times, and logs them using
+ * the logger.
+ * 
+ * @param minExecutionTimes A map containing task names as keys and their
+ *                          corresponding minimum execution times as values.
+ */
+void logMinExecutionTimes(const std::map<std::string, double>& minExecutionTimes) {
+
+    auto min_exec_time_logger = getMinExecTimeLogger();
+
+    min_exec_time_logger->info(SEPARATOR.data());
+
+    for (auto key : minExecutionTimes) {
+        min_exec_time_logger->info("[name]: {}, [min_time]: {}", key.first, key.second);
+    }
+}
+
+/**
+ * @brief Sets up the minimum execution times for different algorithms.
+ * 
+ * This function initializes a map where the keys represent the names of the algorithms
+ * and the values represent their corresponding minimum execution times.
+ * 
+ * @return A map containing the algorithm names and their minimum execution times.
+ */
+std::map<std::string, double> setupMinExecutionTimes() {
+    return {
+        {"<a> Ant Colony Optimization", 0},
+        {"<a> Backtracking", 0},
+        {"<a> Branch And Bound", 0},
+        {"<a> Dynamic Programming", 0},
+        {"<a> Memoization", 0},
+        {"<a> Recursive", 0},
+        {"<a> Simulated Annealing", 0},
+        {"<h> Deal Stingy", 0},
+        {"<h> Defensive Greedy", 0},
+        {"<h> Heavy Greedy", 0},
+        {"<h> Limited Greedy", 0},
+        {"<h> MaxOfTwo Greedy", 0},
+        {"<h> Scored Greedy", 0},
+        {"<h> Sliding Threshold Greedy", 0},
+        {"<h> Standard Greedy", 0},
+        {"<h> Transitioning Greedy", 0},
+        {"<h> Weight Stingy", 0},
+    };
+}
+
+// -- <debug only> -- 
+/**
+ * @brief Logs the execution results and displays messages based on the logged function and minimum execution times.
+ * 
+ * @param loggedFunction A pair of booleans indicating whether the algorithms and heuristics were successfully logged.
+ * @param minExecutionTimes A reference to a map containing the minimum execution times for different functions.
+ */
+void logExecutionResults(std::pair<bool, bool> loggedFunction, std::map<std::string, double>& minExecutionTimes) {
+    std::cout << std::endl;
+    displayMessage("Execution Completed!", SUCCESS); //jank
+
+    logMinExecutionTimes(minExecutionTimes);
+
+    std::cout << std::endl;
+
+    if (loggedFunction.first) {
+        displayMessage("Logged Algorithms.", SUCCESS);
+    } else {
+        displayMessage("Something went wrong <algorithms>.", ERROR);
+    }
+
+    if (loggedFunction.second) {
+        displayMessage("Logged Heuristics.", SUCCESS);
+    } else {
+        displayMessage("Something went wrong <heuristics>.", ERROR);
+    }
+
+    if (loggedFunction.first && loggedFunction.second) {
+        displayMessage("Logged both. Check logs: [" + std::string(EXEC_TIME_LOG_FILE.data()) + "]", SUCCESS);
+    } else {
+        displayMessage("Something went wrong <all>.", ERROR);
     }
 }

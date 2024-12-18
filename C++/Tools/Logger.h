@@ -29,7 +29,16 @@
 
 extern std::shared_ptr<spdlog::logger> getMainLogger();
 extern std::shared_ptr<spdlog::logger> getExecTimeLogger();
+extern std::shared_ptr<spdlog::logger> getMinExecTimeLogger();
+
+void initializeLoggers(std::shared_ptr<spdlog::logger>& execTimeLogger, 
+                       std::shared_ptr<spdlog::logger>& mainLogger, 
+                       std::shared_ptr<spdlog::logger>& minExecTimeLogger);
+
 extern void logSeparator(const std::shared_ptr<spdlog::logger>& logger, char type);
+void logExecutionResults(std::pair<bool, bool> loggedFunction, std::map<std::string, double>& minExecutionTimes);
+void logMinExecutionTimes(const std::map<std::string, double>& minExecutionTimes);
+std::map<std::string, double> setupMinExecutionTimes();
 
 // ------- <C++ templates :\> ------- //
 // Since they need to be visible to the compiler at compile time, they are defined in the header file
