@@ -95,6 +95,33 @@ std::shared_ptr<spdlog::logger> getMinExecTimeLogger() {
 }
 
 /**
+ * @brief Retrieves a shared pointer to a logger for testing purposes.
+ * 
+ * This function returns a shared pointer to a logger object that can be used for logging test-related information.
+ * If the logger does not exist, it creates a new logger with the name "test_time" and sets the log level to "info".
+ * The logger is created using the spdlog library.
+ * 
+ * @return A shared pointer to the test logger.
+ * @throws std::runtime_error if the logger creation fails.
+ */
+std::shared_ptr<spdlog::logger> getTestLogger() {
+    constexpr std::string_view test_log_name = "test_time";
+    auto test_log = spdlog::get(test_log_name.data());
+
+    if (!test_log) {
+        try {
+            test_log = spdlog::basic_logger_mt(test_log_name.data(), TEST_LOG_FILE.data());
+            test_log->set_level(spdlog::level::info);
+        } catch (const std::exception& e) {
+            displayMessage("Error: Failed to create logger <test_log>. Exception: " + std::string(e.what()), ERROR);
+            throw std::runtime_error("Logger creation failed <test_log>");
+        }
+    }
+
+    return test_log;
+}
+
+/**
  * @brief Logs a separator message based on the given type.
  * 
  * This function logs a separator message to the provided logger based on the given type.

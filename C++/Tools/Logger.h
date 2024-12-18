@@ -11,8 +11,8 @@
 #define LOGGER_H
 #define FMT_HEADER_ONLY
 
-#include "Tools/Item.h"
-#include "Tools/Utility.h"
+#include "Item.h"
+#include "Utility.h"
 
 #include <memory>
 #include <string>
@@ -30,6 +30,7 @@
 extern std::shared_ptr<spdlog::logger> getMainLogger();
 extern std::shared_ptr<spdlog::logger> getExecTimeLogger();
 extern std::shared_ptr<spdlog::logger> getMinExecTimeLogger();
+extern std::shared_ptr<spdlog::logger> getTestLogger();
 
 void initializeLoggers(std::shared_ptr<spdlog::logger>& execTimeLogger, 
                        std::shared_ptr<spdlog::logger>& mainLogger, 
