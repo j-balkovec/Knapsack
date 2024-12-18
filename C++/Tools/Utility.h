@@ -27,8 +27,14 @@
 #include "Item.h"
 
 // log files
-const std::string_view MAIN_LOG_FILE = "../Logs/main_log.log";
-const std::string_view EXEC_TIME_LOG_FILE = "../Logs/exec_time.log";
+// const std::string_view MAIN_LOG_FILE = "../Logs/main_log.log";
+// const std::string_view EXEC_TIME_LOG_FILE = "../Logs/exec_time.log";
+
+const std::string_view MAIN_LOG_FILE = "/Users/jbalkovec/Desktop/Knapsack/Logs/main_log.log";
+const std::string_view EXEC_TIME_LOG_FILE = "/Users/jbalkovec/Desktop/Knapsack/Logs/exec_time.log";
+const std::string_view MIN_EXEC_TIME_LOG_FILE = "/Users/jbalkovec/Desktop/Knapsack/Logs/min_exec_time.log";
+
+// -- <IMPORTANT> --
 const unsigned int RUN_TIMES = 1;
 
 // types of messages
