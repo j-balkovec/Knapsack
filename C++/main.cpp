@@ -28,7 +28,7 @@ std::atomic<bool> stopFlag(false);
 void displayStopwatch() {
 
     auto startTime = std::chrono::steady_clock::now();
-    std::cout << "[RUNNING]: Stopwatch is running... Press Ctrl+C to stop.\n\n";
+    std::cout << "\033[33m[RUNNING]\033[0m: Stopwatch is running...\n\n";
 
     while (!stopFlag) {
         auto currentTime = std::chrono::steady_clock::now();
@@ -47,7 +47,7 @@ void displayStopwatch() {
         std::this_thread::sleep_for(std::chrono::milliseconds(10));
     }
 
-    std::cout << "\n[STOP]: Stopwatch stopped.\n";
+    std::cout << "\n\033[31m[STOP]:\033[0m Stopwatch stopped.\n\n";
 }
 
 /**
