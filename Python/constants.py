@@ -36,7 +36,7 @@ SIZE_MAP = {
 
 CAPACITY_SIZE = 250
 
-LOG_PATH = '/Users/jbalkovec/Desktop/Knapsack/Logs/input_generator.log'
+LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/input_generator.log'
 
 DELETE_LOG = False
 # -------- <input_generator.py> -------- #
