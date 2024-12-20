@@ -101,8 +101,8 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
     knapsackDPWrapper(CAPACITY_FIXED, items, minTimes, test_logger);
 
     // Simulated Annealing Test
-    test_logger->info(SEPARATOR.data());
-    test_logger->warn("Simulated Annealing - Testing different parameters");
+    // test_logger->info(SEPARATOR.data());
+    // test_logger->warn("Simulated Annealing - Testing different parameters");
 
     std::thread stopwatchThread(displayStopwatch);
 
