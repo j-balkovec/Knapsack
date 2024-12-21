@@ -22,20 +22,20 @@ from constants import (LOWER_BOUND_ITEMS,
                        CAPACITY,
                        SIZE_MAP,
                        CAPACITY_SIZE,
-                       LOG_PATH,
+                       INPUT_GENERATOR_LOG_PATH,
                        BREAK,
                        MEGA_TAB,
                        DELETE_LOG)
 
 def instantiate_logger() -> logging.Logger:
     """Creates and configures a logger for the script."""
-    os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+    os.makedirs(os.path.dirname(INPUT_GENERATOR_LOG_PATH), exist_ok=True)
 
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-    file_handler = logging.FileHandler(LOG_PATH)
+    file_handler = logging.FileHandler(INPUT_GENERATOR_LOG_PATH)
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     return logger
@@ -124,16 +124,10 @@ def run_data_factory(logger):
             logger.info(f"        - {file}")
     else:
         logger.info("        - None\n")
-
-def clear_log_file():
-    """Clears the log file."""
-    with open(LOG_PATH, 'w') as file:
-        file.write('')
         
 def main():
     """Main function to delete existing data files and run the data factory."""
-    clear_log_file() if DELETE_LOG else None
-    
+
     input_generator_logger = instantiate_logger()
     
     # Un-comment if you wish to delete all data files before running the data factory

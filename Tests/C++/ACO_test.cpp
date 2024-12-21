@@ -35,7 +35,9 @@ constexpr double BETA[] = {2.0, 3.0, 4.0};
 constexpr double EVAPORATION_RATE[] = {0.3, 0.5, 0.7};
 
 // For logging
-std::shared_ptr<spdlog::logger> test_logger = getTestLogger();
+const std::string_view ACO_TEST_LOG = "../../Logs/ACO_test.log";
+std::shared_ptr<spdlog::logger> aco_test_logger = getTestLogger(ACO_TEST_LOG);
+std::shared_ptr<spdlog::logger> test_logger = getTestLogger(TEST_LOG_FILE); //defaults to <test_log.log>
 
 // -- <debug only> --
 std::atomic<bool> stopFlag(false);
@@ -100,8 +102,12 @@ bool Test_ACO(int capacity, const std::vector<Item>& items, std::shared_ptr<spdl
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
     // Parse the items from CSV
-    std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, test_logger), test_logger);
-
+    // std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, aco_test_logger), aco_test_logger);
+    std::vector<Item> items = {{10, 5},
+                                {40, 4},
+                                {30, 6},
+                                {50, 3},
+                                {60, 5}};
     // Define map to store minimum execution times
     std::map<std::string, double> minTimes = setupMinExecutionTimes();
 
@@ -110,11 +116,11 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
     //BASELINE (Dynamic Programming)
     test_logger->info(SEPARATOR.data());
     test_logger->warn("BASELINE (Dynamic Programming)");
-    knapsackDPWrapper(CAPACITY_FIXED, items, minTimes, test_logger);
+    knapsackDPWrapper(CAPACITY_FIXED, items, minTimes, aco_test_logger);
 
     // Ant Colony Optimization Test
-    // test_logger->info(SEPARATOR.data());
-    // test_logger->warn("Ant Colony Optimization - Testing different parameters");
+    // aco_test_logger->info(SEPARATOR.data());
+    // aco_test_logger->warn("Ant Colony Optimization - Testing different parameters");
 
     std::thread stopwatchThread(displayStopwatch);
 
@@ -124,12 +130,12 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
             for (double alpha_val : ALPHA) {
                 for (double beta_val : BETA) {
                     for (double evap_rate : EVAPORATION_RATE) {
-                        test_logger->info(SEPARATOR.data());
-                        test_logger->warn("Ant Colony Optimization, <run: {}> Num Ants: {} | Num Iter: {} | Alpha: {} | Beta: {} | Evaporation Rate: {}", 
+                        aco_test_logger->info(SEPARATOR.data());
+                        aco_test_logger->warn("Ant Colony Optimization, <run: {}> Num Ants: {} | Num Iter: {} | Alpha: {} | Beta: {} | Evaporation Rate: {}", 
                                            run_number, ants, iter, alpha_val, beta_val, evap_rate);
 
                         // Call the Test_ACO function with the current parameters
-                        Test_ACO(CAPACITY_FIXED, items, test_logger, ants, iter, alpha_val, beta_val, evap_rate);
+                        Test_ACO(CAPACITY_FIXED, items, aco_test_logger, ants, iter, alpha_val, beta_val, evap_rate);
                         run_number++;
                     }
                 }

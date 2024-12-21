@@ -12,6 +12,7 @@
 #include <memory>
 #include <string>
 #include <iostream>
+#include <filesystem>
 
 const std::string_view SEPARATOR = "==================================================\n";
 
@@ -104,13 +105,15 @@ std::shared_ptr<spdlog::logger> getMinExecTimeLogger() {
  * @return A shared pointer to the test logger.
  * @throws std::runtime_error if the logger creation fails.
  */
-std::shared_ptr<spdlog::logger> getTestLogger() {
-    constexpr std::string_view test_log_name = "test_time";
+std::shared_ptr<spdlog::logger> getTestLogger(const std::string_view& logFile = TEST_LOG_FILE) {
+
+    std::string test_log_name = "test_time_" + std::filesystem::path(logFile).filename().string();
+
     auto test_log = spdlog::get(test_log_name.data());
 
     if (!test_log) {
         try {
-            test_log = spdlog::basic_logger_mt(test_log_name.data(), TEST_LOG_FILE.data());
+            test_log = spdlog::basic_logger_mt(test_log_name.data(), logFile.data());
             test_log->set_level(spdlog::level::info);
         } catch (const std::exception& e) {
             displayMessage("Error: Failed to create logger <test_log>. Exception: " + std::string(e.what()), ERROR);

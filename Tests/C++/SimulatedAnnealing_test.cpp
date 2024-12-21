@@ -30,7 +30,16 @@ constexpr double COOLING_RATES[] = {0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 
                                      0.8, 0.85, 0.9, 0.95, 0.99};
 
 // For logging
-std::shared_ptr<spdlog::logger> test_logger = getTestLogger();
+const std::string_view SA_LOG_FILE = "../../Logs/SA_test.log";
+std::shared_ptr<spdlog::logger> sa_test_logger = getTestLogger(SA_LOG_FILE);
+std::shared_ptr<spdlog::logger> test_logger = getTestLogger(TEST_LOG_FILE); //defaults to <test_log.log>
+
+// <debug>
+void compareLoggers() {
+    if (sa_test_logger == test_logger) {
+        std::cerr << "Logger instances are the same!\n";
+    }
+}
 
 // -- <debug only> --
 std::atomic<bool> stopFlag(false);
@@ -42,7 +51,7 @@ std::atomic<bool> stopFlag(false);
  * The stopwatch can be stopped by pressing Ctrl+C.
  */
 void displayStopwatch() {
-
+    
     auto startTime = std::chrono::steady_clock::now();
     std::cout << "\033[33m[RUNNING]\033[0m: Stopwatch is running...\n\n";
 
@@ -88,7 +97,8 @@ bool Test_SA(int capacity, const std::vector<Item>& items, std::shared_ptr<spdlo
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
     // Parse the items from CSV
-    std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, test_logger), test_logger);
+    compareLoggers();
+    std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, sa_test_logger), sa_test_logger);
 
     // Define map to store minimum execution times
     std::map<std::string, double> minTimes = setupMinExecutionTimes();
@@ -101,20 +111,20 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
     knapsackDPWrapper(CAPACITY_FIXED, items, minTimes, test_logger);
 
     // Simulated Annealing Test
-    // test_logger->info(SEPARATOR.data());
-    // test_logger->warn("Simulated Annealing - Testing different parameters");
+    // sa_test_logger->info(SEPARATOR.data());
+    // sa_test_logger->warn("Simulated Annealing - Testing different parameters");
 
     std::thread stopwatchThread(displayStopwatch);
 
     // Loop through the different parameters (initialTemp and coolingRate)
     for (int temp : INITIAL_TEMPERATURES) {
         for (double rate : COOLING_RATES) {
-            test_logger->info(SEPARATOR.data());
-            test_logger->warn("Simulated Annealing, <run: {}> Initial Temp: {} | Cooling Rate: {}", 
+            sa_test_logger->info(SEPARATOR.data());
+            sa_test_logger->warn("Simulated Annealing, <run: {}> Initial Temp: {} | Cooling Rate: {}", 
                                run_number, temp, rate);
 
             // Call the Test_SA function with the current parameters
-            Test_SA(CAPACITY_FIXED, items, test_logger, temp, rate);
+            Test_SA(CAPACITY_FIXED, items, sa_test_logger, temp, rate);
             run_number++;
         }
     }

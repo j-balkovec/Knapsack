@@ -11,8 +11,25 @@
 import re
 import logging
 import os
+import sys
+import subprocess
+import select
 
-LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/parser_log.log'
+# Logs parser output to a file
+LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/parser_log.log' 
+
+# 'a' = append, 'w' = write
+DUMP_TYPE = 'w'
+
+# Colors for terminal output
+COLORS: dict = {'red': '\033[91m',
+                'green': '\033[92m',
+                'yellow': '\033[93m',
+                'blue': '\033[94m',
+                'magenta': '\033[95m',
+                'cyan': '\033[96m',
+                'white': '\033[97m',
+                'reset': '\033[0m'}   
 
 class LogEntry:
   def __init__(self: object, 
@@ -46,6 +63,27 @@ class LogEntry:
   def __repr__(self):
     """
     Returns a string representation of the RunEntry object.
+
+    The string representation includes the name, parameters, execution time,
+    capacity, solution, and items size of the RunEntry object.
+
+    Returns:
+      str: A string representation of the RunEntry object.
+    """
+    return (
+      f"RunEntry(\n"
+      f"  <name>           = {self.name},\n"
+      f"  <parameters>     = {self.parameters}\n"
+      f"  <execution_time> = {self.execution_time}\n"
+      f"  <capacity>       = {self.capacity}\n"
+      f"  <solution>       = {self.solution}\n"
+      f"  <items_size>     = {self.items_size}\n"
+      f")"
+    )
+    
+  def __str__(self):
+    """
+    Returns a string representation of the RunEntry object, used for casting.
 
     The string representation includes the name, parameters, execution time,
     capacity, solution, and items size of the RunEntry object.
@@ -123,7 +161,7 @@ def parse_log_file(file_path):
           
           entry = LogEntry(**current_entry)
           entries.append(entry)
-          parser_logger.info(f"Added LogEntry at line {idx}: {entry}")
+          parser_logger.info(f"Added LogEntry at line {idx}")
           current_entry = {}
       elif "[warning]" in line:  
         current_entry['parameters'] = line.strip().split("[warning] ")[1]
@@ -164,7 +202,7 @@ def parse_log_file(file_path):
   parser_logger.info(f"Finished parsing log file. Total entries: {len(entries)}")
   return entries
 
-def clean_entries(entries: list[LogEntry]) -> list[LogEntry]:
+def clean_and_sort_entries(entries: list[LogEntry]) -> list[LogEntry]:
   """
   Removes faulty entries and entries with no parameters from the given list of LogEntry objects.
 
@@ -188,5 +226,93 @@ def clean_entries(entries: list[LogEntry]) -> list[LogEntry]:
       parser_logger.warning(f"Faulty Entry: {entry}")
       entries.remove(entry)
         
-  return entries
+  return sorted(entries, key=lambda x: x.solution, reverse=True)
 
+def run_makefile_command(commands: list):
+  """
+  Runs the specified commands in the directory containing C++ tests.
+
+  Args:
+    commands (list): A list of commands to be executed.
+
+  Returns:
+    None: This function does not return any value.
+
+  Raises:
+    Exception: If there is an error changing the directory or executing the commands.
+  """
+  cpp_tests_dir = os.path.join(os.path.dirname(__file__), "..", "C++")
+  cpp_tests_dir = os.path.abspath(cpp_tests_dir)
+  
+  try:
+    os.chdir(cpp_tests_dir)
+    print(COLORS['green'] + f"Changed directory to {cpp_tests_dir}" + COLORS['reset'])
+  except Exception as e:
+    print(COLORS['red'] + f"Error changing directory: {e}" + COLORS['reset'])
+    return
+
+  try:
+    process = subprocess.Popen(commands, 
+                stdout=subprocess.PIPE, 
+                stderr=subprocess.PIPE, 
+                text=True,
+                bufsize=1)
+    
+    # ======================================================= #
+    print(COLORS['yellow'] + "\n<make output>:" + COLORS['reset'])
+    for stdout_line in iter(process.stdout.readline, ''):
+      print(stdout_line, end='')
+    process.stdout.close()
+    # ======================================================= #
+      
+    print(COLORS['yellow'] + "\n<make error>:" + COLORS['reset'])
+    for stderr_line in iter(process.stderr.readline, ''):
+      print(stderr_line, end='')
+    process.stderr.close()
+
+    return_code = process.wait()
+    print(COLORS['magenta'] + f"\n<return code>: {return_code}" + COLORS['reset'] + "\n")
+    
+    if process.returncode != 0:
+      print(COLORS['red'] + "<make command failed>" + COLORS['reset'])
+    else:
+      print(COLORS['green'] + "<make command successful>" + COLORS['reset'] + "\n")
+  except Exception as e:
+    print(COLORS['red'] + f"<error>: {e}" + COLORS['reset'])
+
+def dump_to_file(paths: dict) -> bool:
+    """
+    Dump the cleaned and sorted entries from the log file to a dump file.
+
+    Args:
+        paths (dict): A dictionary containing the paths to the log file and the dump file.
+
+    Returns:
+        bool: True if the operation was successful, False if an error occurred.
+    """
+    try:
+        entries = clean_and_sort_entries(parse_log_file(paths['LOG']))
+        str_entries = "".join(str(entry) for entry in entries)
+        
+        with open(paths['DUMP'], DUMP_TYPE) as file:
+            file.write(str_entries)
+        
+        return True
+
+    except Exception as e:
+        print(f"Error: {e}")
+        return False
+    
+def clear_test_logs():
+  """
+  Clears the test logs.
+
+  Returns:
+    None
+  """
+  os.chdir(r'/Users/jbalkovec/Desktop/Knapsack/Python/')
+  
+  subprocess.run(["python", "clear_logs.py"], check=True)
+  
+  return None
+  

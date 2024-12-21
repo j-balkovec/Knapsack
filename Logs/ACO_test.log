@@ -1,0 +1,2437 @@
+[2024-12-21 11:23:07.850] [test_time_ACO_test.log] [info] [name]: <a> Dynamic Programming
+[2024-12-21 11:23:07.850] [test_time_ACO_test.log] [info] [execution_time]: 2
+[2024-12-21 11:23:07.850] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.850] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.850] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.850] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.850] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.850] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 1> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:07.856] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.856] [test_time_ACO_test.log] [info] [execution_time]: 6249
+[2024-12-21 11:23:07.856] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.856] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.856] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.856] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.856] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.856] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 2> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:07.862] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.862] [test_time_ACO_test.log] [info] [execution_time]: 6342
+[2024-12-21 11:23:07.862] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.862] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.862] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.862] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.862] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.862] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 3> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:07.869] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.869] [test_time_ACO_test.log] [info] [execution_time]: 6345
+[2024-12-21 11:23:07.869] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.869] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.869] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.869] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.869] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.869] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 4> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:07.875] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.875] [test_time_ACO_test.log] [info] [execution_time]: 6330
+[2024-12-21 11:23:07.875] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.875] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.875] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.875] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.875] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.875] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 5> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:07.881] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.881] [test_time_ACO_test.log] [info] [execution_time]: 6269
+[2024-12-21 11:23:07.881] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.881] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.881] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.881] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.881] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.881] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 6> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:07.888] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.888] [test_time_ACO_test.log] [info] [execution_time]: 6268
+[2024-12-21 11:23:07.888] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.888] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.888] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.888] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.888] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.888] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 7> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:07.894] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.894] [test_time_ACO_test.log] [info] [execution_time]: 6374
+[2024-12-21 11:23:07.894] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.894] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.894] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.894] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.894] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.894] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 8> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:07.900] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.900] [test_time_ACO_test.log] [info] [execution_time]: 6379
+[2024-12-21 11:23:07.900] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.900] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.900] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.900] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.900] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.900] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 9> Num Ants: 50 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:07.907] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.907] [test_time_ACO_test.log] [info] [execution_time]: 6360
+[2024-12-21 11:23:07.907] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.907] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.907] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.907] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.907] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.907] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 10> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:07.913] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.913] [test_time_ACO_test.log] [info] [execution_time]: 6272
+[2024-12-21 11:23:07.913] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.913] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.913] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.913] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.913] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.913] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 11> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:07.919] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.919] [test_time_ACO_test.log] [info] [execution_time]: 6239
+[2024-12-21 11:23:07.919] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.919] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.919] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.919] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.919] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.919] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 12> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:07.925] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.925] [test_time_ACO_test.log] [info] [execution_time]: 6239
+[2024-12-21 11:23:07.925] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.925] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.925] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.925] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.925] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.925] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 13> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:07.932] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.932] [test_time_ACO_test.log] [info] [execution_time]: 6366
+[2024-12-21 11:23:07.932] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.932] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.932] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.932] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.932] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.932] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 14> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:07.938] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.938] [test_time_ACO_test.log] [info] [execution_time]: 6353
+[2024-12-21 11:23:07.938] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.938] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.938] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.938] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.938] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.938] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 15> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:07.945] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.945] [test_time_ACO_test.log] [info] [execution_time]: 6357
+[2024-12-21 11:23:07.945] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.945] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.945] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.945] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.945] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.945] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 16> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:07.951] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.951] [test_time_ACO_test.log] [info] [execution_time]: 6366
+[2024-12-21 11:23:07.951] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.951] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.951] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.951] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.951] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.951] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 17> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:07.957] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.957] [test_time_ACO_test.log] [info] [execution_time]: 6326
+[2024-12-21 11:23:07.957] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.957] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.957] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.957] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.957] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.957] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 18> Num Ants: 50 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:07.964] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.964] [test_time_ACO_test.log] [info] [execution_time]: 6385
+[2024-12-21 11:23:07.964] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.964] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.964] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.964] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.964] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.964] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 19> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:07.970] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.970] [test_time_ACO_test.log] [info] [execution_time]: 6388
+[2024-12-21 11:23:07.970] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.970] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.970] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.970] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.970] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.970] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 20> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:07.976] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.976] [test_time_ACO_test.log] [info] [execution_time]: 6335
+[2024-12-21 11:23:07.976] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.976] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.976] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.976] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.976] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.976] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 21> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:07.983] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.983] [test_time_ACO_test.log] [info] [execution_time]: 6328
+[2024-12-21 11:23:07.983] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.983] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.983] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.983] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.983] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.983] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 22> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:07.989] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.989] [test_time_ACO_test.log] [info] [execution_time]: 6335
+[2024-12-21 11:23:07.990] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.990] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.990] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.990] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.990] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.990] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 23> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:07.996] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:07.996] [test_time_ACO_test.log] [info] [execution_time]: 6359
+[2024-12-21 11:23:07.996] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:07.996] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:07.996] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:07.996] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:07.996] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:07.996] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 24> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.003] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.003] [test_time_ACO_test.log] [info] [execution_time]: 6311
+[2024-12-21 11:23:08.003] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.003] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.003] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.003] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.003] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.003] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 25> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.009] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.009] [test_time_ACO_test.log] [info] [execution_time]: 6267
+[2024-12-21 11:23:08.009] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.009] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.009] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.009] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.009] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.009] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 26> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.015] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.015] [test_time_ACO_test.log] [info] [execution_time]: 6236
+[2024-12-21 11:23:08.015] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.015] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.015] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.015] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.015] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.015] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 27> Num Ants: 50 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.021] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.021] [test_time_ACO_test.log] [info] [execution_time]: 6248
+[2024-12-21 11:23:08.021] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.021] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.021] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.021] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.021] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.021] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 28> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.034] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.034] [test_time_ACO_test.log] [info] [execution_time]: 12518
+[2024-12-21 11:23:08.034] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.034] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.034] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.034] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.034] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.034] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 29> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.047] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.047] [test_time_ACO_test.log] [info] [execution_time]: 12651
+[2024-12-21 11:23:08.047] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.047] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.047] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.047] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.047] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.047] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 30> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.059] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.059] [test_time_ACO_test.log] [info] [execution_time]: 12730
+[2024-12-21 11:23:08.059] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.059] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.059] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.059] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.059] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.059] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 31> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.072] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.072] [test_time_ACO_test.log] [info] [execution_time]: 12626
+[2024-12-21 11:23:08.072] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.072] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.072] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.072] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.072] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.072] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 32> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.085] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.085] [test_time_ACO_test.log] [info] [execution_time]: 12626
+[2024-12-21 11:23:08.085] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.085] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.085] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.085] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.085] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.085] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 33> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.097] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.097] [test_time_ACO_test.log] [info] [execution_time]: 12644
+[2024-12-21 11:23:08.097] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.097] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.097] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.097] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.097] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.097] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 34> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.110] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.110] [test_time_ACO_test.log] [info] [execution_time]: 12663
+[2024-12-21 11:23:08.110] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.110] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.110] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.110] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.110] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.110] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 35> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.123] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.123] [test_time_ACO_test.log] [info] [execution_time]: 12643
+[2024-12-21 11:23:08.123] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.123] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.123] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.123] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.123] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.123] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 36> Num Ants: 50 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.135] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.135] [test_time_ACO_test.log] [info] [execution_time]: 12775
+[2024-12-21 11:23:08.135] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.135] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.135] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.135] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.135] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.135] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 37> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.148] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.148] [test_time_ACO_test.log] [info] [execution_time]: 12734
+[2024-12-21 11:23:08.148] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.148] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.148] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.148] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.148] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.148] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 38> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.161] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.161] [test_time_ACO_test.log] [info] [execution_time]: 12663
+[2024-12-21 11:23:08.161] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.161] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.161] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.161] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.161] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.161] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 39> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.173] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.173] [test_time_ACO_test.log] [info] [execution_time]: 12644
+[2024-12-21 11:23:08.173] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.173] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.173] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.173] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.173] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.173] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 40> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.186] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.186] [test_time_ACO_test.log] [info] [execution_time]: 12651
+[2024-12-21 11:23:08.186] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.186] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.186] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.186] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.186] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.186] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 41> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.199] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.199] [test_time_ACO_test.log] [info] [execution_time]: 12674
+[2024-12-21 11:23:08.199] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.199] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.199] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.199] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.199] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.199] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 42> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.211] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.211] [test_time_ACO_test.log] [info] [execution_time]: 12660
+[2024-12-21 11:23:08.211] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.211] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.211] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.211] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.211] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.211] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 43> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.224] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.224] [test_time_ACO_test.log] [info] [execution_time]: 12702
+[2024-12-21 11:23:08.224] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.224] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.224] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.224] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.224] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.224] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 44> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.237] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.237] [test_time_ACO_test.log] [info] [execution_time]: 12724
+[2024-12-21 11:23:08.237] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.237] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.237] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.237] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.237] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.237] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 45> Num Ants: 50 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.250] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.250] [test_time_ACO_test.log] [info] [execution_time]: 12598
+[2024-12-21 11:23:08.250] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.250] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.250] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.250] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.250] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.250] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 46> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.262] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.262] [test_time_ACO_test.log] [info] [execution_time]: 12517
+[2024-12-21 11:23:08.262] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.262] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.262] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.262] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.262] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.262] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 47> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.275] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.275] [test_time_ACO_test.log] [info] [execution_time]: 12516
+[2024-12-21 11:23:08.275] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.275] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.275] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.275] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.275] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.275] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 48> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.287] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.287] [test_time_ACO_test.log] [info] [execution_time]: 12571
+[2024-12-21 11:23:08.287] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.287] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.287] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.287] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.287] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.287] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 49> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.300] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.300] [test_time_ACO_test.log] [info] [execution_time]: 12732
+[2024-12-21 11:23:08.300] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.300] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.300] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.300] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.300] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.300] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 50> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.313] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.313] [test_time_ACO_test.log] [info] [execution_time]: 12628
+[2024-12-21 11:23:08.313] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.313] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.313] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.313] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.313] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.313] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 51> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.325] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.325] [test_time_ACO_test.log] [info] [execution_time]: 12521
+[2024-12-21 11:23:08.325] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.325] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.325] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.325] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.325] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.325] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 52> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.338] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.338] [test_time_ACO_test.log] [info] [execution_time]: 12716
+[2024-12-21 11:23:08.338] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.338] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.338] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.338] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.338] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.338] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 53> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.350] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.350] [test_time_ACO_test.log] [info] [execution_time]: 12599
+[2024-12-21 11:23:08.350] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.350] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.350] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.350] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.350] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.350] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 54> Num Ants: 50 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.363] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.363] [test_time_ACO_test.log] [info] [execution_time]: 12495
+[2024-12-21 11:23:08.363] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.363] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.363] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.363] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.363] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.363] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 55> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.382] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.382] [test_time_ACO_test.log] [info] [execution_time]: 18820
+[2024-12-21 11:23:08.382] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.382] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.382] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.382] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.382] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.382] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 56> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.401] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.401] [test_time_ACO_test.log] [info] [execution_time]: 18971
+[2024-12-21 11:23:08.401] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.401] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.401] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.401] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.401] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.401] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 57> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.420] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.420] [test_time_ACO_test.log] [info] [execution_time]: 19091
+[2024-12-21 11:23:08.420] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.420] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.420] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.420] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.420] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.420] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 58> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.439] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.439] [test_time_ACO_test.log] [info] [execution_time]: 18981
+[2024-12-21 11:23:08.439] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.439] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.439] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.439] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.439] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.439] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 59> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.458] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.458] [test_time_ACO_test.log] [info] [execution_time]: 18980
+[2024-12-21 11:23:08.458] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.458] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.458] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.458] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.458] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.458] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 60> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.477] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.477] [test_time_ACO_test.log] [info] [execution_time]: 19006
+[2024-12-21 11:23:08.477] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.477] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.477] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.477] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.477] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.477] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 61> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.496] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.496] [test_time_ACO_test.log] [info] [execution_time]: 19022
+[2024-12-21 11:23:08.496] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.496] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.496] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.496] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.496] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.496] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 62> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.515] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.515] [test_time_ACO_test.log] [info] [execution_time]: 18851
+[2024-12-21 11:23:08.515] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.515] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.515] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.515] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.515] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.515] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 63> Num Ants: 50 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.534] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.534] [test_time_ACO_test.log] [info] [execution_time]: 18746
+[2024-12-21 11:23:08.534] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.534] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.534] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.534] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.534] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.534] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 64> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.552] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.552] [test_time_ACO_test.log] [info] [execution_time]: 18658
+[2024-12-21 11:23:08.552] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.552] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.552] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.552] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.552] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.552] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 65> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.571] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.571] [test_time_ACO_test.log] [info] [execution_time]: 18819
+[2024-12-21 11:23:08.571] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.571] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.571] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.571] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.571] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.571] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 66> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.590] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.590] [test_time_ACO_test.log] [info] [execution_time]: 19077
+[2024-12-21 11:23:08.590] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.590] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.590] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.590] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.590] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.590] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 67> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.609] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.609] [test_time_ACO_test.log] [info] [execution_time]: 18946
+[2024-12-21 11:23:08.609] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.609] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.609] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.609] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.609] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.609] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 68> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.628] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.628] [test_time_ACO_test.log] [info] [execution_time]: 18936
+[2024-12-21 11:23:08.628] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.628] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.628] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.628] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.628] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.628] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 69> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.647] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.647] [test_time_ACO_test.log] [info] [execution_time]: 18938
+[2024-12-21 11:23:08.647] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.647] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.647] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.647] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.647] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.647] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 70> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.666] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.666] [test_time_ACO_test.log] [info] [execution_time]: 18965
+[2024-12-21 11:23:08.666] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.666] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.666] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.666] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.666] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.666] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 71> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.685] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.685] [test_time_ACO_test.log] [info] [execution_time]: 18955
+[2024-12-21 11:23:08.685] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.685] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.685] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.685] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.685] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.685] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 72> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.704] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.704] [test_time_ACO_test.log] [info] [execution_time]: 19077
+[2024-12-21 11:23:08.704] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.704] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.704] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.704] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.704] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.704] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 73> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.723] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.723] [test_time_ACO_test.log] [info] [execution_time]: 18976
+[2024-12-21 11:23:08.723] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.723] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.723] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.723] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.723] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.723] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 74> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.742] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.742] [test_time_ACO_test.log] [info] [execution_time]: 18907
+[2024-12-21 11:23:08.742] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.742] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.742] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.742] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.742] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.742] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 75> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.761] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.761] [test_time_ACO_test.log] [info] [execution_time]: 19074
+[2024-12-21 11:23:08.761] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.761] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.761] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.761] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.761] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.761] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 76> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.780] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.780] [test_time_ACO_test.log] [info] [execution_time]: 19160
+[2024-12-21 11:23:08.780] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.780] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.780] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.780] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.780] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.780] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 77> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.799] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.799] [test_time_ACO_test.log] [info] [execution_time]: 19014
+[2024-12-21 11:23:08.799] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.799] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.799] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.799] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.799] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.799] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 78> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.818] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.818] [test_time_ACO_test.log] [info] [execution_time]: 19038
+[2024-12-21 11:23:08.818] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.818] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.818] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.818] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.818] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.818] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 79> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.837] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.837] [test_time_ACO_test.log] [info] [execution_time]: 18981
+[2024-12-21 11:23:08.837] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.837] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.837] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.837] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.837] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.837] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 80> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.856] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.856] [test_time_ACO_test.log] [info] [execution_time]: 18968
+[2024-12-21 11:23:08.856] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.856] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.856] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.856] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.856] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.856] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 81> Num Ants: 50 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.875] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.875] [test_time_ACO_test.log] [info] [execution_time]: 18976
+[2024-12-21 11:23:08.875] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.875] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.875] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.875] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.875] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.875] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 82> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.888] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.888] [test_time_ACO_test.log] [info] [execution_time]: 12452
+[2024-12-21 11:23:08.888] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.888] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.888] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.888] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.888] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.888] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 83> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.900] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.900] [test_time_ACO_test.log] [info] [execution_time]: 12471
+[2024-12-21 11:23:08.900] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.900] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.900] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.900] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.900] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.900] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 84> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.913] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.913] [test_time_ACO_test.log] [info] [execution_time]: 12476
+[2024-12-21 11:23:08.913] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.913] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.913] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.913] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.913] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.913] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 85> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.925] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.925] [test_time_ACO_test.log] [info] [execution_time]: 12477
+[2024-12-21 11:23:08.925] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.925] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.925] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.925] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.925] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.925] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 86> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.938] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.938] [test_time_ACO_test.log] [info] [execution_time]: 12441
+[2024-12-21 11:23:08.938] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.938] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.938] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.938] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.938] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.938] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 87> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.950] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.950] [test_time_ACO_test.log] [info] [execution_time]: 12392
+[2024-12-21 11:23:08.950] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.950] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.950] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.950] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.950] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.950] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 88> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:08.963] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.963] [test_time_ACO_test.log] [info] [execution_time]: 12479
+[2024-12-21 11:23:08.963] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.963] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.963] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.963] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.963] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.963] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 89> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:08.975] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.975] [test_time_ACO_test.log] [info] [execution_time]: 12465
+[2024-12-21 11:23:08.975] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.975] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.975] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.975] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.975] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.975] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 90> Num Ants: 100 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:08.988] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:08.988] [test_time_ACO_test.log] [info] [execution_time]: 12455
+[2024-12-21 11:23:08.988] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:08.988] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:08.988] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:08.988] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:08.988] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:08.988] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 91> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.000] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.000] [test_time_ACO_test.log] [info] [execution_time]: 12448
+[2024-12-21 11:23:09.000] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.000] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.000] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.000] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.000] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.000] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 92> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.013] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.013] [test_time_ACO_test.log] [info] [execution_time]: 12462
+[2024-12-21 11:23:09.013] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.013] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.013] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.013] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.013] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.013] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 93> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.025] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.025] [test_time_ACO_test.log] [info] [execution_time]: 12434
+[2024-12-21 11:23:09.025] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.025] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.025] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.025] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.025] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.025] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 94> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.037] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.037] [test_time_ACO_test.log] [info] [execution_time]: 12378
+[2024-12-21 11:23:09.037] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.037] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.037] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.037] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.037] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.037] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 95> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.050] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.050] [test_time_ACO_test.log] [info] [execution_time]: 12424
+[2024-12-21 11:23:09.050] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.050] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.050] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.050] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.050] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.050] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 96> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.062] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.062] [test_time_ACO_test.log] [info] [execution_time]: 12464
+[2024-12-21 11:23:09.062] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.062] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.062] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.062] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.062] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.062] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 97> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.075] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.075] [test_time_ACO_test.log] [info] [execution_time]: 12438
+[2024-12-21 11:23:09.075] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.075] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.075] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.075] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.075] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.075] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 98> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.087] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.087] [test_time_ACO_test.log] [info] [execution_time]: 12368
+[2024-12-21 11:23:09.087] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.087] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.087] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.087] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.087] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.087] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 99> Num Ants: 100 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.100] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.100] [test_time_ACO_test.log] [info] [execution_time]: 12447
+[2024-12-21 11:23:09.100] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.100] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.100] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.100] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.100] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.100] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 100> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.112] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.112] [test_time_ACO_test.log] [info] [execution_time]: 12390
+[2024-12-21 11:23:09.112] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.112] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.112] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.112] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.112] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.112] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 101> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.124] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.124] [test_time_ACO_test.log] [info] [execution_time]: 12374
+[2024-12-21 11:23:09.124] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.124] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.124] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.124] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.124] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.124] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 102> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.137] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.137] [test_time_ACO_test.log] [info] [execution_time]: 12368
+[2024-12-21 11:23:09.137] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.137] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.137] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.137] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.137] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.137] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 103> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.149] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.149] [test_time_ACO_test.log] [info] [execution_time]: 12440
+[2024-12-21 11:23:09.149] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.149] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.149] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.149] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.149] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.149] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 104> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.162] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.162] [test_time_ACO_test.log] [info] [execution_time]: 12379
+[2024-12-21 11:23:09.162] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.162] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.162] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.162] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.162] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.162] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 105> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.174] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.174] [test_time_ACO_test.log] [info] [execution_time]: 12368
+[2024-12-21 11:23:09.174] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.174] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.174] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.174] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.174] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.174] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 106> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.186] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.186] [test_time_ACO_test.log] [info] [execution_time]: 12377
+[2024-12-21 11:23:09.186] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.186] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.186] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.186] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.186] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.186] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 107> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.199] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.199] [test_time_ACO_test.log] [info] [execution_time]: 12411
+[2024-12-21 11:23:09.199] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.199] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.199] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.199] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.199] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.199] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 108> Num Ants: 100 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.211] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.211] [test_time_ACO_test.log] [info] [execution_time]: 12452
+[2024-12-21 11:23:09.211] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.211] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.211] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.211] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.211] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.211] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 109> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.236] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.236] [test_time_ACO_test.log] [info] [execution_time]: 24764
+[2024-12-21 11:23:09.236] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.236] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.236] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.236] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.236] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.236] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 110> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.261] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.261] [test_time_ACO_test.log] [info] [execution_time]: 24764
+[2024-12-21 11:23:09.261] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.261] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.261] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.261] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.261] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.261] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 111> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.286] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.286] [test_time_ACO_test.log] [info] [execution_time]: 24783
+[2024-12-21 11:23:09.286] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.286] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.286] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.286] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.286] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.286] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 112> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.311] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.311] [test_time_ACO_test.log] [info] [execution_time]: 24828
+[2024-12-21 11:23:09.311] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.311] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.311] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.311] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.311] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.311] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 113> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.335] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.335] [test_time_ACO_test.log] [info] [execution_time]: 24830
+[2024-12-21 11:23:09.335] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.335] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.335] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.335] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.335] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.335] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 114> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.360] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.360] [test_time_ACO_test.log] [info] [execution_time]: 24842
+[2024-12-21 11:23:09.360] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.360] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.360] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.360] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.360] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.360] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 115> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.385] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.385] [test_time_ACO_test.log] [info] [execution_time]: 24775
+[2024-12-21 11:23:09.385] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.385] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.385] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.385] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.385] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.385] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 116> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.410] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.410] [test_time_ACO_test.log] [info] [execution_time]: 24867
+[2024-12-21 11:23:09.410] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.410] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.410] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.410] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.410] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.410] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 117> Num Ants: 100 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.435] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.435] [test_time_ACO_test.log] [info] [execution_time]: 24753
+[2024-12-21 11:23:09.435] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.435] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.435] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.435] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.435] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.435] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 118> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.460] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.460] [test_time_ACO_test.log] [info] [execution_time]: 24878
+[2024-12-21 11:23:09.460] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.460] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.460] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.460] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.460] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.460] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 119> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.484] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.484] [test_time_ACO_test.log] [info] [execution_time]: 24861
+[2024-12-21 11:23:09.484] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.484] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.484] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.484] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.484] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.484] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 120> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.509] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.509] [test_time_ACO_test.log] [info] [execution_time]: 24866
+[2024-12-21 11:23:09.509] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.509] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.509] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.509] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.509] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.509] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 121> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.534] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.534] [test_time_ACO_test.log] [info] [execution_time]: 24990
+[2024-12-21 11:23:09.534] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.534] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.534] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.534] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.534] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.534] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 122> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.559] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.559] [test_time_ACO_test.log] [info] [execution_time]: 24920
+[2024-12-21 11:23:09.559] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.559] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.559] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.559] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.559] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.559] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 123> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.584] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.584] [test_time_ACO_test.log] [info] [execution_time]: 24890
+[2024-12-21 11:23:09.584] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.584] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.584] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.584] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.584] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.584] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 124> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.609] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.609] [test_time_ACO_test.log] [info] [execution_time]: 24946
+[2024-12-21 11:23:09.609] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.609] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.609] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.609] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.609] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.609] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 125> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.634] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.634] [test_time_ACO_test.log] [info] [execution_time]: 24911
+[2024-12-21 11:23:09.634] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.634] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.634] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.634] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.634] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.634] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 126> Num Ants: 100 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.659] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.659] [test_time_ACO_test.log] [info] [execution_time]: 24922
+[2024-12-21 11:23:09.659] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.659] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.659] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.659] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.659] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.659] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 127> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.684] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.684] [test_time_ACO_test.log] [info] [execution_time]: 24936
+[2024-12-21 11:23:09.684] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.684] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.684] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.684] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.684] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.684] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 128> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.711] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.711] [test_time_ACO_test.log] [info] [execution_time]: 26593
+[2024-12-21 11:23:09.711] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.711] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.711] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.711] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.711] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.711] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 129> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.739] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.739] [test_time_ACO_test.log] [info] [execution_time]: 28678
+[2024-12-21 11:23:09.739] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.739] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.739] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.739] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.739] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.739] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 130> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.768] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.768] [test_time_ACO_test.log] [info] [execution_time]: 28732
+[2024-12-21 11:23:09.768] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.768] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.768] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.768] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.768] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.768] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 131> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.797] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.797] [test_time_ACO_test.log] [info] [execution_time]: 28610
+[2024-12-21 11:23:09.797] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.797] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.797] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.797] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.797] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.797] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 132> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.825] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.825] [test_time_ACO_test.log] [info] [execution_time]: 28723
+[2024-12-21 11:23:09.825] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.825] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.825] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.825] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.825] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.825] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 133> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.854] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.854] [test_time_ACO_test.log] [info] [execution_time]: 28571
+[2024-12-21 11:23:09.854] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.854] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.854] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.854] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.854] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.854] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 134> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.879] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.879] [test_time_ACO_test.log] [info] [execution_time]: 24964
+[2024-12-21 11:23:09.879] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.879] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.879] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.879] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.879] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.879] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 135> Num Ants: 100 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:09.904] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.904] [test_time_ACO_test.log] [info] [execution_time]: 24770
+[2024-12-21 11:23:09.904] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.904] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.904] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.904] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.904] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.904] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 136> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:09.941] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.941] [test_time_ACO_test.log] [info] [execution_time]: 37256
+[2024-12-21 11:23:09.941] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.941] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.941] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.941] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.941] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.941] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 137> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:09.978] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:09.978] [test_time_ACO_test.log] [info] [execution_time]: 37241
+[2024-12-21 11:23:09.978] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:09.978] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:09.978] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:09.978] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:09.978] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:09.978] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 138> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.016] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.016] [test_time_ACO_test.log] [info] [execution_time]: 37311
+[2024-12-21 11:23:10.016] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.016] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.016] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.016] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.016] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.016] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 139> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.053] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.053] [test_time_ACO_test.log] [info] [execution_time]: 37334
+[2024-12-21 11:23:10.053] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.053] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.053] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.053] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.053] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.053] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 140> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.090] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.090] [test_time_ACO_test.log] [info] [execution_time]: 37333
+[2024-12-21 11:23:10.090] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.090] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.090] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.090] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.090] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.090] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 141> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.128] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.128] [test_time_ACO_test.log] [info] [execution_time]: 37233
+[2024-12-21 11:23:10.128] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.128] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.128] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.128] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.128] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.128] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 142> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.165] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.165] [test_time_ACO_test.log] [info] [execution_time]: 37354
+[2024-12-21 11:23:10.165] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.165] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.165] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.165] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.165] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.165] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 143> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.202] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.202] [test_time_ACO_test.log] [info] [execution_time]: 37185
+[2024-12-21 11:23:10.202] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.202] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.202] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.202] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.202] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.202] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 144> Num Ants: 100 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.239] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.240] [test_time_ACO_test.log] [info] [execution_time]: 37391
+[2024-12-21 11:23:10.240] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.240] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.240] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.240] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.240] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.240] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 145> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.277] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.277] [test_time_ACO_test.log] [info] [execution_time]: 37380
+[2024-12-21 11:23:10.277] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.277] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.277] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.277] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.277] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.277] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 146> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.314] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.314] [test_time_ACO_test.log] [info] [execution_time]: 37423
+[2024-12-21 11:23:10.314] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.314] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.314] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.314] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.314] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.314] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 147> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.352] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.352] [test_time_ACO_test.log] [info] [execution_time]: 37201
+[2024-12-21 11:23:10.352] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.352] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.352] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.352] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.352] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.352] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 148> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.389] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.389] [test_time_ACO_test.log] [info] [execution_time]: 37442
+[2024-12-21 11:23:10.389] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.389] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.389] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.389] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.389] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.389] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 149> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.426] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.426] [test_time_ACO_test.log] [info] [execution_time]: 37351
+[2024-12-21 11:23:10.426] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.426] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.426] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.426] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.426] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.426] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 150> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.464] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.464] [test_time_ACO_test.log] [info] [execution_time]: 37138
+[2024-12-21 11:23:10.464] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.464] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.464] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.464] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.464] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.464] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 151> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.501] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.501] [test_time_ACO_test.log] [info] [execution_time]: 37298
+[2024-12-21 11:23:10.501] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.501] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.501] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.501] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.501] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.501] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 152> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.538] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.538] [test_time_ACO_test.log] [info] [execution_time]: 37436
+[2024-12-21 11:23:10.538] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.538] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.538] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.538] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.538] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.538] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 153> Num Ants: 100 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.575] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.575] [test_time_ACO_test.log] [info] [execution_time]: 37196
+[2024-12-21 11:23:10.575] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.575] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.575] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.575] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.575] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.575] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 154> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.613] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.613] [test_time_ACO_test.log] [info] [execution_time]: 37237
+[2024-12-21 11:23:10.613] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.613] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.613] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.613] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.613] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.613] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 155> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.650] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.650] [test_time_ACO_test.log] [info] [execution_time]: 37421
+[2024-12-21 11:23:10.650] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.650] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.650] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.650] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.650] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.650] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 156> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.687] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.687] [test_time_ACO_test.log] [info] [execution_time]: 37204
+[2024-12-21 11:23:10.687] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.687] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.687] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.687] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.687] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.687] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 157> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.725] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.725] [test_time_ACO_test.log] [info] [execution_time]: 37365
+[2024-12-21 11:23:10.725] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.725] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.725] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.725] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.725] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.725] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 158> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.762] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.762] [test_time_ACO_test.log] [info] [execution_time]: 37174
+[2024-12-21 11:23:10.762] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.762] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.762] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.762] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.762] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.762] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 159> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.799] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.799] [test_time_ACO_test.log] [info] [execution_time]: 37401
+[2024-12-21 11:23:10.799] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.799] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.799] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.799] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.799] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.799] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 160> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.837] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.837] [test_time_ACO_test.log] [info] [execution_time]: 37423
+[2024-12-21 11:23:10.837] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.837] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.837] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.837] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.837] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.837] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 161> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.874] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.874] [test_time_ACO_test.log] [info] [execution_time]: 37622
+[2024-12-21 11:23:10.874] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.874] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.874] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.874] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.874] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.874] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 162> Num Ants: 100 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.916] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.917] [test_time_ACO_test.log] [info] [execution_time]: 42005
+[2024-12-21 11:23:10.917] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.917] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.917] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.917] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.917] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.917] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 163> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:10.939] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.939] [test_time_ACO_test.log] [info] [execution_time]: 21988
+[2024-12-21 11:23:10.939] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.939] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.939] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.939] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.939] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.939] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 164> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:10.960] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.960] [test_time_ACO_test.log] [info] [execution_time]: 21675
+[2024-12-21 11:23:10.960] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.960] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.960] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.960] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.960] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.960] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 165> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:10.982] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:10.982] [test_time_ACO_test.log] [info] [execution_time]: 21492
+[2024-12-21 11:23:10.982] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:10.982] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:10.982] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:10.982] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:10.982] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:10.982] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 166> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.004] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.004] [test_time_ACO_test.log] [info] [execution_time]: 21970
+[2024-12-21 11:23:11.004] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.004] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.004] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.004] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.004] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.004] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 167> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.033] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.033] [test_time_ACO_test.log] [info] [execution_time]: 28654
+[2024-12-21 11:23:11.033] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.033] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.033] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.033] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.033] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.033] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 168> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.064] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.065] [test_time_ACO_test.log] [info] [execution_time]: 31858
+[2024-12-21 11:23:11.065] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.065] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.065] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.065] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.065] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.065] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 169> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.101] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.101] [test_time_ACO_test.log] [info] [execution_time]: 36225
+[2024-12-21 11:23:11.101] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.101] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.101] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.101] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.101] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.101] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 170> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.139] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.139] [test_time_ACO_test.log] [info] [execution_time]: 38238
+[2024-12-21 11:23:11.139] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.139] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.139] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.139] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.139] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.139] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 171> Num Ants: 150 | Num Iter: 500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.170] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.170] [test_time_ACO_test.log] [info] [execution_time]: 31026
+[2024-12-21 11:23:11.170] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.170] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.170] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.170] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.170] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.170] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 172> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.202] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.203] [test_time_ACO_test.log] [info] [execution_time]: 32403
+[2024-12-21 11:23:11.203] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.203] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.203] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.203] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.203] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.203] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 173> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.235] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.235] [test_time_ACO_test.log] [info] [execution_time]: 32649
+[2024-12-21 11:23:11.235] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.235] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.235] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.235] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.235] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.235] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 174> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.266] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.266] [test_time_ACO_test.log] [info] [execution_time]: 30702
+[2024-12-21 11:23:11.266] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.266] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.266] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.266] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.266] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.266] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 175> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.291] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.291] [test_time_ACO_test.log] [info] [execution_time]: 25469
+[2024-12-21 11:23:11.291] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.291] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.291] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.291] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.291] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.291] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 176> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.313] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.313] [test_time_ACO_test.log] [info] [execution_time]: 21478
+[2024-12-21 11:23:11.313] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.313] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.313] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.313] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.313] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.313] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 177> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.334] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.334] [test_time_ACO_test.log] [info] [execution_time]: 21399
+[2024-12-21 11:23:11.334] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.334] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.334] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.334] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.334] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.334] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 178> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.356] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.356] [test_time_ACO_test.log] [info] [execution_time]: 21386
+[2024-12-21 11:23:11.356] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.356] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.356] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.356] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.356] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.356] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 179> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.377] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.377] [test_time_ACO_test.log] [info] [execution_time]: 21551
+[2024-12-21 11:23:11.377] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.377] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.377] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.377] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.377] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.377] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 180> Num Ants: 150 | Num Iter: 500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.399] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.399] [test_time_ACO_test.log] [info] [execution_time]: 21274
+[2024-12-21 11:23:11.399] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.399] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.399] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.399] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.399] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.399] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 181> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.420] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.420] [test_time_ACO_test.log] [info] [execution_time]: 21348
+[2024-12-21 11:23:11.420] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.420] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.420] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.420] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.420] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.420] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 182> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.441] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.441] [test_time_ACO_test.log] [info] [execution_time]: 21375
+[2024-12-21 11:23:11.441] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.441] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.441] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.441] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.441] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.441] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 183> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.460] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.460] [test_time_ACO_test.log] [info] [execution_time]: 18746
+[2024-12-21 11:23:11.460] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.460] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.460] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.460] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.460] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.460] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 184> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.479] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.479] [test_time_ACO_test.log] [info] [execution_time]: 18546
+[2024-12-21 11:23:11.479] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.479] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.479] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.479] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.479] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.479] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 185> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.497] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.497] [test_time_ACO_test.log] [info] [execution_time]: 18498
+[2024-12-21 11:23:11.497] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.497] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.497] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.497] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.497] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.497] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 186> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.516] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.516] [test_time_ACO_test.log] [info] [execution_time]: 18510
+[2024-12-21 11:23:11.516] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.516] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.516] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.516] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.516] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.516] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 187> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.536] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.536] [test_time_ACO_test.log] [info] [execution_time]: 20099
+[2024-12-21 11:23:11.536] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.536] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.536] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.536] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.536] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.536] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 188> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.558] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.558] [test_time_ACO_test.log] [info] [execution_time]: 22357
+[2024-12-21 11:23:11.558] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.558] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.558] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.558] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.558] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.558] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 189> Num Ants: 150 | Num Iter: 500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.577] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.577] [test_time_ACO_test.log] [info] [execution_time]: 18631
+[2024-12-21 11:23:11.577] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.577] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.577] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.577] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.577] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.577] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 190> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.614] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.614] [test_time_ACO_test.log] [info] [execution_time]: 37093
+[2024-12-21 11:23:11.614] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.614] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.614] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.614] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.614] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.614] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 191> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.651] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.651] [test_time_ACO_test.log] [info] [execution_time]: 37034
+[2024-12-21 11:23:11.651] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.651] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.651] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.651] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.651] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.651] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 192> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.688] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.688] [test_time_ACO_test.log] [info] [execution_time]: 37032
+[2024-12-21 11:23:11.688] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.688] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.688] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.688] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.688] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.688] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 193> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.725] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.725] [test_time_ACO_test.log] [info] [execution_time]: 37122
+[2024-12-21 11:23:11.725] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.725] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.725] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.725] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.725] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.725] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 194> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.762] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.762] [test_time_ACO_test.log] [info] [execution_time]: 37072
+[2024-12-21 11:23:11.762] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.762] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.762] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.762] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.762] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.762] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 195> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.799] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.799] [test_time_ACO_test.log] [info] [execution_time]: 37093
+[2024-12-21 11:23:11.799] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.799] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.799] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.799] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.799] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.799] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 196> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.836] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.836] [test_time_ACO_test.log] [info] [execution_time]: 37043
+[2024-12-21 11:23:11.836] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.836] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.836] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.836] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.836] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.836] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 197> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.875] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.875] [test_time_ACO_test.log] [info] [execution_time]: 38815
+[2024-12-21 11:23:11.875] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.875] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.875] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.875] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.875] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.875] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 198> Num Ants: 150 | Num Iter: 1000 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:11.915] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.915] [test_time_ACO_test.log] [info] [execution_time]: 39664
+[2024-12-21 11:23:11.915] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.915] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.915] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.915] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.915] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.915] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 199> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:11.952] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.952] [test_time_ACO_test.log] [info] [execution_time]: 37147
+[2024-12-21 11:23:11.952] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.952] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.952] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.952] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.952] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.952] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 200> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:11.989] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:11.989] [test_time_ACO_test.log] [info] [execution_time]: 37281
+[2024-12-21 11:23:11.989] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:11.989] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:11.989] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:11.989] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:11.989] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:11.989] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 201> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:12.027] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.027] [test_time_ACO_test.log] [info] [execution_time]: 37194
+[2024-12-21 11:23:12.027] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.027] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.027] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.027] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.027] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.027] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 202> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:12.064] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.064] [test_time_ACO_test.log] [info] [execution_time]: 37326
+[2024-12-21 11:23:12.064] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.064] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.064] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.064] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.064] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.064] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 203> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:12.101] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.101] [test_time_ACO_test.log] [info] [execution_time]: 37163
+[2024-12-21 11:23:12.101] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.101] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.101] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.101] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.101] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.101] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 204> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:12.138] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.138] [test_time_ACO_test.log] [info] [execution_time]: 37057
+[2024-12-21 11:23:12.138] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.138] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.138] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.138] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.138] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.138] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 205> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:12.175] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.175] [test_time_ACO_test.log] [info] [execution_time]: 37023
+[2024-12-21 11:23:12.175] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.175] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.175] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.175] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.175] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.175] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 206> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:12.212] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.212] [test_time_ACO_test.log] [info] [execution_time]: 37072
+[2024-12-21 11:23:12.212] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.212] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.212] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.212] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.212] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.212] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 207> Num Ants: 150 | Num Iter: 1000 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:12.249] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.249] [test_time_ACO_test.log] [info] [execution_time]: 37072
+[2024-12-21 11:23:12.249] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.249] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.249] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.249] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.249] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.249] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 208> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:12.286] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.286] [test_time_ACO_test.log] [info] [execution_time]: 36974
+[2024-12-21 11:23:12.286] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.286] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.286] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.286] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.286] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.286] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 209> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:12.323] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.323] [test_time_ACO_test.log] [info] [execution_time]: 37043
+[2024-12-21 11:23:12.323] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.323] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.323] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.323] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.323] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.323] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 210> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:12.361] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.361] [test_time_ACO_test.log] [info] [execution_time]: 37201
+[2024-12-21 11:23:12.361] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.361] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.361] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.361] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.361] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.361] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 211> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:12.398] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.398] [test_time_ACO_test.log] [info] [execution_time]: 37046
+[2024-12-21 11:23:12.398] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.398] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.398] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.398] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.398] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.398] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 212> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:12.435] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.435] [test_time_ACO_test.log] [info] [execution_time]: 37135
+[2024-12-21 11:23:12.435] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.435] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.435] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.435] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.435] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.435] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 213> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:12.472] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.472] [test_time_ACO_test.log] [info] [execution_time]: 37065
+[2024-12-21 11:23:12.472] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.472] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.472] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.472] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.472] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.472] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 214> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:12.509] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.509] [test_time_ACO_test.log] [info] [execution_time]: 37112
+[2024-12-21 11:23:12.509] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.509] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.509] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.509] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.509] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.509] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 215> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:12.548] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.548] [test_time_ACO_test.log] [info] [execution_time]: 38477
+[2024-12-21 11:23:12.548] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.548] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.548] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.548] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.548] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.548] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 216> Num Ants: 150 | Num Iter: 1000 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:12.591] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.591] [test_time_ACO_test.log] [info] [execution_time]: 43158
+[2024-12-21 11:23:12.591] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.591] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.591] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.591] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.591] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.591] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 217> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:12.655] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.655] [test_time_ACO_test.log] [info] [execution_time]: 64150
+[2024-12-21 11:23:12.655] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.655] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.655] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.655] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.655] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.655] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 218> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:12.714] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.714] [test_time_ACO_test.log] [info] [execution_time]: 59043
+[2024-12-21 11:23:12.714] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.714] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.714] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.714] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.714] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.714] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 219> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:12.770] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.770] [test_time_ACO_test.log] [info] [execution_time]: 55555
+[2024-12-21 11:23:12.770] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.770] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.770] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.770] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.770] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.770] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 220> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:12.825] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.825] [test_time_ACO_test.log] [info] [execution_time]: 55731
+[2024-12-21 11:23:12.825] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.825] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.825] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.825] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.825] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.825] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 221> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:12.881] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.881] [test_time_ACO_test.log] [info] [execution_time]: 55471
+[2024-12-21 11:23:12.881] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.881] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.881] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.881] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.881] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.881] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 222> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:12.936] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.936] [test_time_ACO_test.log] [info] [execution_time]: 55586
+[2024-12-21 11:23:12.936] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.936] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.936] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.936] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.936] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.936] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 223> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:12.992] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:12.992] [test_time_ACO_test.log] [info] [execution_time]: 55574
+[2024-12-21 11:23:12.992] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:12.992] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:12.992] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:12.992] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:12.992] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:12.992] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 224> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:13.048] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.048] [test_time_ACO_test.log] [info] [execution_time]: 55680
+[2024-12-21 11:23:13.048] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.048] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.048] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.048] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.048] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.048] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 225> Num Ants: 150 | Num Iter: 1500 | Alpha: 1 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:13.103] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.103] [test_time_ACO_test.log] [info] [execution_time]: 55623
+[2024-12-21 11:23:13.103] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.103] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.103] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.103] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.103] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.103] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 226> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:13.159] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.159] [test_time_ACO_test.log] [info] [execution_time]: 55741
+[2024-12-21 11:23:13.159] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.159] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.159] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.159] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.159] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.159] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 227> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:13.215] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.215] [test_time_ACO_test.log] [info] [execution_time]: 55768
+[2024-12-21 11:23:13.215] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.215] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.215] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.215] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.215] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.215] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 228> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:13.271] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.271] [test_time_ACO_test.log] [info] [execution_time]: 55705
+[2024-12-21 11:23:13.271] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.271] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.271] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.271] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.271] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.271] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 229> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:13.326] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.326] [test_time_ACO_test.log] [info] [execution_time]: 55685
+[2024-12-21 11:23:13.326] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.326] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.326] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.326] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.326] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.326] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 230> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:13.382] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.382] [test_time_ACO_test.log] [info] [execution_time]: 55817
+[2024-12-21 11:23:13.382] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.382] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.382] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.382] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.382] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.382] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 231> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:13.438] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.438] [test_time_ACO_test.log] [info] [execution_time]: 55539
+[2024-12-21 11:23:13.438] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.438] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.438] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.438] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.438] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.438] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 232> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:13.493] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.493] [test_time_ACO_test.log] [info] [execution_time]: 55534
+[2024-12-21 11:23:13.493] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.493] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.493] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.493] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.493] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.493] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 233> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:13.549] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.549] [test_time_ACO_test.log] [info] [execution_time]: 55672
+[2024-12-21 11:23:13.549] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.549] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.549] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.549] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.549] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.549] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 234> Num Ants: 150 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:13.605] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.605] [test_time_ACO_test.log] [info] [execution_time]: 55631
+[2024-12-21 11:23:13.605] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.605] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.605] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.605] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.605] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.605] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 235> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.3
+[2024-12-21 11:23:13.660] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.660] [test_time_ACO_test.log] [info] [execution_time]: 55846
+[2024-12-21 11:23:13.660] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.660] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.660] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.660] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.660] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.660] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 236> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.5
+[2024-12-21 11:23:13.716] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.716] [test_time_ACO_test.log] [info] [execution_time]: 55849
+[2024-12-21 11:23:13.716] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.716] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.716] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.716] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.716] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.716] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 237> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 2 | Evaporation Rate: 0.7
+[2024-12-21 11:23:13.772] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.772] [test_time_ACO_test.log] [info] [execution_time]: 55854
+[2024-12-21 11:23:13.772] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.772] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.772] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.772] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.772] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.772] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 238> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.3
+[2024-12-21 11:23:13.828] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.828] [test_time_ACO_test.log] [info] [execution_time]: 55586
+[2024-12-21 11:23:13.828] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.828] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.828] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.828] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.828] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.828] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 239> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.5
+[2024-12-21 11:23:13.883] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.883] [test_time_ACO_test.log] [info] [execution_time]: 55550
+[2024-12-21 11:23:13.883] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.883] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.883] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.883] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.883] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.883] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 240> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 3 | Evaporation Rate: 0.7
+[2024-12-21 11:23:13.939] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.939] [test_time_ACO_test.log] [info] [execution_time]: 55537
+[2024-12-21 11:23:13.939] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.939] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.939] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.939] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.939] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.939] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 241> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.3
+[2024-12-21 11:23:13.994] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:13.994] [test_time_ACO_test.log] [info] [execution_time]: 55537
+[2024-12-21 11:23:13.994] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:13.994] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:13.994] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:13.994] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:13.994] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:13.994] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 242> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.5
+[2024-12-21 11:23:14.050] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:14.050] [test_time_ACO_test.log] [info] [execution_time]: 55599
+[2024-12-21 11:23:14.050] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:14.050] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:14.050] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:14.050] [test_time_ACO_test.log] [info] 
+
+[2024-12-21 11:23:14.050] [test_time_ACO_test.log] [info] ==================================================
+
+[2024-12-21 11:23:14.050] [test_time_ACO_test.log] [warning] Ant Colony Optimization, <run: 243> Num Ants: 150 | Num Iter: 1500 | Alpha: 2 | Beta: 4 | Evaporation Rate: 0.7
+[2024-12-21 11:23:14.106] [test_time_ACO_test.log] [info] [name]: <a> Ant Colony Optimization
+[2024-12-21 11:23:14.106] [test_time_ACO_test.log] [info] [execution_time]: 55555
+[2024-12-21 11:23:14.106] [test_time_ACO_test.log] [info] [capacity]: 100
+[2024-12-21 11:23:14.106] [test_time_ACO_test.log] [info] [solution]: 190
+[2024-12-21 11:23:14.106] [test_time_ACO_test.log] [info] [items_size]: [5]
+[2024-12-21 11:23:14.106] [test_time_ACO_test.log] [info] 
+

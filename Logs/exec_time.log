@@ -1445,3 +1445,23 @@
 [2024-12-18 09:13:53.964] [exec_time] [info] [items_size]: [1000]
 [2024-12-18 09:13:53.964] [exec_time] [info] 
 
+[2024-12-21 08:34:30.500] [exec_time] [info] ==================================================
+
+[2024-12-21 08:34:30.500] [exec_time] [warning] BASELINE (Dynamic Programming)
+[2024-12-21 08:34:30.500] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-21 08:34:30.500] [exec_time] [info] [execution_time]: 227
+[2024-12-21 08:34:30.500] [exec_time] [info] [capacity]: 100
+[2024-12-21 08:34:30.500] [exec_time] [info] [solution]: 427
+[2024-12-21 08:34:30.500] [exec_time] [info] [items_size]: [1000]
+[2024-12-21 08:34:30.500] [exec_time] [info] 
+
+[2024-12-21 08:34:53.388] [exec_time] [info] ==================================================
+
+[2024-12-21 08:34:53.388] [exec_time] [warning] BASELINE (Dynamic Programming)
+[2024-12-21 08:34:53.388] [exec_time] [info] [name]: <a> Dynamic Programming
+[2024-12-21 08:34:53.388] [exec_time] [info] [execution_time]: 216
+[2024-12-21 08:34:53.388] [exec_time] [info] [capacity]: 100
+[2024-12-21 08:34:53.388] [exec_time] [info] [solution]: 427
+[2024-12-21 08:34:53.388] [exec_time] [info] [items_size]: [1000]
+[2024-12-21 08:34:53.388] [exec_time] [info] 
+

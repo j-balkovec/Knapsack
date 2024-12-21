@@ -30,7 +30,7 @@
 extern std::shared_ptr<spdlog::logger> getMainLogger();
 extern std::shared_ptr<spdlog::logger> getExecTimeLogger();
 extern std::shared_ptr<spdlog::logger> getMinExecTimeLogger();
-extern std::shared_ptr<spdlog::logger> getTestLogger();
+extern std::shared_ptr<spdlog::logger> getTestLogger(const std::string_view& logFile);
 
 void initializeLoggers(std::shared_ptr<spdlog::logger>& execTimeLogger, 
                        std::shared_ptr<spdlog::logger>& mainLogger, 
