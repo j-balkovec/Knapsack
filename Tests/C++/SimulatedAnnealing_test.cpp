@@ -34,14 +34,6 @@ const std::string_view SA_LOG_FILE = "../../Logs/SA_test.log";
 std::shared_ptr<spdlog::logger> sa_test_logger = getTestLogger(SA_LOG_FILE);
 std::shared_ptr<spdlog::logger> test_logger = getTestLogger(TEST_LOG_FILE); //defaults to <test_log.log>
 
-// <debug>
-void compareLoggers() {
-    if (sa_test_logger == test_logger) {
-        std::cerr << "Logger instances are the same!\n";
-    }
-}
-
-// -- <debug only> --
 std::atomic<bool> stopFlag(false);
 
 /** -- <debug only> --
@@ -75,14 +67,26 @@ void displayStopwatch() {
     std::cout << "\n\033[31m[STOP]:\033[0m Stopwatch stopped.\n\n";
 }
 
-// Simulated Annealing testing function
+/**
+ * @brief Test the Simulated Annealing algorithm for the Knapsack problem.
+ * 
+ * This function tests the Simulated Annealing algorithm for the Knapsack problem.
+ * It takes the capacity of the knapsack, a vector of items, a logger for logging results,
+ * the initial temperature, and the cooling rate as input parameters.
+ * 
+ * @param capacity The capacity of the knapsack.
+ * @param items A vector of items.
+ * @param logger A shared pointer to a logger for logging results.
+ * @param initialTemp The initial temperature for the Simulated Annealing algorithm.
+ * @param coolingRate The cooling rate for the Simulated Annealing algorithm.
+ * @return Returns true if the results are successfully logged, false otherwise.
+ */
 bool Test_SA(int capacity, const std::vector<Item>& items, std::shared_ptr<spdlog::logger> logger, int initialTemp, double coolingRate) {
     const std::string _NAME_ = "<a> Simulated Annealing";
     size_t items_size = items.size(); 
     
     bool logged = true;
 
-    // Test execution with timing and logging the results
     for (unsigned int i = 0; i < RUN_TIMES; i++) {
         auto pair = measureExecutionTime(knapsackSimulatedAnnealing, capacity, items, initialTemp, coolingRate);
 
@@ -96,19 +100,16 @@ bool Test_SA(int capacity, const std::vector<Item>& items, std::shared_ptr<spdlo
 }
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
-    // Parse the items from CSV
-    compareLoggers();
-    std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, sa_test_logger), sa_test_logger);
 
-    // Define map to store minimum execution times
+    std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, sa_test_logger), sa_test_logger);
     std::map<std::string, double> minTimes = setupMinExecutionTimes();
 
     int run_number = 1;
 
     //BASELINE (Dynamic Programming)
-    test_logger->info(SEPARATOR.data());
-    test_logger->warn("BASELINE (Dynamic Programming)");
-    knapsackDPWrapper(CAPACITY_FIXED, items, minTimes, test_logger);
+    // test_logger->info(SEPARATOR.data());
+    // test_logger->warn("BASELINE (Dynamic Programming)");
+    // knapsackDPWrapper(CAPACITY_FIXED, items, minTimes, test_logger);
 
     // Simulated Annealing Test
     // sa_test_logger->info(SEPARATOR.data());
@@ -116,14 +117,12 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
 
     std::thread stopwatchThread(displayStopwatch);
 
-    // Loop through the different parameters (initialTemp and coolingRate)
     for (int temp : INITIAL_TEMPERATURES) {
         for (double rate : COOLING_RATES) {
             sa_test_logger->info(SEPARATOR.data());
             sa_test_logger->warn("Simulated Annealing, <run: {}> Initial Temp: {} | Cooling Rate: {}", 
                                run_number, temp, rate);
 
-            // Call the Test_SA function with the current parameters
             Test_SA(CAPACITY_FIXED, items, sa_test_logger, temp, rate);
             run_number++;
         }

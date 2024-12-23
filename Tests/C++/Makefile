@@ -65,6 +65,12 @@ TEST_EXECS = $(patsubst $(SRC_DIR)/%.cpp,$(BIN_DIR)/%,$(TEST_SRCS))
 # Default target
 all: $(BIN_DIR) $(OBJ_DIR) $(TEST_EXECS)
 
+# Make the C++ directories
+$(BIN_DIR) $(OBJ_DIR):
+	@echo "$(CYAN_COLOR)[INFO]: Creating directories...$(RESET_COLOR)"
+	@mkdir -p $(BIN_DIR) $(OBJ_DIR)
+	@echo "$(GREEN_COLOR)[SUCCESS]: Directories created!$(RESET_COLOR)"
+
 # Create directories
 $(BIN_DIR):
 	@echo "$(CYAN_COLOR)[INFO]: Creating $(BIN_DIR) directory...$(RESET_COLOR)"

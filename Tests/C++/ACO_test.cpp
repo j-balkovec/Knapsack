@@ -73,26 +73,36 @@ void displayStopwatch() {
     std::cout << "\n\033[31m[STOP]:\033[0m Stopwatch stopped.\n\n";
 }
 
-// Function to create an AntColony with specific parameters
 AntColony createColony(int NUM_ANTS, int NUM_ITER, double ALPHA, double BETA, double EVAPORATION_RATE) {
     return AntColony(NUM_ANTS, NUM_ITER, ALPHA, BETA, EVAPORATION_RATE);
 }
 
-// Function to test Ant Colony Optimization using the provided knapsackACOWrapper
+/**
+ * @brief Test the Ant Colony Optimization algorithm for the Knapsack problem.
+ * 
+ * This function tests the Ant Colony Optimization (ACO) algorithm for solving the Knapsack problem.
+ * It takes the capacity of the knapsack, a vector of items, a logger, the number of ants, the number of iterations,
+ * the alpha and beta parameters, and the evaporation rate as input.
+ * 
+ * @param capacity The capacity of the knapsack.
+ * @param items A vector of items.
+ * @param logger A shared pointer to the logger.
+ * @param numAnts The number of ants.
+ * @param numIter The number of iterations.
+ * @param alpha The alpha parameter for the ACO algorithm.
+ * @param beta The beta parameter for the ACO algorithm.
+ * @param evaporationRate The evaporation rate for the ACO algorithm.
+ * @return True if the ACO algorithm was successfully executed and logged, false otherwise.
+ */
 bool Test_ACO(int capacity, const std::vector<Item>& items, std::shared_ptr<spdlog::logger> logger, 
               int numAnts, int numIter, double alpha, double beta, double evaporationRate) {
     const std::string _NAME_ = "<a> Ant Colony Optimization";
     size_t items_size = items.size(); 
     
     bool logged = true;
-
-    // Create the AntColony object
     AntColony colony(numAnts, numIter, alpha, beta, evaporationRate);
-
-    // Define map to store minimum execution times
     std::map<std::string, double> minTimes;
 
-    // Test execution with timing and logging the results using knapsackACOWrapper
     for (unsigned int i = 0; i < RUN_TIMES; i++) {
         logged = knapsackACOWrapper(colony, capacity, items, minTimes, logger);
     }
@@ -101,22 +111,17 @@ bool Test_ACO(int capacity, const std::vector<Item>& items, std::shared_ptr<spdl
 }
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
-    // Parse the items from CSV
+
     // std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, aco_test_logger), aco_test_logger);
-    std::vector<Item> items = {{10, 5},
-                                {40, 4},
-                                {30, 6},
-                                {50, 3},
-                                {60, 5}};
-    // Define map to store minimum execution times
+    std::vector<Item> items = {{1, 10}, {2, 20}, {3, 30}, {4, 40}, {5, 50}};
     std::map<std::string, double> minTimes = setupMinExecutionTimes();
 
     int run_number = 1;
 
     //BASELINE (Dynamic Programming)
-    test_logger->info(SEPARATOR.data());
-    test_logger->warn("BASELINE (Dynamic Programming)");
-    knapsackDPWrapper(CAPACITY_FIXED, items, minTimes, aco_test_logger);
+    // test_logger->info(SEPARATOR.data());
+    // test_logger->warn("BASELINE (Dynamic Programming)");
+    // knapsackDPWrapper(CAPACITY_FIXED, items, minTimes, aco_test_logger);
 
     // Ant Colony Optimization Test
     // aco_test_logger->info(SEPARATOR.data());
