@@ -11,25 +11,16 @@
 import re
 import logging
 import os
-import sys
 import subprocess
-import select
+from datetime import datetime
+
+from Python.constants import (COLORS)
 
 # Logs parser output to a file
 LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/parser_log.log' 
 
 # 'a' = append, 'w' = write
 DUMP_TYPE = 'w'
-
-# Colors for terminal output
-COLORS: dict = {'red': '\033[91m',
-                'green': '\033[92m',
-                'yellow': '\033[93m',
-                'blue': '\033[94m',
-                'magenta': '\033[95m',
-                'cyan': '\033[96m',
-                'white': '\033[97m',
-                'reset': '\033[0m'}   
 
 class LogEntry:
   def __init__(self: object, 
@@ -214,16 +205,16 @@ def clean_and_sort_entries(entries: list[LogEntry]) -> list[LogEntry]:
   """
   for entry in entries:
     if entry.name == "Unknown" or entry.name == "Dynamic Programming":
-      parser_logger.warning(f"Faulty Entry: {entry}")
+      parser_logger.warning(f"Faulty Entry <name=Unknown | name=DP>: {entry}")
       entries.remove(entry)
     
     # idk why, but some objects don't hit the first if statement
     if entry.items_size == 0:
-      parser_logger.warning(f"Faulty Entry: {entry}")
+      parser_logger.warning(f"Faulty Entry <items_size=0>: {entry}") # Bug: ACO yields 2 warnings on every run
       entries.remove(entry)
       
     if entry.parameters == "No parameters":
-      parser_logger.warning(f"Faulty Entry: {entry}")
+      parser_logger.warning(f"Faulty Entry <no_params>: {entry}")    # Bug: ACO yields 2 warnings on every run
       entries.remove(entry)
         
   return sorted(entries, key=lambda x: x.solution, reverse=True)
@@ -280,7 +271,7 @@ def run_makefile_command(commands: list):
   except Exception as e:
     print(COLORS['red'] + f"<error>: {e}" + COLORS['reset'])
 
-def dump_to_file(paths: dict) -> bool:
+def dump_to_file(paths: dict) -> tuple[bool, list[LogEntry]]:
     """
     Dump the cleaned and sorted entries from the log file to a dump file.
 
@@ -290,29 +281,22 @@ def dump_to_file(paths: dict) -> bool:
     Returns:
         bool: True if the operation was successful, False if an error occurred.
     """
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    entries = []
+    
     try:
         entries = clean_and_sort_entries(parse_log_file(paths['LOG']))
         str_entries = "".join(str(entry) for entry in entries)
         
         with open(paths['DUMP'], DUMP_TYPE) as file:
+            file.write(f"Dumped at: {current_time}\n")
             file.write(str_entries)
         
-        return True
+        return True, entries
 
     except Exception as e:
         print(f"Error: {e}")
-        return False
-    
-def clear_test_logs():
-  """
-  Clears the test logs.
-
-  Returns:
-    None
-  """
-  os.chdir(r'/Users/jbalkovec/Desktop/Knapsack/Python/')
-  
-  subprocess.run(["python", "clear_logs.py"], check=True)
-  
-  return None
+        # return empty list on error
+        return False, entries
   
