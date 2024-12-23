@@ -20,6 +20,8 @@ from constants import (MAIN_LOG_PATH,
                        TEST_LOG_PATH,
                        CLEAR_TEST_LOGS,
                        CLEAR_EXEC_TIME_LOGS,
+                       ACO_DUMP_PATH,
+                       SA_DUMP_PATH,
                        COLORS)           
 
 def clear_log(log_file: str) -> None:
@@ -32,7 +34,7 @@ def clear_log(log_file: str) -> None:
   Returns:
     None: This function does not return any value.
   """
-  clear: bool = confirm_clear_logs()
+  clear: bool = confirm_clear_logs(log_file)
   if clear == True:
     with open(log_file, 'w') as f:
       f.write("")
@@ -41,8 +43,7 @@ def clear_log(log_file: str) -> None:
   else:
     print(f"\n<log not cleared: {log_file}>\n")
     
-  
-    
+     
 def clear_logs(log_files: list) -> None:
   """
   Clears the specified log files.
@@ -56,27 +57,27 @@ def clear_logs(log_files: list) -> None:
   for log_file in log_files:
     clear_log(log_file)
 
-def confirm_clear_logs() -> bool:
-    confirmation = input(COLORS['yellow'] + " <are you sure you want to clear the logs? (y/n)> : " + COLORS['reset']).strip().lower()
-    
-    if confirmation in ['y', 'yes']:
-        print(COLORS['green'] + "<clearing>" + COLORS['reset'])
-        return True
-    else:
-        print(COLORS['red'] + "<aborting>" + COLORS['reset']) 
-        return False 
-    
-# Run only under extreme caution. This will clear certain log files.
 
-# clear_log(MAIN_LOG_PATH)
-# clear_log(EXECUTION_TIME_LOG_PATH)
-# clear_log(MIN_EXECUTION_TIME_LOG_PATH)
-# clear_log(INPUT_GENERATOR_LOG_PATH)
-# clear_log(UTILITY_LOG_PATH)
-# clear_log(PARSER_LOG_PATH)
-# clear_log(SA_TEST_LOG_PATH)
-# clear_log(ACO_TEST_LOG_PATH)
-# clear_log(TEST_LOG_PATH)
+def confirm_clear_logs(log_file: str) -> bool:
+  """
+  Prompts the user for confirmation to clear the logs for a given file.
 
-clear_logs(CLEAR_TEST_LOGS)
-# clear_logs(CLEAR_EXEC_TIME_LOGS)
+  Args:
+    log_file (str): The path of the log file.
+
+  Returns:
+    bool: True if the user confirms to clear the logs, False otherwise.
+  """
+  confirmation = input(COLORS['yellow'] + f" <\n\tare you sure you want to clear the logs for\n\t\t<file>: {log_file} \n\r(y/n)> : " + COLORS['reset']).strip().lower()
+  
+  if confirmation in ['y', 'yes']:
+    print(COLORS['green'] + "<clearing>" + COLORS['reset'])
+    return True
+  else:
+    print(COLORS['red'] + "<aborting>" + COLORS['reset']) 
+    return False
+
+
+if __name__ == "__main__":
+    TO_CLEAR: list = [ACO_DUMP_PATH, SA_DUMP_PATH, TEST_LOG_PATH, PARSER_LOG_PATH]
+    clear_logs(TO_CLEAR)
