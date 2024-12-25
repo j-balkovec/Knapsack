@@ -80,11 +80,16 @@ def confirm_clear_logs(log_file: str) -> bool:
 
 
 if __name__ == "__main__":
-    TO_CLEAR: list = [ACO_DUMP_PATH, 
+    TO_CLEAR_TEST: list = [ACO_DUMP_PATH, 
                       SA_DUMP_PATH, 
                       TEST_LOG_PATH, 
                       PARSER_LOG_PATH,
                       ACO_TEST_LOG_PATH,
                       SA_TEST_LOG_PATH,
                       OPTIMAL_DUMP_PATH]
-    clear_logs(TO_CLEAR)
+    
+    TO_CLEAR_RUN: list = [MAIN_LOG_PATH, 
+                          EXECUTION_TIME_LOG_PATH, 
+                          MIN_EXECUTION_TIME_LOG_PATH]
+    
+    clear_logs(TO_CLEAR_RUN)

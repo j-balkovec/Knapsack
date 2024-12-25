@@ -49,10 +49,10 @@ CAPACITY_SIZE = 250
 
 # -------- <parser_utils.py, my_parser.py> -------- #
 # All current log files
-MAIN_LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/main.log'
+MAIN_LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/main_log.log'
 
-EXECUTION_TIME_LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/execution_time.log'
-MIN_EXECUTION_TIME_LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/min_execution_time.log'
+EXECUTION_TIME_LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/exec_time.log'
+MIN_EXECUTION_TIME_LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/min_exec_time.log'
 
 INPUT_GENERATOR_LOG_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Logs/input_generator.log'
 
