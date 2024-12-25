@@ -154,7 +154,7 @@ bool knapsackBranchAndBoundWrapper(int capacity,
                                    const std::vector<Item>& items,
                                    std::map<std::string, double>& minExecutionTime,
                                    std::shared_ptr<spdlog::logger> logger) {
-    const std::string _NAME_ = "<a> Branch and Bound";
+    const std::string _NAME_ = "<a> Branch And Bound";
     size_t items_size = items.size(); 
 
     double minTime = INT64_MAX;
