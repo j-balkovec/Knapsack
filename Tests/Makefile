@@ -180,8 +180,14 @@ parse:
 clear_logs:
 	cd .. && python Python/clear_logs.py
 
+# Combined targets
+run_analyze_aco: run_aco parse
+
+# Combined targets
+run_analyze_sa: run_sa parse
+
 # Combined target: First build C++ and then run analysis
 run_analyze: run_both parse
 
 # Phony targets
-.PHONY: all clean run_aco run_sa build_aco build_sa run_both parse run_analyze
+.PHONY: all clean run_aco run_sa build_aco build_sa run_both parse run_analyze run_analyze_aco run_analyze_sa clear_logs
