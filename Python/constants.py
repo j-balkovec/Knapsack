@@ -83,6 +83,7 @@ CLEAR_ALL_LOGS: list = [MAIN_LOG_PATH,
 
 ACO_DUMP_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Tests/Python/Dump/aco_dump.txt'
 SA_DUMP_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Tests/Python/Dump/sa_dump.txt'
+OPTIMAL_DUMP_PATH = r'/Users/jbalkovec/Desktop/Knapsack/Tests/Python/Dump/optimal.txt'
 
 CONFIG = {
     "clear_main_log":          False, # clear_log()
