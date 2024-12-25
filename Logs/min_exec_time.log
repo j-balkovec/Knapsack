@@ -1,0 +1,23 @@
+[2024-12-25 16:30:44.718] [min_exec_time] [info] Minumum Execution Time logger created. Using 1 thread
+[2024-12-25 16:30:44.718] [min_exec_time] [info] ==================================================
+[2024-12-25 16:30:56.054] [min_exec_time] [info] 
+[2024-12-25 16:30:56.054] [min_exec_time] [info] ==================================================
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <a> Ant Colony Optimization, [min_time]: 2155914
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <a> Backtracking, [min_time]: 0
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <a> Branch And Bound, [min_time]: 337
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <a> Dynamic Programming, [min_time]: 150
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <a> Memoization, [min_time]: 18837
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <a> Recursive, [min_time]: 0
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <a> Simulated Annealing, [min_time]: 12
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Deal Stingy, [min_time]: 1092
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Defensive Greedy, [min_time]: 26
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Heavy Greedy, [min_time]: 32
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Limited Greedy, [min_time]: 30
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> MaxOfTwo Greedy, [min_time]: 115
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Scored Greedy, [min_time]: 826
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Sliding Threshold Greedy, [min_time]: 75
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Standard Greedy, [min_time]: 70
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Transitioning Greedy, [min_time]: 852
+[2024-12-25 16:30:56.054] [min_exec_time] [info] [name]: <h> Weight Stingy, [min_time]: 311
+[2024-12-25 16:30:56.054] [min_exec_time] [info] ==================================================
+[2024-12-25 16:30:56.054] [min_exec_time] [info] 
