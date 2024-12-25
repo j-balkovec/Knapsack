@@ -38,6 +38,9 @@ from Tests.Python.parser_utils import (parser_logger,
                           run_makefile_command,
                           dump_to_file)
 
+from contextlib import redirect_stdout
+from datetime import datetime
+
 MAKE_AUTO = False
 
 SA_PATHS: dict = {'LOG': r'/Users/jbalkovec/Desktop/Knapsack/Logs/SA_test.log',
@@ -45,6 +48,8 @@ SA_PATHS: dict = {'LOG': r'/Users/jbalkovec/Desktop/Knapsack/Logs/SA_test.log',
 
 ACO_PATHS: dict = {'LOG': r'/Users/jbalkovec/Desktop/Knapsack/Logs/ACO_test.log',
                     'DUMP': r'/Users/jbalkovec/Desktop/Knapsack/Tests/Python/Dump/aco_dump.txt'}
+
+OPTIMAL_DUMP_PATH: str = r'/Users/jbalkovec/Desktop/Knapsack/Tests/Python/Dump/optimal.txt'
 
 # ================================================================================================= #
 # <run_both> -> set both to True
@@ -57,6 +62,27 @@ RUN_SA = True
 _ENTRIES_SA: list = []
 _ENTRIES_ACO: list = []
 
+NUM_ENTRIES: int = 5
+
+class Tee:
+    """
+    A helper class to write to both stdout and a file simultaneously.
+    """
+    def __init__(self, file_path):
+        self.file = open(file_path, "a")
+        self.terminal = sys.stdout
+
+    def write(self, message):
+        self.terminal.write(message)  # Print to the terminal
+        self.file.write(message)      # Write to the file
+
+    def flush(self):
+        self.terminal.flush()
+        self.file.flush()
+
+    def close(self):
+        self.file.close()
+    
 def set_entries_sa(entries: list) -> None:
     """
     Setter for the entries of the simulated annealing algorithm.
@@ -198,7 +224,74 @@ def clear_selected_logs():
     
     parser_logger.info("Selected logs clearance process completed.")
 
+def find_optimal_config_aco(aco_entries: list) -> dict:
+    """
+    Find the optimal configuration for the ACO algorithm
+    based on solution maximization and execution time minimization.
+    """
+    tee = Tee(OPTIMAL_DUMP_PATH) # terminal | file
+    sys.stdout = tee # redirect stdout to tee
+    
+    try:
+        print(f"== <time>: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ==")
+        print(COLORS['yellow'], "\n=========================")
+        print(" Ant Colony Optimization")
+        print("=========================\n", COLORS['reset'])
+        
+        sorted_aco_entries = sorted(aco_entries, key=lambda x: x.execution_time)
+        
+        print(COLORS['green'], f"<highest_solution>:  {aco_entries[0].solution}\n", COLORS['reset'],
+            COLORS['red'], f"<lowest_solution>:   {aco_entries[-1].solution}\n", COLORS['reset'])
+        
+        print(COLORS['green'], f"<lowest_exec_time>:  {sorted_aco_entries[0].execution_time}\n", COLORS['reset'],
+            COLORS['red'], f"<highest_exec_time>: {sorted_aco_entries[-1].execution_time}\n", COLORS['reset'])
 
+        # For the optimal solution
+        print(COLORS['magenta'], "\n<maximizing_solution>\n", COLORS['reset'])
+        top_solution = aco_entries[:NUM_ENTRIES]
+        for i, entry in enumerate(top_solution, 1):
+            print(f"{i}. {entry.parameters}\n\t<solution>: {entry.solution}\n\t<exec_time>:{entry.execution_time}\n")
+        
+        return {'solution': top_solution}
+    
+    finally:
+        tee.close()
+        sys.stdout = sys.__stdout__ # reset stdout
+    
+def find_optimal_config_sa(sa_entries: list) -> dict:
+    """
+    Find the optimal configuration for the SA algorithm
+    based on solution maximization and execution time minimization.
+    """
+    tee = Tee(OPTIMAL_DUMP_PATH) # terminal | file
+    sys.stdout = tee # redirect stdout to tee
+    
+    try:
+        print(f"== <time>: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ==")
+        print(COLORS['yellow'], "\n=========================")
+        print("   Simulated Annealing")
+        print("=========================\n", COLORS['reset'])
+        
+        sorted_sa_entries = sorted(sa_entries, key=lambda x: x.execution_time)
+
+        print(COLORS['green'], f"<highest_solution>:  {sa_entries[0].solution}\n", COLORS['reset'],
+            COLORS['red'], f"<lowest_solution>:   {sa_entries[-1].solution}\n", COLORS['reset'])
+        
+        print(COLORS['green'], f"<lowest_exec_time>:  {sorted_sa_entries[0].execution_time}\n", COLORS['reset'],
+            COLORS['red'], f"<highest_exec_time>: {sorted_sa_entries[-1].execution_time}\n", COLORS['reset'])
+
+        # For the optimal solution
+        print(COLORS['magenta'], "\n<maximizing_solution>\n", COLORS['reset'])
+        top_solution = sa_entries[:NUM_ENTRIES]
+        for i, entry in enumerate(top_solution, 1):
+            print(f"{i}. {entry.parameters}\n\t<solution>: {entry.solution}\n\t<exec_time>: {entry.execution_time}\n")
+         
+        return {'solution': top_solution}
+    
+    finally:
+        tee.close()
+        sys.stdout = sys.__stdout__ # reset stdout
+         
 def main():
     """
     This function runs the ACO algorithm and dumps the results to a file.
@@ -210,12 +303,13 @@ def main():
     
     if RUN_ACO:
         analyze_aco()
-        
-    aco_entries = get_entries_aco()
-    sa_entries = get_entries_sa()
-
-    print(aco_entries) # Bug: empty list
-    print(sa_entries)
+    
+    # Run analysis 
+    find_optimal_config_aco(get_entries_aco()) if RUN_ACO else None
+    find_optimal_config_sa(get_entries_sa()) if RUN_SA else None
+       
+    parser_logger.info("Finished parsing the test log file.")
+    
   
 if __name__ == "__main__":
     main()
