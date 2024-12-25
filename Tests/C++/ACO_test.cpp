@@ -28,14 +28,16 @@ const std::string_view SEPARATOR = "============================================
 // Define multiple test parameters
 constexpr int CAPACITY_FIXED = 100;
 
-constexpr int NUM_ANTS[] = {50, 100, 150};
-constexpr int NUM_ITER[] = {500, 1000, 1500};
-constexpr double ALPHA[] = {1.0, 1.5, 2.0};
-constexpr double BETA[] = {2.0, 3.0, 4.0};
-constexpr double EVAPORATION_RATE[] = {0.3, 0.5, 0.7};
+constexpr int NUM_ANTS[] = {45, 50, 55};
+constexpr int NUM_ITER[] = {1500, 1550};
+constexpr double ALPHA[] = {1.45, 1.5, 1.55};
+constexpr double BETA[] = {3.8, 4.0, 4.2};
+constexpr double EVAPORATION_RATE[] = {0.6, 0.7, 0.8};
 
 // For logging
-const std::string_view ACO_TEST_LOG = "../../Logs/ACO_test.log";
+// const std::string_view ACO_TEST_LOG = "../../Logs/ACO_test.log";
+const std::string_view ACO_TEST_LOG = "/Users/jbalkovec/Desktop/Knapsack/Logs/ACO_test.log";
+
 std::shared_ptr<spdlog::logger> aco_test_logger = getTestLogger(ACO_TEST_LOG);
 std::shared_ptr<spdlog::logger> test_logger = getTestLogger(TEST_LOG_FILE); //defaults to <test_log.log>
 
@@ -112,8 +114,7 @@ bool Test_ACO(int capacity, const std::vector<Item>& items, std::shared_ptr<spdl
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
 
-    // std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, aco_test_logger), aco_test_logger);
-    std::vector<Item> items = {{1, 10}, {2, 20}, {3, 30}, {4, 40}, {5, 50}};
+    std::vector<Item> items = parseCSVItems(getFilePath(ITEM_1, aco_test_logger), aco_test_logger); // swap items
     std::map<std::string, double> minTimes = setupMinExecutionTimes();
 
     int run_number = 1;

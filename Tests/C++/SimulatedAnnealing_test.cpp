@@ -25,12 +25,13 @@ const std::string_view SEPARATOR = "============================================
 // Define multiple test parameters
 constexpr int CAPACITY_FIXED = 100;
 
-constexpr int INITIAL_TEMPERATURES[] = {50, 75, 100, 150, 200, 250};
-constexpr double COOLING_RATES[] = {0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 
-                                     0.8, 0.85, 0.9, 0.95, 0.99};
+constexpr int INITIAL_TEMPERATURES[] = {60, 65, 70};
+constexpr double COOLING_RATES[] = {0.71, 0.73, 0.75};
 
 // For logging
-const std::string_view SA_LOG_FILE = "../../Logs/SA_test.log";
+// const std::string_view SA_LOG_FILE = "../../Logs/SA_test.log";
+const std::string_view SA_LOG_FILE = "/Users/jbalkovec/Desktop/Knapsack/Logs/SA_test.log";
+
 std::shared_ptr<spdlog::logger> sa_test_logger = getTestLogger(SA_LOG_FILE);
 std::shared_ptr<spdlog::logger> test_logger = getTestLogger(TEST_LOG_FILE); //defaults to <test_log.log>
 
@@ -87,7 +88,7 @@ bool Test_SA(int capacity, const std::vector<Item>& items, std::shared_ptr<spdlo
     
     bool logged = true;
 
-    for (unsigned int i = 0; i < RUN_TIMES; i++) {
+    for (unsigned int i = 0; i < RUN_TIMES; i++) { 
         auto pair = measureExecutionTime(knapsackSimulatedAnnealing, capacity, items, initialTemp, coolingRate);
 
         auto time = pair.first;
