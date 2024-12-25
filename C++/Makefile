@@ -155,6 +155,8 @@ debug: $(MAIN_EXEC)
 rebuild: clean build
 
 # test: TODO
+clear_logs:
+	cd .. && python Python/clear_logs.py
 
 stats:
 	@echo "$(CYAN_COLOR)[STATS]: File sizes...$(RESET_COLOR)"
@@ -179,4 +181,4 @@ dependencies:
 	brew list fmt spdlog
 
 # Phony targets
-.PHONY: all clean build run debug rebuild stats check version zip dependencies
+.PHONY: all clean build run debug rebuild stats check version zip dependencies clear_logs
