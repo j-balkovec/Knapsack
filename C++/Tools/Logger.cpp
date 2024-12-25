@@ -14,7 +14,7 @@
 #include <iostream>
 #include <filesystem>
 
-const std::string_view SEPARATOR = "==================================================\n";
+const std::string_view SEPARATOR = "==================================================";
 
 /**
  * @brief Retrieves the main logger instance.
@@ -189,11 +189,14 @@ void logMinExecutionTimes(const std::map<std::string, double>& minExecutionTimes
 
     auto min_exec_time_logger = getMinExecTimeLogger();
 
+    min_exec_time_logger->info("\0\n"); // better readability
     min_exec_time_logger->info(SEPARATOR.data());
 
     for (auto key : minExecutionTimes) {
         min_exec_time_logger->info("[name]: {}, [min_time]: {}", key.first, key.second);
     }
+    min_exec_time_logger->info(SEPARATOR.data());
+    min_exec_time_logger->info("\0\n"); // better readability
 }
 
 /**
