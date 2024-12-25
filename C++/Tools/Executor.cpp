@@ -64,13 +64,14 @@
  * This function initializes and returns an instance of the AntColony class with the specified parameters.
  * 
  * @return An instance of the AntColony class.
+ * @note thoroughly tested and found the optimal parameters for my use case
  */
 AntColony setupColony() {
-    constexpr int numAnts = 100;
-    constexpr int numIterations = 500;
-    constexpr double alpha = 1.0;
-    constexpr double beta = 3.0;
-    constexpr double evaporationRate = 0.5;
+    constexpr int numAnts = 50;
+    constexpr int numIterations = 1500;
+    constexpr double alpha = 1.5;
+    constexpr double beta = 4;
+    constexpr double evaporationRate = 0.7;
 
     return AntColony(numAnts, numIterations, alpha, beta, evaporationRate);
 }
