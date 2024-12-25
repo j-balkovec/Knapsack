@@ -47,6 +47,7 @@ const char DEBUG = 'D';
 
 // enum for the keys
 enum DataKey {
+    ITEM_0,
     ITEM_1,
     ITEM_2,
     ITEM_3,
@@ -66,6 +67,7 @@ enum DataKey {
 * These need to be updated every time <input_generator.py> is run
 */
 const std::map<DataKey, std::string> DATA_MAP = {
+    {ITEM_0, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_0_12_12_2024.csv"},
     {ITEM_1, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_1_12_12_2024.csv"},
     {ITEM_2, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_2_12_12_2024.csv"},
     {ITEM_3, "/Users/jbalkovec/Desktop/Knapsack/Data/Items/Items_3_12_12_2024.csv"},
