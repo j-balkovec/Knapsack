@@ -117,8 +117,8 @@ std::pair<bool, bool> executeAlgorithmsAndHeuristics(const std::vector<Item>& it
     bool log_dp = knapsackDPWrapper(capacity, items, minExecutionTimes, execTimeLogger);
     bool log_memo = knapsackMemoizationWrapper(capacity, items, minExecutionTimes, execTimeLogger);
     bool log_annealing = knapsackSimulatedAnnealingWrapper(capacity, items, minExecutionTimes, execTimeLogger);
-    //bool log_recursive = knapsackRecursiveWrapper(capacity, items, minExecutionTimes, execTimeLogger);
-    //bool log_backtracking = knapsackBacktrackingWrapper(capacity, items, minExecutionTimes, execTimeLogger);
+    bool log_recursive = knapsackRecursiveWrapper(capacity, items, minExecutionTimes, execTimeLogger);
+    bool log_backtracking = knapsackBacktrackingWrapper(capacity, items, minExecutionTimes, execTimeLogger);
     bool log_branch_and_bound = knapsackBranchAndBoundWrapper(capacity, items, minExecutionTimes, execTimeLogger);
 
     logSeparator(execTimeLogger, 'H'); // TO BE REMOVED
