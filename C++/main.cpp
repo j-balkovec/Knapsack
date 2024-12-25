@@ -47,7 +47,7 @@ void displayStopwatch() {
         std::this_thread::sleep_for(std::chrono::milliseconds(10));
     }
 
-    std::cout << "\n\033[31m[STOP]:\033[0m Stopwatch stopped.\n\n";
+    std::cout << "\n\033[31m[STOP]:\033[0m Stopwatch stopped.\n";
 }
 
 /**
@@ -82,10 +82,10 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
         auto milliseconds = durationNew.count() % 1000;
 
         // Print the formatted duration
-        std::cout << "\nBenchmarkFunctionsNew took "
+        std::cout << "\t\033[33m<INFO>\033[0m: {time = <"
                   << std::setw(2) << std::setfill('0') << minutes << "m:"
                   << std::setw(2) << std::setfill('0') << seconds << "s:"
-                  << std::setw(3) << std::setfill('0') << milliseconds << "ms.\n\n";
+                  << std::setw(3) << std::setfill('0') << milliseconds << "ms>}\n\n";
 
         std::string durationStr = std::to_string(durationNew.count());    
 
