@@ -1,0 +1,70 @@
+== <time>: 2024-12-25 15:58:06 ==
+[93m 
+=========================
+ Ant Colony Optimization
+=========================
+ [0m
+[92m <highest_solution>:  387
+ [0m [91m <lowest_solution>:   287
+ [0m
+[92m <lowest_exec_time>:  2524648
+ [0m [91m <highest_exec_time>: 3338139
+ [0m
+[95m 
+<maximizing_solution>
+ [0m
+1. Ant Colony Optimization, <run: 155> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.7
+	<solution>: 387
+	<exec_time>:3194936
+
+2. Ant Colony Optimization, <run: 11> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.7
+	<solution>: 385
+	<exec_time>:2608726
+
+3. Ant Colony Optimization, <run: 154> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.6
+	<solution>: 385
+	<exec_time>:3272769
+
+4. Ant Colony Optimization, <run: 32> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.7
+	<solution>: 379
+	<exec_time>:2694951
+
+5. Ant Colony Optimization, <run: 141> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.8
+	<solution>: 377
+	<exec_time>:3149260
+
+== <time>: 2024-12-25 15:58:06 ==
+[93m 
+=========================
+   Simulated Annealing
+=========================
+ [0m
+[92m <highest_solution>:  102
+ [0m [91m <lowest_solution>:   102
+ [0m
+[92m <lowest_exec_time>:  11
+ [0m [91m <highest_exec_time>: 15
+ [0m
+[95m 
+<maximizing_solution>
+ [0m
+1. Simulated Annealing, <run: 1> Initial Temp: 60 | Cooling Rate: 0.71
+	<solution>: 102
+	<exec_time>: 12
+
+2. Simulated Annealing, <run: 2> Initial Temp: 60 | Cooling Rate: 0.73
+	<solution>: 102
+	<exec_time>: 15
+
+3. Simulated Annealing, <run: 3> Initial Temp: 60 | Cooling Rate: 0.75
+	<solution>: 102
+	<exec_time>: 13
+
+4. Simulated Annealing, <run: 4> Initial Temp: 65 | Cooling Rate: 0.71
+	<solution>: 102
+	<exec_time>: 11
+
+5. Simulated Annealing, <run: 5> Initial Temp: 65 | Cooling Rate: 0.73
+	<solution>: 102
+	<exec_time>: 11
+

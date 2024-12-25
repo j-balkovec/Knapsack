@@ -1,0 +1,1136 @@
+Dumped at: 2024-12-25 15:58:06
+RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 155> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 3194936
+  <capacity>       = 100
+  <solution>       = 387
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 11> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2608726
+  <capacity>       = 100
+  <solution>       = 385
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 154> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 3272769
+  <capacity>       = 100
+  <solution>       = 385
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 32> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2694951
+  <capacity>       = 100
+  <solution>       = 379
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 141> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 3149260
+  <capacity>       = 100
+  <solution>       = 377
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 18> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2540542
+  <capacity>       = 100
+  <solution>       = 376
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 27> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2524648
+  <capacity>       = 100
+  <solution>       = 376
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 116> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 3146649
+  <capacity>       = 100
+  <solution>       = 376
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 156> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 3114099
+  <capacity>       = 100
+  <solution>       = 376
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 129> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 3067348
+  <capacity>       = 100
+  <solution>       = 375
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 90> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2899713
+  <capacity>       = 100
+  <solution>       = 369
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 125> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 3133100
+  <capacity>       = 100
+  <solution>       = 369
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 127> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 3179472
+  <capacity>       = 100
+  <solution>       = 369
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 14> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2612932
+  <capacity>       = 100
+  <solution>       = 368
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 110> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 3125765
+  <capacity>       = 100
+  <solution>       = 367
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 161> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 3213595
+  <capacity>       = 100
+  <solution>       = 367
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 9> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2560197
+  <capacity>       = 100
+  <solution>       = 366
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 48> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2632502
+  <capacity>       = 100
+  <solution>       = 366
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 53> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2694092
+  <capacity>       = 100
+  <solution>       = 366
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 56> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2869367
+  <capacity>       = 100
+  <solution>       = 366
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 93> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2897746
+  <capacity>       = 100
+  <solution>       = 366
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 131> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 3108505
+  <capacity>       = 100
+  <solution>       = 366
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 144> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 3170966
+  <capacity>       = 100
+  <solution>       = 366
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 21> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2549401
+  <capacity>       = 100
+  <solution>       = 365
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 69> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2710242
+  <capacity>       = 100
+  <solution>       = 365
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 107> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2964751
+  <capacity>       = 100
+  <solution>       = 365
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 12> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2544764
+  <capacity>       = 100
+  <solution>       = 364
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 47> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2674210
+  <capacity>       = 100
+  <solution>       = 364
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 96> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2874785
+  <capacity>       = 100
+  <solution>       = 364
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 105> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2881965
+  <capacity>       = 100
+  <solution>       = 364
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 123> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 3028439
+  <capacity>       = 100
+  <solution>       = 364
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 162> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 3137251
+  <capacity>       = 100
+  <solution>       = 364
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 76> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2929017
+  <capacity>       = 100
+  <solution>       = 363
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 101> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2926444
+  <capacity>       = 100
+  <solution>       = 363
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 135> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 3026475
+  <capacity>       = 100
+  <solution>       = 363
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 150> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 3150696
+  <capacity>       = 100
+  <solution>       = 363
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 5> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2607294
+  <capacity>       = 100
+  <solution>       = 362
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 66> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2809392
+  <capacity>       = 100
+  <solution>       = 362
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 75> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2795030
+  <capacity>       = 100
+  <solution>       = 362
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 81> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2778960
+  <capacity>       = 100
+  <solution>       = 362
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 29> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2693838
+  <capacity>       = 100
+  <solution>       = 361
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 59> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2861717
+  <capacity>       = 100
+  <solution>       = 360
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 117> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 3077449
+  <capacity>       = 100
+  <solution>       = 360
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 138> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 3143511
+  <capacity>       = 100
+  <solution>       = 360
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 160> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3310335
+  <capacity>       = 100
+  <solution>       = 360
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 8> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2629220
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 62> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2873758
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 74> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2874241
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 87> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2885435
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 114> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 3061933
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 122> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 3114583
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 124> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3220889
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 130> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3201402
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 152> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 3232235
+  <capacity>       = 100
+  <solution>       = 359
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 2> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2612511
+  <capacity>       = 100
+  <solution>       = 358
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 37> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2747517
+  <capacity>       = 100
+  <solution>       = 358
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 24> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2526000
+  <capacity>       = 100
+  <solution>       = 357
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 60> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2811034
+  <capacity>       = 100
+  <solution>       = 357
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 137> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 3224368
+  <capacity>       = 100
+  <solution>       = 357
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 23> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2600942
+  <capacity>       = 100
+  <solution>       = 356
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 52> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2778363
+  <capacity>       = 100
+  <solution>       = 356
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 68> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2872927
+  <capacity>       = 100
+  <solution>       = 356
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 111> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 3074548
+  <capacity>       = 100
+  <solution>       = 356
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 41> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2689539
+  <capacity>       = 100
+  <solution>       = 355
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 54> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2599339
+  <capacity>       = 100
+  <solution>       = 354
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 98> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2958571
+  <capacity>       = 100
+  <solution>       = 354
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 145> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 3301428
+  <capacity>       = 100
+  <solution>       = 354
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 33> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2606820
+  <capacity>       = 100
+  <solution>       = 353
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 86> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2965893
+  <capacity>       = 100
+  <solution>       = 353
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 134> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 3112665
+  <capacity>       = 100
+  <solution>       = 353
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 158> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 3231690
+  <capacity>       = 100
+  <solution>       = 353
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 72> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2800945
+  <capacity>       = 100
+  <solution>       = 352
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 119> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 3122401
+  <capacity>       = 100
+  <solution>       = 352
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 1> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2678924
+  <capacity>       = 100
+  <solution>       = 351
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 30> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2622834
+  <capacity>       = 100
+  <solution>       = 351
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 73> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2916558
+  <capacity>       = 100
+  <solution>       = 351
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 147> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 3145905
+  <capacity>       = 100
+  <solution>       = 351
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 22> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2683580
+  <capacity>       = 100
+  <solution>       = 350
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 28> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2747050
+  <capacity>       = 100
+  <solution>       = 350
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 120> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 3049403
+  <capacity>       = 100
+  <solution>       = 350
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 121> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3199114
+  <capacity>       = 100
+  <solution>       = 350
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 159> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 3156052
+  <capacity>       = 100
+  <solution>       = 350
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 55> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2939535
+  <capacity>       = 100
+  <solution>       = 349
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 63> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2792068
+  <capacity>       = 100
+  <solution>       = 349
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 78> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2786886
+  <capacity>       = 100
+  <solution>       = 349
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 128> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 3109882
+  <capacity>       = 100
+  <solution>       = 349
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 82> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 3027089
+  <capacity>       = 100
+  <solution>       = 348
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 92> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2952222
+  <capacity>       = 100
+  <solution>       = 347
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 108> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2856960
+  <capacity>       = 100
+  <solution>       = 347
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 146> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 3209865
+  <capacity>       = 100
+  <solution>       = 347
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 149> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 3218228
+  <capacity>       = 100
+  <solution>       = 347
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 10> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2682872
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 13> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2672547
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 16> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2664249
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 42> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2643353
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 95> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2950720
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 99> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2853074
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 106> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3035897
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 133> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3200856
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 148> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3309624
+  <capacity>       = 100
+  <solution>       = 346
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 17> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2619817
+  <capacity>       = 100
+  <solution>       = 345
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 20> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2576726
+  <capacity>       = 100
+  <solution>       = 345
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 36> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2635443
+  <capacity>       = 100
+  <solution>       = 345
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 50> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2690385
+  <capacity>       = 100
+  <solution>       = 345
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 70> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2954149
+  <capacity>       = 100
+  <solution>       = 345
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 80> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2866506
+  <capacity>       = 100
+  <solution>       = 345
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 7> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2766008
+  <capacity>       = 100
+  <solution>       = 344
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 34> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2774344
+  <capacity>       = 100
+  <solution>       = 344
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 51> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2527257
+  <capacity>       = 100
+  <solution>       = 344
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 77> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2848804
+  <capacity>       = 100
+  <solution>       = 344
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 139> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3305677
+  <capacity>       = 100
+  <solution>       = 344
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 38> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2685294
+  <capacity>       = 100
+  <solution>       = 343
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 79> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2943713
+  <capacity>       = 100
+  <solution>       = 343
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 89> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2946941
+  <capacity>       = 100
+  <solution>       = 343
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 113> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 3146397
+  <capacity>       = 100
+  <solution>       = 343
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 132> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 3031505
+  <capacity>       = 100
+  <solution>       = 343
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 3> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2535241
+  <capacity>       = 100
+  <solution>       = 342
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 19> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2656986
+  <capacity>       = 100
+  <solution>       = 342
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 40> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2764207
+  <capacity>       = 100
+  <solution>       = 342
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 57> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2765631
+  <capacity>       = 100
+  <solution>       = 342
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 6> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2550331
+  <capacity>       = 100
+  <solution>       = 341
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 31> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2763118
+  <capacity>       = 100
+  <solution>       = 341
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 67> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2938428
+  <capacity>       = 100
+  <solution>       = 341
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 109> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 3209427
+  <capacity>       = 100
+  <solution>       = 341
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 65> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2861792
+  <capacity>       = 100
+  <solution>       = 340
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 83> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.7
+  <execution_time> = 2958838
+  <capacity>       = 100
+  <solution>       = 340
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 157> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3303430
+  <capacity>       = 100
+  <solution>       = 340
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 126> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 3050115
+  <capacity>       = 100
+  <solution>       = 339
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 140> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 3229918
+  <capacity>       = 100
+  <solution>       = 339
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 103> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3033245
+  <capacity>       = 100
+  <solution>       = 338
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 84> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2853367
+  <capacity>       = 100
+  <solution>       = 337
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 88> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3043738
+  <capacity>       = 100
+  <solution>       = 337
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 143> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 3251469
+  <capacity>       = 100
+  <solution>       = 337
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 25> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2693941
+  <capacity>       = 100
+  <solution>       = 336
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 91> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 3005362
+  <capacity>       = 100
+  <solution>       = 336
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 104> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.7
+  <execution_time> = 2953429
+  <capacity>       = 100
+  <solution>       = 336
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 85> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3042010
+  <capacity>       = 100
+  <solution>       = 335
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 102> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2864785
+  <capacity>       = 100
+  <solution>       = 335
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 46> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2748660
+  <capacity>       = 100
+  <solution>       = 334
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 71> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2878889
+  <capacity>       = 100
+  <solution>       = 332
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 100> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.55 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2988605
+  <capacity>       = 100
+  <solution>       = 331
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 26> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.55 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2596144
+  <capacity>       = 100
+  <solution>       = 329
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 45> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 2620464
+  <capacity>       = 100
+  <solution>       = 329
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 118> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 3181611
+  <capacity>       = 100
+  <solution>       = 329
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 64> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 2920846
+  <capacity>       = 100
+  <solution>       = 328
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 49> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.55 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2751310
+  <capacity>       = 100
+  <solution>       = 327
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 153> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.8
+  <execution_time> = 3162382
+  <capacity>       = 100
+  <solution>       = 327
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 15> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.8
+  <execution_time> = 2528837
+  <capacity>       = 100
+  <solution>       = 325
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 136> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 3.8 | Evaporation Rate: 0.6
+  <execution_time> = 3299469
+  <capacity>       = 100
+  <solution>       = 324
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 58> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2952554
+  <capacity>       = 100
+  <solution>       = 323
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 39> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 3.8 | Evaporation Rate: 0.8
+  <execution_time> = 2614406
+  <capacity>       = 100
+  <solution>       = 322
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 94> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3021667
+  <capacity>       = 100
+  <solution>       = 322
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 43> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2771953
+  <capacity>       = 100
+  <solution>       = 321
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 112> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 3224022
+  <capacity>       = 100
+  <solution>       = 320
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 35> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2686286
+  <capacity>       = 100
+  <solution>       = 318
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 4> Num Ants: 45 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4 | Evaporation Rate: 0.6
+  <execution_time> = 2684128
+  <capacity>       = 100
+  <solution>       = 317
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 44> Num Ants: 45 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.7
+  <execution_time> = 2686207
+  <capacity>       = 100
+  <solution>       = 313
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 97> Num Ants: 50 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3036336
+  <capacity>       = 100
+  <solution>       = 309
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 115> Num Ants: 55 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3217481
+  <capacity>       = 100
+  <solution>       = 305
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 151> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.5 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3338139
+  <capacity>       = 100
+  <solution>       = 303
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 142> Num Ants: 55 | Num Iter: 1550 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 3337601
+  <capacity>       = 100
+  <solution>       = 295
+  <items_size>     = 1000
+)RunEntry(
+  <name>           = Ant Colony Optimization,
+  <parameters>     = Ant Colony Optimization, <run: 61> Num Ants: 50 | Num Iter: 1500 | Alpha: 1.45 | Beta: 4.2 | Evaporation Rate: 0.6
+  <execution_time> = 2961097
+  <capacity>       = 100
+  <solution>       = 287
+  <items_size>     = 1000
+)

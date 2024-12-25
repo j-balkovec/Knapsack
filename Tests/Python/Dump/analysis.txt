@@ -1,0 +1,35 @@
+> ========== Ant Colony Optimization ========== [DONE]
+> ---------------------------------------------
+> <highest_solution>:  392
+> <lowest_solution>:   183
+> 
+> <lowest_exec_time>:  891072
+> <highest_exec_time>: 16032962
+> ---------------------------------------------
+>
+> <parameters> [Optimizing Solution]
+> 1. Ant Colony Optimization, <run: 72> Num Ants: 50   | 
+>                                       Num Iter: 1500 | 
+>                                       Alpha: 1.5     | 
+>                                       Beta: 4        | 
+>                                       Evaporation Rate: 0.7
+>       <solution>: 392
+>       <exec_time>:2870783
+>
+> ============ Simulated Annealing ============ [IN-PROGRESS]
+> ---------------------------------------------
+> <highest_solution>:  193
+> <lowest_solution>:   29
+> 
+> <lowest_exec_time>:  11
+> <highest_exec_time>: 34
+> ---------------------------------------------
+>
+> <parameters> [Optimizing Solution]
+> 1. Simulated Annealing, <run: 2> Initial Temp: 65 | 
+>                                   Cooling Rate: 0.73
+>       <solution>: 193
+>       <exec_time>: 13
+>
+>
+>
