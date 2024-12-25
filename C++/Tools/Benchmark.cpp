@@ -361,8 +361,8 @@ bool knapsackSimulatedAnnealingWrapper(int capacity,
 
     std::__1::pair<std::__1::chrono::system_clock::rep, int> pair;
 
-    double intialTemp = 100;
-    double coolingRate = 0.2;
+    double intialTemp = 65;
+    double coolingRate = 0.73;
     
     for(unsigned int i = 0; i < RUN_TIMES; i++) {
         auto pair = measureExecutionTime(knapsackSimulatedAnnealing, capacity, items, intialTemp, coolingRate);
