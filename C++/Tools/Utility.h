@@ -36,7 +36,7 @@ const std::string_view MIN_EXEC_TIME_LOG_FILE = "/Users/jbalkovec/Desktop/Knapsa
 const std::string_view TEST_LOG_FILE = "/Users/jbalkovec/Desktop/Knapsack/Logs/test_log.log";
 
 // -- <IMPORTANT> --
-const unsigned int RUN_TIMES = 1;
+const unsigned int RUN_TIMES = 5;
 
 // types of messages
 const char INFO = 'I';
