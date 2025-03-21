@@ -1,7 +1,7 @@
 # Knapsack Problem Solver
 
 ## Project Overview
-This repository contains implementations of various algorithms to solve the **Knapsack Problem**. The project includes both **exact** and **heuristic** approaches, implemented in **C++**. Additionally, Python scripts are used for data generation and analysis. This project was a part of my algorithms class (CPSC4100) at SeattleU. I unfortunately cannot upload the writeup due to various reasons.
+This repository contains implementations of various algorithms to solve the **Knapsack Problem**. The project includes both **exact** and **heuristic** approaches, implemented in **C++**. Additionally, Python scripts are used for data generation and analysis.
 
 ## Algorithms Implemented
 ### **Exact Approaches**
