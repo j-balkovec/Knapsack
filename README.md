@@ -28,7 +28,8 @@ This repository contains implementations of various algorithms to solve the **Kn
 - **Max of Two** – Chooses between two best strategies dynamically.
 
 ## Project Structure
-
+```sh
+# Obtained using "tree"
 ├── Analysis/                  # Performance and accuracy analysis
 ├── C++/
 │   ├── Algorithms/            # Core algorithm implementations
@@ -49,7 +50,7 @@ This repository contains implementations of various algorithms to solve the **Kn
 ├── docs/                      # Documentation
 ├── README.md                  # Project documentation
 ├── LICENSE                    # Licensing information
-
+```
 ## How to Compile & Run
 ```sh
 cd C++/
